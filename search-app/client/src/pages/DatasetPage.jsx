@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import DomainBadge from '../components/DomainBadge';
 import { LogoFull } from '../components/Logo';
 import usePageTitle from '../hooks/usePageTitle';
@@ -237,6 +237,10 @@ export default function DatasetPage() {
             )}
           </h2>
           <SchemaTable columns={d.columns} />
+        </div>
+
+        <div className="text-center text-xs text-gray-400 mt-6 pb-4">
+          <Link to="/about" className="hover:text-gray-600">About the build</Link>
         </div>
       </div>
     </div>

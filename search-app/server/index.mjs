@@ -197,6 +197,8 @@ function passesFilter(m, filters, skipKey) {
     if (key === skipKey) continue;
     if (filters[key] && m[key] !== filters[key]) return false;
   }
+  // Schema filter: if includeNoSchema is not set, only show records with columns
+  if (!filters.includeNoSchema && (!m.columns || m.columns.length === 0)) return false;
   return true;
 }
 
@@ -269,6 +271,7 @@ function getGlobalFacets() {
     const counts = {};
     for (const m of metadata) {
       if (m.id && dedupIndex[m.id]?.duplicate_of) continue;
+      if (!m.columns || m.columns.length === 0) continue; // default: only with schema
       const val = m[key] || 'unknown';
       if (val === 'unknown') continue;
       counts[val] = (counts[val] || 0) + 1;
@@ -291,13 +294,14 @@ if (fs.existsSync(CLIENT_DIST)) {
 
 // --- Human search endpoint ---
 app.get('/api/search', rateLimit, async (req, res) => {
-  const { q, limit = 40, ...filterParams } = req.query;
+  const { q, limit = 40, includeNoSchema, ...filterParams } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
   try {
     const expanded = expandQuery(q);
     const queryEmb = await getQueryEmbedding([...expanded].join(' '));
     const filters = {};
     for (const key of FACET_KEYS) { if (filterParams[key]) filters[key] = filterParams[key]; }
+    if (includeNoSchema === 'true') filters.includeNoSchema = true;
     const { totalMatching, totalFiltered, results, facets } = search(queryEmb, Math.min(parseInt(limit) || 40, 200), filters, q);
     res.json({ query: q, totalMatching, totalFiltered, count: results.length, results, facets });
   } catch (e) {

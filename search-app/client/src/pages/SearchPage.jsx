@@ -26,6 +26,7 @@ export default function SearchPage() {
   const [totalMatching, setTotalMatching] = useState(0);
   const [totalFiltered, setTotalFiltered] = useState(0);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [includeNoSchema, setIncludeNoSchema] = useState(false);
   const inputRef = useRef(null);
 
   const getFiltersFromParams = useCallback(() => {
@@ -61,6 +62,7 @@ export default function SearchPage() {
     for (const [key, val] of Object.entries(searchFilters)) {
       if (val) params.set(key, val);
     }
+    if (includeNoSchema) params.set('includeNoSchema', 'true');
     setSearchParams(params, { replace: true });
     try {
       const resp = await fetch(`/api/search?${params}&limit=60`);
@@ -151,6 +153,15 @@ export default function SearchPage() {
               <p className="text-center text-xs lg:text-sm text-gray-500 mt-3">
                 Search for keywords, column names, data sources
               </p>
+              <label className="flex items-center justify-center gap-2 mt-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={includeNoSchema}
+                  onChange={e => setIncludeNoSchema(e.target.checked)}
+                  className="w-3.5 h-3.5 rounded border-gray-300 text-blue-600 accent-blue-600"
+                />
+                <span className="text-xs text-gray-500">Include datasets without full schemas</span>
+              </label>
             </div>
 
             <div className="w-full max-w-2xl">
@@ -234,6 +245,8 @@ export default function SearchPage() {
 
           <div className="text-center text-xs text-gray-400 py-4 px-4">
             {datasetCount}+ public datasets from government portals, cloud warehouses, and research platforms
+            {' · '}
+            <Link to="/about" className="hover:text-gray-600">About the build</Link>
           </div>
         </div>
       </div>
@@ -288,6 +301,15 @@ export default function SearchPage() {
         </div>
       </header>
 
+      {/* Schema checkbox — both mobile and desktop */}
+      <div className="bg-white border-b border-gray-100 px-4 lg:px-6 py-1.5 max-w-[1400px] mx-auto w-full">
+        <label className="flex items-center gap-2 cursor-pointer">
+          <input type="checkbox" checked={includeNoSchema} onChange={e => { setIncludeNoSchema(e.target.checked); if (query.trim()) doSearch(query, filters); }}
+            className="w-3.5 h-3.5 rounded border-gray-300 text-blue-600 accent-blue-600" />
+          <span className="text-xs text-gray-500">Include datasets without full schemas</span>
+        </label>
+      </div>
+
       {/* Mobile filter toggle */}
       <div className="lg:hidden bg-white border-b border-gray-200 px-4 py-2">
         <button
@@ -339,6 +361,9 @@ export default function SearchPage() {
               {results.length === 0 && (
                 <p className="text-center text-gray-400 py-12">No matching datasets. Try different terms or clear filters.</p>
               )}
+              <div className="text-center text-xs text-gray-400 mt-8 pb-4">
+                <Link to="/about" className="hover:text-gray-600">About the build</Link>
+              </div>
             </>
           )}
         </main>

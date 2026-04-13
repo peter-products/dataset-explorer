@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { LogoFull } from '../components/Logo';
 import usePageTitle from '../hooks/usePageTitle';
 
@@ -200,6 +200,10 @@ results.forEach(r => {
             <p><strong>Coverage:</strong> 200K+ datasets from 17+ platforms including data.gov, Socrata portals, World Bank, Eurostat, Canada, SEC EDGAR, WHO, HuggingFace, Kaggle, and more.</p>
           </div>
         </section>
+
+        <div className="text-center text-xs text-gray-400 mt-8 pb-4">
+          <Link to="/about" className="hover:text-gray-600">About the build</Link>
+        </div>
       </div>
     </div>
   );
