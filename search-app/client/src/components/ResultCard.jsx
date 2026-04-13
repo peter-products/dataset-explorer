@@ -6,7 +6,7 @@ export default function ResultCard({ result }) {
   const detailUrl = `/dataset/${encodeURIComponent(result.id)}`;
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-200 hover:shadow-sm transition-all text-left">
+    <div className="bg-white border border-gray-200 rounded-lg p-3.5 lg:p-5 hover:border-blue-200 hover:shadow-sm transition-all text-left">
       <div className="flex items-start justify-between gap-3 mb-2">
         <h3 className="font-semibold text-gray-900 text-sm leading-snug flex-1">
           <Link to={detailUrl} className="hover:text-blue-600 hover:underline">
@@ -23,7 +23,7 @@ export default function ResultCard({ result }) {
       <div className="flex items-center gap-2.5 flex-wrap">
         <DomainBadge domain={result.domain} />
         {result.publisher && (
-          <span className="text-xs text-gray-500 truncate max-w-52">{result.publisher}</span>
+          <span className="text-xs text-gray-500 truncate max-w-32 lg:max-w-52">{result.publisher}</span>
         )}
         {result.formatType && result.formatType !== 'other' && (
           <span className="text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full">{result.formatType.replace(/_/g, ' ')}</span>

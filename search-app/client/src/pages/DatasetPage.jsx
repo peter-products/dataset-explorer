@@ -125,9 +125,9 @@ export default function DatasetPage() {
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-6 py-8">
+      <div className="max-w-6xl mx-auto px-4 lg:px-6 py-6 lg:py-8">
         {/* Title card */}
-        <div className="bg-white rounded-xl border border-gray-200 p-8 mb-6 shadow-sm">
+        <div className="bg-white rounded-xl border border-gray-200 p-4 lg:p-8 mb-4 lg:mb-6 shadow-sm">
           <div className="flex items-center gap-3 mb-4">
             <DomainBadge domain={d.domain} size="lg" />
             {d.update_frequency && d.update_frequency !== 'unknown' && (
@@ -138,7 +138,7 @@ export default function DatasetPage() {
             )}
           </div>
 
-          <h1 className="text-2xl font-bold text-gray-900 mb-3">{d.name}</h1>
+          <h1 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3">{d.name}</h1>
 
           {d.semantic_description && (
             <p className="text-gray-600 mb-2 leading-relaxed">{d.semantic_description}</p>
@@ -147,7 +147,7 @@ export default function DatasetPage() {
             <p className="text-sm text-gray-500 leading-relaxed">{String(d.description).slice(0, 600)}</p>
           )}
 
-          <div className="flex items-center gap-3 mt-6">
+          <div className="flex flex-wrap items-center gap-3 mt-6">
             {d.url && (
               <a href={d.url} target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors shadow-sm">
@@ -170,8 +170,8 @@ export default function DatasetPage() {
         </div>
 
         {/* Info grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-          <div className="lg:col-span-2 bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-4 lg:mb-6">
+          <div className="lg:col-span-2 bg-white rounded-xl border border-gray-200 p-4 lg:p-6 shadow-sm">
             <h2 className="text-sm font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">Dataset Information</h2>
             <dl>
               <InfoRow label="Publisher" value={d.publisher_normalized || d.provider} />
@@ -190,7 +190,7 @@ export default function DatasetPage() {
             </dl>
           </div>
 
-          <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+          <div className="bg-white rounded-xl border border-gray-200 p-4 lg:p-6 shadow-sm">
             <h2 className="text-sm font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">Classification</h2>
             <dl>
               <InfoRow label="Domain" value={d.domain?.replace(/_/g, ' ')} />
@@ -229,7 +229,7 @@ export default function DatasetPage() {
         </div>
 
         {/* Schema */}
-        <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
+        <div className="bg-white rounded-xl border border-gray-200 p-4 lg:p-6 shadow-sm">
           <h2 className="text-sm font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">
             Schema
             {d.columns?.length > 0 && (
