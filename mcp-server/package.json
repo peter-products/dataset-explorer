@@ -1,0 +1,13 @@
+{
+  "name": "dataset-explorer-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching 200K+ public datasets via schemafinder.com",
+  "type": "module",
+  "bin": {
+    "dataset-explorer-mcp": "./index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.24.0"
+  }
+}

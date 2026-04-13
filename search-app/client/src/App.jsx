@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchPage from './pages/SearchPage';
 import DatasetPage from './pages/DatasetPage';
+import ApiDocsPage from './pages/ApiDocsPage';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SearchPage />} />
         <Route path="/dataset/:id" element={<DatasetPage />} />
+        <Route path="/api-docs" element={<ApiDocsPage />} />
       </Routes>
     </BrowserRouter>
   );
