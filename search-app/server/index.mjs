@@ -397,7 +397,7 @@ app.get('/api/health', (req, res) => {
 // SPA fallback — serve index.html for client-side routes
 if (fs.existsSync(CLIENT_DIST)) {
   app.use((req, res, next) => {
-    if (req.path.startsWith('/api')) return next();
+    if (req.path.startsWith('/api/')) return next();
     res.sendFile(path.join(CLIENT_DIST, 'index.html'));
   });
 }
