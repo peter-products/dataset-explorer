@@ -134,15 +134,15 @@ export default function ApiDocsPage() {
           </p>
 
           <h3 className="text-sm font-bold text-gray-700 mb-2">Install</h3>
-          <CodeBlock>{`npm install -g dataset-explorer-mcp`}</CodeBlock>
+          <CodeBlock>{`npm install -g schemafinder-mcp`}</CodeBlock>
 
           <h3 className="text-sm font-bold text-gray-700 mt-4 mb-2">Add to Claude Code settings</h3>
           <CodeBlock>{`// ~/.claude/settings.json
 {
   "mcpServers": {
-    "dataset-explorer": {
+    "schemafinder": {
       "command": "npx",
-      "args": ["dataset-explorer-mcp"]
+      "args": ["schemafinder-mcp"]
     }
   }
 }`}</CodeBlock>

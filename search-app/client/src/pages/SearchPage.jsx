@@ -103,7 +103,7 @@ export default function SearchPage() {
 
   const searched = searchParams.has('q');
   const datasetCount = stats ? (stats.uniqueRecords || stats.totalRecords).toLocaleString() : '170,000';
-  const [apiDocsOpen, setApiDocsOpen] = useState(false);
+  const [apiDocsOpen, setApiDocsOpen] = useState(true);
 
   usePageTitle(searched ? 'Schema Search' : 'SchemaFinder');
 
@@ -231,7 +231,7 @@ export default function SearchPage() {
                         </div>
                         <div className="flex items-center gap-2">
                           <span className="bg-purple-100 text-purple-700 px-1.5 py-0.5 rounded font-medium">MCP</span>
-                          <span>Claude Code/Desktop: <code className="bg-gray-100 px-1 rounded">npx dataset-explorer-mcp</code></span>
+                          <span>Claude Code/Desktop: <code className="bg-gray-100 px-1 rounded">npx schemafinder-mcp</code></span>
                         </div>
                       </div>
                     </div>

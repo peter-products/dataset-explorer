@@ -10,6 +10,40 @@ import { pipeline } from '@xenova/transformers';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.resolve(__dirname, '../data');
+
+// Simple in-memory rate limiter — no external deps
+const RATE_LIMIT = { windowMs: 60_000, maxRequests: 30 }; // 30 requests per minute per IP
+const rateLimitStore = new Map();
+
+function rateLimit(req, res, next) {
+  const ip = req.ip || req.connection.remoteAddress;
+  const now = Date.now();
+  const entry = rateLimitStore.get(ip) || { count: 0, resetAt: now + RATE_LIMIT.windowMs };
+
+  if (now > entry.resetAt) {
+    entry.count = 0;
+    entry.resetAt = now + RATE_LIMIT.windowMs;
+  }
+
+  entry.count++;
+  rateLimitStore.set(ip, entry);
+
+  res.set('X-RateLimit-Limit', String(RATE_LIMIT.maxRequests));
+  res.set('X-RateLimit-Remaining', String(Math.max(0, RATE_LIMIT.maxRequests - entry.count)));
+
+  if (entry.count > RATE_LIMIT.maxRequests) {
+    return res.status(429).json({ error: 'Rate limit exceeded. Max 30 requests per minute.' });
+  }
+  next();
+}
+
+// Clean up stale entries every 5 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [ip, entry] of rateLimitStore) {
+    if (now > entry.resetAt + 60_000) rateLimitStore.delete(ip);
+  }
+}, 300_000);
 const FINAL_DIR = path.resolve(__dirname, '../../schemas/final');
 const CLIENT_DIST = path.resolve(__dirname, '../client/dist');
 const PORT = process.env.PORT || 3001;
@@ -256,7 +290,7 @@ if (fs.existsSync(CLIENT_DIST)) {
 }
 
 // --- Human search endpoint ---
-app.get('/api/search', async (req, res) => {
+app.get('/api/search', rateLimit, async (req, res) => {
   const { q, limit = 40, ...filterParams } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
   try {
@@ -272,7 +306,7 @@ app.get('/api/search', async (req, res) => {
 });
 
 // --- Agent API (v1) ---
-app.get('/api/v1/search', async (req, res) => {
+app.get('/api/v1/search', rateLimit, async (req, res) => {
   const { q, limit = 10, domain, format: formatType, geography, platform } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q', usage: 'GET /api/v1/search?q=your+query' });
   try {

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Dataset Explorer MCP Server
 // Lets Claude Code (and other MCP clients) search 200K+ public datasets as a native tool
-// Usage: npx dataset-explorer-mcp
-// Or add to Claude Code settings: { "mcpServers": { "dataset-explorer": { "command": "node", "args": ["/path/to/mcp-server/index.mjs"] } } }
+// Usage: npx schemafinder-mcp
+// Or add to Claude Code settings: { "mcpServers": { "schemafinder": { "command": "node", "args": ["/path/to/mcp-server/index.mjs"] } } }
 
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
@@ -29,7 +29,7 @@ async function getDataset(id) {
 }
 
 const server = new McpServer({
-  name: 'dataset-explorer',
+  name: 'schemafinder',
   version: '1.0.0',
 });
 
