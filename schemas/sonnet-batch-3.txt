@@ -1,0 +1,303 @@
+[150] Canadian Charter of Rights and Freedoms in Indigenous languages | pub=Canadian Heritage | Patrimoine canadien | src=canada.jsonl
+  desc: You can download, save and print the Canadian Charter of Rights and Freedoms in various Indigenous languages (PDF format). The Charter is also available in [various languages here](https://open.canada.ca/data/en/dataset/06d31e10-a2a8-4d53-9ff3-567714
+  cols: None
+  tags: None
+  cat: None
+
+[151] Federal Economic Development Agency for Northern Ontario’s 2024-25 Departmental Results Report | pub=Federal Economic Development Agency for Northern Ontario | A | src=canada.jsonl
+  desc: This departmental results report details Federal Economic Development Agency for Northern Ontario’s actual accomplishments against the plans, priorities and expected results outlined in its 2024–2025 Departmental Plan.
+  cols: None
+  tags: None
+  cat: None
+
+[152] Tourist cottages - Quebec Tourism Information System (SIT Quebec) | pub=Government of Québec | src=canada.jsonl
+  desc: This dataset includes general category tourist accommodation establishments, such as: bed and breakfast. This data comes from the Quebec Tourism Information System (SIT Quebec).
+
+Please note that the posting of tourist accommodation establishments is
+  cols: None
+  tags: None
+  cat: None
+
+[153] Class 1 quartz land use operations | pub=Government of Yukon | src=canada.jsonl
+  desc: The Yukon government amended the Quartz Mining Act and the Placer Mining Actin December 2013, to establish the authority to designate areas where government notification of Class 1 exploration activities is required. Before these amendments to the mi
+  cols: None
+  tags: None
+  cat: None
+
+[154] Sedimentology of the Sixtymile River placer gravels, Yukon Territory | pub=Government of Yukon | src=canada.jsonl
+  desc: not_specified
+  cols: None
+  tags: None
+  cat: None
+
+[155] Net Migration | pub=Government of Alberta | src=canada.jsonl
+  desc: The difference between total migration into a region and migration out of the same region. Migration includes both international and inter-provincial migration.
+  cols: None
+  tags: None
+  cat: None
+
+[156] Health indicator : injury : age-standardized hospital separation rates fine-level injury groupings | pub=Government of Alberta | src=canada.jsonl
+  desc: This dataset presents information on age-standardized rates of hospital separations due to injury for Alberta, expressed as per 100,000 population.
+  cols: None
+  tags: None
+  cat: None
+
+[157] Employment, average hourly and weekly earnings (including overtime), and average weekly hours for th | pub=Statistics Canada | src=canada.jsonl
+  desc: Number of employees, average hourly and weekly earnings (including overtime), and average weekly hours for the industrial aggregate excluding unclassified businesses, last 5 months.
+  cols: None
+  tags: None
+  cat: None
+
+[158] Top 3 Non-Local Ambulatory Care Facilities Accessed by Local Residents, Fiscal Year 2023/2024 | pub=Government of Alberta | src=canada.jsonl
+  desc: This table provides ambulatory care visits made by local area residents to the top three accessed non-local facilities. The data is provided for the most recent fiscal year available. The data is provided for the most recent fiscal year available Thi
+  cols: None
+  tags: None
+  cat: None
+
+[159] Maritimes Region Fisheries Atlas: Catch Weight Landings Mapping (2014–2018) | pub=Fisheries and Oceans Canada | src=canada.jsonl
+  desc: These datasets show commercial fisheries catch weight landings of directed fisheries and bycatch from the Scotian Shelf, the Bay of Fundy, and Georges Bank from NAFO Divisions 4VWX and the Canadian portions of 5Y and 5Z. Atlantic Canadian inter-regio
+  cols: None
+  tags: None
+  cat: None
+
+[160] Northern Marine Coastal and Ecosystem Studies in the Canadian Beaufort Sea- sediment sampling inform | pub=Fisheries and Oceans Canada | src=canada.jsonl
+  desc: This record contains information on the samples collected and the intended parameters for analysis from sediment cores collected as part of this project including bacteria, chemistry, stable isotopes, fatty acids, or meiofauna.
+  cols: None
+  tags: None
+  cat: None
+
+[161] Wages rates by industry | pub=Government of Ontario | src=canada.jsonl
+  desc: Data includes aggregated North American Industry Classification System (NAICS) industries for both goods-producing and service-producing sectors. Wages include: average hourly wage rate, average weekly wage rate, median hourly wage rate and median we
+  cols: None
+  tags: None
+  cat: None
+
+[162] New motor vehicle sales, by vehicle type, annual | pub=Statistics Canada | src=canada.jsonl
+  desc: Number of units and total sales of new motor vehicles by type of vehicle and fuel type.
+  cols: None
+  tags: None
+  cat: None
+
+[163] Air transportation safety investigation report A19P0187 | pub=Transportation Safety Board of Canada | src=canada.jsonl
+  desc: Collision with terrain Cessna 172H, C-GECG, Tofino/Long Beach Airport, British Columbia, 31 NM NW, 21 December 2019
+  cols: None
+  tags: None
+  cat: None
+
+[164] Air transportation safety investigation report A25Q0051 | pub=Transportation Safety Board of Canada | src=canada.jsonl
+  desc: Loss of control and overturn on takeoff, ETA Aviation & César Camp du Nord Inc., De Havilland Aircraft of Canada Limited DHC-2 Mk. I (Beaver), C-FYNT, St-Mathias Water Aerodrome (CSV9), Quebec, 2 May 2025
+  cols: None
+  tags: None
+  cat: None
+
+[165] Clairmont Lake, Alberta - Boundary (GIS data, polygon features) | pub=Government of Alberta | src=canada.jsonl
+  desc: All available bathymetry and related information for Clairmont Lake were collected and hard copy maps digitized where necessary. The data were validated against more recent data (Shuttle Radar Topography Mission 'SRTM' imagery and Indian Remote Sensi
+  cols: None
+  tags: None
+  cat: None
+
+[166] Surficial Geology of the Slims Creek Area (NTS 84F/SW) (GIS data, polygon features) | pub=Government of Alberta | src=canada.jsonl
+  desc: This GIS dataset depicts the surficial geology of the Slims Creek area (NTS 84F/SW) (GIS data, polygon features). The data were created in geodatabase format and output for public distribution in shapefile format. These data comprise the polygon feat
+  cols: None
+  tags: None
+  cat: None
+
+[167] Quality Evaluation Dataset of the Play-Based Regulation Pilot Study Area Derived from 2007 Landsat I | pub=Government of Alberta | src=canada.jsonl
+  desc: In 2014, the Alberta Energy Regulator (AER) initiated a Play-Based Regulation (PBR) pilot project as a step towards implementation of the Unconventional Regulatory Framework. One of the goals of the PBR pilot is to encourage companies in the unconven
+  cols: None
+  tags: None
+  cat: None
+
+[168] Land-use/Land-cover Classifications of the Cold Lake Oil Sands Area Derived from 2007 Landsat Imager | pub=Government of Alberta | src=canada.jsonl
+  desc: The Cold Lake oil sands area, Township 56 to 69, Range 1 to 11, west of the 4th Meridian, falls within the Lower Athabasca Regional Plan (LARP). As part of Alberta's Land-use Framework, LARP was developed in 2012 to set the stage for robust growth, v
+  cols: None
+  tags: None
+  cat: None
+
+[169] Enrolment by grade in elementary schools | pub=Government of Ontario | src=canada.jsonl
+  desc: Student enrolment in elementary schools across the province, aggregated by grade and school board or school authority. Includes: * board number * board name * junior kindergarten enrolment * kindergarten enrolment * grade 1 enrolment * grade 2 enrolm
+  cols: None
+  tags: None
+  cat: None
+
+[170] Public roads | pub=Government of Québec | src=canada.jsonl
+  desc: Mapping of the pavement center of public roads in Quebec City.**This third party metadata element was translated using an automated translation tool (Amazon Translate).**
+  cols: None
+  tags: None
+  cat: None
+
+[171] Reprocessing of Yukon magnetic data for NTS 115K | pub=Government of Yukon | src=canada.jsonl
+  desc: Reprocessing of magnetic data for Yukon was performed between November 2016 and March 2017. Aeromagnetic data were compiled, data of different resolutions were merged, and a series of images individually levelled for each map sheet were produced. For
+  cols: None
+  tags: None
+  cat: None
+
+[172] Data collected under the Reduction in the Release of Volatile Organic Compounds Regulations (Petrole | pub=Environment and Climate Change Canada | src=canada.jsonl
+  desc: This dataset summarizes the information received from companies reporting under the Reduction in the Release of Volatile Organic Compounds Regulations (Petroleum Sector). It includes fenceline monitoring results for petroleum refineries in Canada. Th
+  cols: None
+  tags: None
+  cat: None
+
+[173] Aklavik Drinking Water Source Watershed (2011) | pub=Government of Northwest Territories | Gouvernement des Terri | src=canada.jsonl
+  desc: Aklavik Drinking Water Source Watershed (2011)
+  cols: None
+  tags: None
+  cat: None
+
+[174] BC Parks Data API Access | pub=Government of British Columbia | src=canada.jsonl
+  desc: BC Parks data is available through the BC Parks API. The data contains information on provincial parks, conservation areas, and ecological reserves. This includes detailed descriptions of protected areas, available activities, amenities, park status,
+  cols: None
+  tags: None
+  cat: None
+
+[175] FADM - Pulpwood Agreement | pub=Government of British Columbia | src=canada.jsonl
+  desc: The spatial representation for a Pulpwood Agreement, which is a 25 year term agreement, replaceable every ten years, that allows the holder of a wood-fibre processing facility to harvest Crown pulp timber if sufficient quantities of raw material are 
+  cols: None
+  tags: None
+  cat: None
+
+[176] Deaths and mortality rate (age standardization using 2011 population), by selected grouped causes, i | pub=Statistics Canada | src=canada.jsonl
+  desc: Number of deaths, crude mortality rates and age standardized mortality rates (based on 2011 population) for selected grouped causes, by sex, 2000 to most recent year.
+  cols: None
+  tags: None
+  cat: None
+
+[177] Canadian Science Advisory Secretariat Proceedings | pub=Fisheries and Oceans Canada | src=canada.jsonl
+  desc: The Proceedings Series contains publications which record the activities at meetings or workshops of which DFO is a sponsor. The Proceedings generally record decisions, recommendations, and major points of discussion at these meetings and workshops. 
+  cols: None
+  tags: None
+  cat: None
+
+[178] Veterans Affairs Canada Performance Reports | pub=Veterans Affairs Canada | Anciens Combattants Canada | src=canada.jsonl
+  desc: Our Performance Report is tabled in Parliament in the fall of each year. This report provides Parliamentarians and Canadians with information on the Portfolio's performance over the last fiscal year, based on commitments made in our previous Reports 
+  cols: None
+  tags: None
+  cat: None
+
+[179] National Inventory of Canadian Military Memorials | pub=Veterans Affairs Canada | Anciens Combattants Canada | src=canada.jsonl
+  desc: This data contains the memorials and monuments located in communities across the country. Currently, more than 8,000 memorials are included in this data. This data is regularly updated as we continue to receive information on Canadian military memori
+  cols: None
+  tags: None
+  cat: None
+
+[180] Farm input price index | pub=Government of Ontario | src=canada.jsonl
+  desc: Get statistical data on the annual averages of the Farm Input Price Index for Ontario. This index measures the change in selected farm input costs over time. These costs are related to items like: * buildings * machinery and motor vehicles * deprecia
+  cols: None
+  tags: None
+  cat: None
+
+[181] Total Land and Water Area by Ecozone | pub=Agriculture and Agri-Food Canada | src=canada.jsonl
+  desc: The National Ecological Framework for Canada's "Total Land and Water Area by Ecozone” dataset provides land and water area values for ecozone framework polygons, in hectares. It includes attributes for a polygon’s total area, land-only area and large
+  cols: None
+  tags: None
+  cat: None
+
+[182] Relaunching the CNP-EGAL as a platform for discussion and advocacy in Tunisia | pub=Global Affairs Canada | src=canada.jsonl
+  desc: Canada helps promote equality between Tunisian women and men in managing local affairs.
+  cols: None
+  tags: None
+  cat: None
+
+[183] WTO - Sugar-Containing Products Quota Holders List | pub=Global Affairs Canada | src=canada.jsonl
+  desc: WTO - Sugar-Containing Products Quota Holders List.
+  cols: None
+  tags: None
+  cat: None
+
+[184] Travel arrangement services, e-commerce sales | pub=Statistics Canada | src=canada.jsonl
+  desc: Travel arrangement services, e-commerce sales,  by North American Industry Classification System,  (NAICS) 56151 Travel agencies, (NAICS) 56152 Tour operators, which includes all members under sales, annual (dollars X 1,000,000) &amp; (percent), Cana
+  cols: None
+  tags: None
+  cat: None
+
+[185] Enrolment reports 2018-19 | pub=Government of Yukon | src=canada.jsonl
+  desc: Enrolment by school and grade for all Yukon schools
+  cols: None
+  tags: None
+  cat: None
+
+[186] Plans and Reports - Bats | pub=Government of Yukon | src=canada.jsonl
+  desc: Plans and reports from the Department of Environment
+  cols: None
+  tags: None
+  cat: None
+
+[187] Carmacks surficial geology and community hazard susceptibility mapping | pub=Government of Yukon | src=canada.jsonl
+  desc: The Carmacks surficial geology and community hazard susceptibility mapping was completed to support land use planning, but also provides a valuable base map for public education about the origins of the landscape. The Village of Carmacks spans the Yu
+  cols: None
+  tags: None
+  cat: None
+
+[188] Bedrock geology map of the Teslin Mountain and East Lake Laberge areas, parts of NTS 105E/2, 3 and 6 | pub=Government of Yukon | src=canada.jsonl
+  desc: not_specified
+  cols: None
+  tags: None
+  cat: None
+
+[189] Life satisfaction by gender and province | pub=Statistics Canada | src=canada.jsonl
+  desc: Percentage of persons aged 15 years and over by level of life satisfaction, by gender, for Canada, regions and provinces.
+  cols: None
+  tags: None
+  cat: None
+
+[190] Employment income statistics by industry sectors, highest level of education, immigrant status and p | pub=Statistics Canada | src=canada.jsonl
+  desc: Data on employment income statistics by industry sectors (2-digit code) from the North American Industry Classification System (NAICS) 2017, highest level of education, immigrant status and period of immigration, work activity during the reference ye
+  cols: None
+  tags: None
+  cat: None
+
+[191] Hunting Sales Statistics 2005 to 2024 | pub=Government of British Columbia | src=canada.jsonl
+  desc: The Hunting Sales Statistics annual dataset provides the number of hunting licences sold in British Columbia each licence year. The data is currently collected through the BC Hunting Online licencing system and includes sales of hunting licences (bas
+  cols: None
+  tags: None
+  cat: None
+
+[192] Business revenue from January 1 to March 31, 2019, compared with January 1 to March 31, 2020, by bus | pub=Statistics Canada | src=canada.jsonl
+  desc: Change in reported business revenue between January 1 to March 31, 2019, and January 1 to March 31, 2020, by North American Industry Classification System (NAICS), business employment size, type of business and majority ownership.
+  cols: None
+  tags: None
+  cat: None
+
+[193] Historical minimum wage rates in Canada | pub=Employment and Social Development Canada | Emploi et Dévelop | src=canada.jsonl
+  desc: The minimum wage is a basic labour standard that sets the lowest wage rate that an employer can pay to employees who are covered by the legislation. Today, one of its main purposes is to protect non-unionized workers in unskilled jobs, although it ca
+  cols: None
+  tags: None
+  cat: None
+
+[194] Appearance of Statistics Canada before the House of Commons Standing Committee on Finance - January  | pub=Statistics Canada | src=canada.jsonl
+  desc: Study on the inflation in the current Canadian Economy
+  cols: None
+  tags: None
+  cat: None
+
+[195] Labour force and employment by 3 and 4 digit NAICS, Alberta, quarterly | pub=Government of Alberta | src=canada.jsonl
+  desc: This dataset is a customization of Statistics Canada data to present information on labour force and employment quarterly average estimates from Quarter 1, 2014 to Quarter 2, 2016 by 3 and 4 digit NAICS.
+  cols: None
+  tags: None
+  cat: None
+
+[196] Budget 2013 June Update - Support for Families - Individuals and Community Safety Tbl 1.13 | pub=Government of British Columbia | src=canada.jsonl
+  desc: A tabular presentation of planned costs of direct support to British Columbia families, individuals and community safety for the years 2013-14, 2014-15 and 2015-16.
+  cols: None
+  tags: None
+  cat: None
+
+[197] Historical Commodity Prices (in US Dollars) Tbl A1.9 | pub=Government of British Columbia | src=canada.jsonl
+  desc: A tabular presentation of hitorical commodity prices in United States dollars, 2000 - 2010 (Sources: Ministry of Finance; Ministry of Energy and Mines; Ministry of Forests, Lands and Natural Resource Operations; US Federal Reserve Bank).
+  cols: None
+  tags: None
+  cat: None
+
+[198] Protected Map 2020 (Managed Forest Code 20) | pub=Government of Manitoba | src=canada.jsonl
+  desc: Protected map (managed forest code 20) used in the Forest Management in Canada, 2020 story map.  
+  
+  Protected map (managed forest code 20) created from protected areas within the Canadian Protected and Conserved Areas database. The protected map i
+  cols: None
+  tags: None
+  cat: None
+
+[199] Asset management practices for municipally owned social and affordable housing assets, by urban and  | pub=Statistics Canada | src=canada.jsonl
+  desc: Asset management practices for municipally owned social and affordable housing assets for all provinces and territories, by urban and rural and population size. Values are presented for 2016.
+  cols: None
+  tags: None
+  cat: None

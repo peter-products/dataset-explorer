@@ -1,0 +1,299 @@
+[100] NVIDIA CORP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for NVIDIA CORP (ticker: NVDA, CIK: 1045810). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, NVDA
+  cat: sec_company_filings
+
+[101] SLB LIMITED/NV | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for SLB LIMITED/NV (ticker: SLB, CIK: 87347). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, SLB
+  cat: sec_company_filings
+
+[102] CROWN CASTLE INC. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for CROWN CASTLE INC. (ticker: CCI, CIK: 1051470). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CCI
+  cat: sec_company_filings
+
+[103] CARPENTER TECHNOLOGY CORP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for CARPENTER TECHNOLOGY CORP (ticker: CRS, CIK: 17843). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CRS
+  cat: sec_company_filings
+
+[104] EQUITY LIFESTYLE PROPERTIES INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for EQUITY LIFESTYLE PROPERTIES INC (ticker: ELS, CIK: 895417). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ELS
+  cat: sec_company_filings
+
+[105] ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/ | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for ZIONS BANCORPORATION, NATIONAL ASSOCIATION /UT/ (ticker: ZION, CIK: 109380). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ZION
+  cat: sec_company_filings
+
+[106] B2GOLD CORP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for B2GOLD CORP (ticker: BTG, CIK: 1429937). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, BTG
+  cat: sec_company_filings
+
+[107] PRICESMART INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for PRICESMART INC (ticker: PSMT, CIK: 1041803). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, PSMT
+  cat: sec_company_filings
+
+[108] KADANT INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for KADANT INC (ticker: KAI, CIK: 886346). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, KAI
+  cat: sec_company_filings
+
+[109] CALIFORNIA WATER SERVICE GROUP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for CALIFORNIA WATER SERVICE GROUP (ticker: CWT, CIK: 1035201). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CWT
+  cat: sec_company_filings
+
+[110] FIRST ADVANTAGE CORP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for FIRST ADVANTAGE CORP (ticker: FA, CIK: 1210677). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, FA
+  cat: sec_company_filings
+
+[111] ENCORE CAPITAL GROUP INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for ENCORE CAPITAL GROUP INC (ticker: ECPG, CIK: 1084961). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ECPG
+  cat: sec_company_filings
+
+[112] XPEL, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for XPEL, Inc. (ticker: XPEL, CIK: 1767258). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, XPEL
+  cat: sec_company_filings
+
+[113] LIQUIDITY SERVICES INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for LIQUIDITY SERVICES INC (ticker: LQDT, CIK: 1235468). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, LQDT
+  cat: sec_company_filings
+
+[114] BlackRock Multi-Sector Income Trust | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for BlackRock Multi-Sector Income Trust (ticker: BIT, CIK: 1562818). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, BIT
+  cat: sec_company_filings
+
+[115] Tectonic Therapeutic, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Tectonic Therapeutic, Inc. (ticker: TECX, CIK: 1681087). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, TECX
+  cat: sec_company_filings
+
+[116] Pangaea Logistics Solutions Ltd. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Pangaea Logistics Solutions Ltd. (ticker: PANL, CIK: 1606909). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, PANL
+  cat: sec_company_filings
+
+[117] Forward Industries, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Forward Industries, Inc. (ticker: FWDI, CIK: 38264). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, FWDI
+  cat: sec_company_filings
+
+[118] Hyliion Holdings Corp. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Hyliion Holdings Corp. (ticker: HYLN, CIK: 1759631). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, HYLN
+  cat: sec_company_filings
+
+[119] Hamilton Beach Brands Holding Co | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Hamilton Beach Brands Holding Co (ticker: HBB, CIK: 1709164). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, HBB
+  cat: sec_company_filings
+
+[120] LAZARD GLOBAL TOTAL RETURN & INCOME FUND INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for LAZARD GLOBAL TOTAL RETURN & INCOME FUND INC (ticker: LGI, CIK: 1278211). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, LGI
+  cat: sec_company_filings
+
+[121] Quanterix Corp | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Quanterix Corp (ticker: QTRX, CIK: 1503274). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, QTRX
+  cat: sec_company_filings
+
+[122] Skyline Bankshares, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Skyline Bankshares, Inc. (ticker: SLBK, CIK: 1657642). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, SLBK
+  cat: sec_company_filings
+
+[123] MERCER INTERNATIONAL INC. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for MERCER INTERNATIONAL INC. (ticker: MERC, CIK: 1333274). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, MERC
+  cat: sec_company_filings
+
+[124] AMERICAN VANGUARD CORP | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for AMERICAN VANGUARD CORP (ticker: AVD, CIK: 5981). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, AVD
+  cat: sec_company_filings
+
+[125] UNIVERSAL ELECTRONICS INC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for UNIVERSAL ELECTRONICS INC (ticker: UEIC, CIK: 101984). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, UEIC
+  cat: sec_company_filings
+
+[126] Atara Biotherapeutics, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Atara Biotherapeutics, Inc. (ticker: ATRA, CIK: 1604464). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ATRA
+  cat: sec_company_filings
+
+[127] T-REX Acquisition Corp. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for T-REX Acquisition Corp. (ticker: TRXA, CIK: 1437750). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, TRXA
+  cat: sec_company_filings
+
+[128] SMITH MICRO SOFTWARE, INC. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for SMITH MICRO SOFTWARE, INC. (ticker: SMSI, CIK: 948708). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, SMSI
+  cat: sec_company_filings
+
+[129] Cosmos Health Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Cosmos Health Inc. (ticker: COSM, CIK: 1474167). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, COSM
+  cat: sec_company_filings
+
+[130] Infobird Co., Ltd | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Infobird Co., Ltd (ticker: IFBD, CIK: 1815566). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, IFBD
+  cat: sec_company_filings
+
+[131] Green Rain Energy Holdings Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Green Rain Energy Holdings Inc. (ticker: GREH, CIK: 1084937). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, GREH
+  cat: sec_company_filings
+
+[132] Fitness Champs Holdings Ltd | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Fitness Champs Holdings Ltd (ticker: FCHL, CIK: 2023796). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, FCHL
+  cat: sec_company_filings
+
+[133] MSP Recovery, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for MSP Recovery, Inc. (ticker: MSPR, CIK: 1802450). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, MSPR
+  cat: sec_company_filings
+
+[134] Starrygazey Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Starrygazey Inc. (ticker: MARH, CIK: 2087064). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, MARH
+  cat: sec_company_filings
+
+[135] Grayscale Livepeer Trust (LPT) | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Grayscale Livepeer Trust (LPT) (ticker: GLIV, CIK: 1852024). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, GLIV
+  cat: sec_company_filings
+
+[136] Regenique Group Ltd | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Regenique Group Ltd (ticker: RGGG, CIK: 2063022). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, RGGG
+  cat: sec_company_filings
+
+[137] FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE (ticker: FNMAJ, CIK: 310522). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, FNMAJ
+  cat: sec_company_filings
+
+[138] ASPEN INSURANCE HOLDINGS LTD | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for ASPEN INSURANCE HOLDINGS LTD (ticker: AHL-PE, CIK: 1267395). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, AHL-PE
+  cat: sec_company_filings
+
+[139] FrankSpeech Network, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for FrankSpeech Network, Inc. (ticker: MLMC, CIK: 1099234). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, MLMC
+  cat: sec_company_filings
+
+[140] CION Investment Corp | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for CION Investment Corp (ticker: CICC, CIK: 1534254). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CICC
+  cat: sec_company_filings
+
+[141] NATIONAL GRID PLC | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for NATIONAL GRID PLC (ticker: NEWEN, CIK: 1004315). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, NEWEN
+  cat: sec_company_filings
+
+[142] OSR Holdings, Inc. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for OSR Holdings, Inc. (ticker: OSRHW, CIK: 1840425). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, OSRHW
+  cat: sec_company_filings
+
+[143] GROOVY COMPANY, INC. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for GROOVY COMPANY, INC. (ticker: GROO, CIK: 1499275). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, GROO
+  cat: sec_company_filings
+
+[144] Cartesian Growth Corp III | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Cartesian Growth Corp III (ticker: CGCTU, CIK: 2049662). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CGCTU
+  cat: sec_company_filings
+
+[145] Cordyceps Sunshine Biotech Holdings Co., Ltd. | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Cordyceps Sunshine Biotech Holdings Co., Ltd. (ticker: RAJAF, CIK: 1885680). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, RAJAF
+  cat: sec_company_filings
+
+[146] Addtech AB/ADR | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Addtech AB/ADR (ticker: ADDTF, CIK: 1766868). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ADDTF
+  cat: sec_company_filings
+
+[147] Alpha Star Acquisition Corp | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Alpha Star Acquisition Corp (ticker: ALSUF, CIK: 1865111). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, ALSUF
+  cat: sec_company_filings
+
+[148] Lionheart Holdings | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Lionheart Holdings (ticker: CUBWU, CIK: 2015955). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, CUBWU
+  cat: sec_company_filings
+
+[149] Edible Garden AG Inc | pub=SEC | src=sec-edgar-companies.jsonl
+  desc: All XBRL financial data for Edible Garden AG Inc (ticker: EDBLW, CIK: 1809750). Includes income statement, balance sheet, cash flow data from 10-K and 10-Q filings.
+  cols: None
+  tags: sec, edgar, xbrl, EDBLW
+  cat: sec_company_filings

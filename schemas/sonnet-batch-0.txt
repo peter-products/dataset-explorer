@@ -1,0 +1,299 @@
+[0] Poverty Headcount ($1.90 a day) | pub=World Bank | src=worldbank.jsonl
+  desc: The poverty headcount index measures the proportion of the population with daily per capita income (in 2011 PPP) below the poverty line.
+  cols: country, date, value, indicator
+  tags: Poverty 
+  cat: LAC Equity Lab
+
+[1]  International aid to basic education executed by JICA in Madagascar (USD million)   | pub=World Bank | src=worldbank.jsonl
+  desc: International concessional aid disbursed by the reporting development partner to the basic education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooper
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Partnership for Education
+
+[2] Adjusted prevalence of persons aged 55 to 64 years with any degree of cognitive difficulty (% of per | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Disability Data Hub (DDH)
+
+[3] Barro-Lee: Percentage of population age 30-34 with primary schooling. Total (Incomplete and Complete | pub=World Bank | src=worldbank.jsonl
+  desc: Percentage of population age 30-34 with primary schooling. Total (Incomplete and Completed Primary)
+  cols: country, date, value, indicator
+  tags: Education 
+  cat: Education Statistics
+
+[4] P-Value: Public sector wage premium for males, by occupation: Teachers (compared to paid wage employ | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Worldwide Bureaucracy Indicators
+
+[5] Sectoral drivers of GHG emissions growth in the period 2012-2018 - Land-Use Change and Forestry (con | pub=World Bank | src=worldbank.jsonl
+  desc: Data reflects the aggregate contribution of the Land-Use Change and Forestry sector to total emission growth across the period 2012-2018. This data has been calculated by World Bank staff using greenhouse gas emissions data from the World Resource In
+  cols: country, date, value, indicator
+  tags: None
+  cat: Country Climate and Development Report (CCDR)
+
+[6] Daily internet use, richest 60% (% age 15+) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Findex database
+
+[7] Climate  related  information  in  performance reports | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: PEFA_CRPFM
+
+[8] Gross PSD, Nonfinancial Public Corp., Long-term, With payment due in one year or less, All instrumen | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Quarterly Public Sector Debt
+
+[9] OPS, official creditors (DIS, current US$) | pub=World Bank | src=worldbank.jsonl
+  desc: Other public sector debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, r
+  cols: country, date, value, indicator
+  tags: External Debt
+  cat:  International Debt Statistics: DSSI
+
+[10] Public and Publicly Guar. Private Sector Ext. Debt Pos., All Sectors, All maturities, All instrument | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Quarterly External Debt Statistics GDDS
+
+[11] Adjustments to scheduled interest (current US$) | pub=World Bank | src=worldbank.jsonl
+  desc: Interest due is actual amounts of interest due in currency, goods, or services in the year specified.  Interest payments are actual amounts of interest paid in currency, goods, or services in the year specified. This item includes interest paid on lo
+  cols: country, date, value, indicator
+  tags: None
+  cat: Africa Development Indicators
+
+[12] PPG, multilateral concessional (NTR, current US$) | pub=World Bank | src=worldbank.jsonl
+  desc: Public and publicly guaranteed multilateral loans include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organiz
+  cols: country, date, value, indicator
+  tags: External Debt
+  cat:  International Debt Statistics: DSSI
+
+[13] 084.Destination Entry Rate of Surviving Entrants: Mean | pub=World Bank | src=worldbank.jsonl
+  desc: Exporter-level information on export transactions - Customs
+  cols: country, date, value, indicator
+  tags: None
+  cat: Exporter Dynamics Database – Indicators at Country-Year Level
+
+[14] 334_Does the financial consumer protection (FCP) agency have enforcement powers to impose fines and  | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Financial Inclusion and Consumer Protection Survey
+
+[15] Sent money from a mobile money account, less than once a month, secondary education or more (% age 1 | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Findex database
+
+[16] Coming up with emergency funds in 30 days: possible and very difficult, men (% age 15+) | pub=World Bank | src=worldbank.jsonl
+  desc: The percentage of respondents who say it is possible and very difficult for them to come up with the emergency funds in 30 days, men (% age 15+)
+  cols: country, date, value, indicator
+  tags: None
+  cat: Gender Statistics
+
+[17] Made a utility payment: using a mobile phone, richest 60% (% age 15+) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Findex database
+
+[18] Received payments for agricultural products: in cash only, women (% age 15+) | pub=World Bank | src=worldbank.jsonl
+  desc: The percentage of respondents who report personally receiving money from any source for the sale of agricultural products, crops, produce, or livestock in the past year in cash only, women (% age 15+)
+  cols: country, date, value, indicator
+  tags: None
+  cat: Gender Statistics
+
+[19] State-owned enterprises, investment (% of GDI) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: WDI Database Archives
+
+[20] Female persons in households using improved drinking water sources (% of female persons with some de | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Disability Data Hub (DDH)
+
+[21] MICS: Secondary completion rate. Urban | pub=World Bank | src=worldbank.jsonl
+  desc: Secondary completion rate. Urban is the total number of urban students of any age in last grade of secondary school, minus the number of urban repeaters in that grade, divided by the number of urban children of official graduation age. The completion
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[22] Time required to start a business (days) | pub=World Bank | src=worldbank.jsonl
+  desc: Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.
+  cols: country, date, value, indicator
+  tags: Private Sector
+  cat: WDI Database Archives
+
+[23] Average age of self-employed or unpaid workers, aged 15-64, rural | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Jobs Indicators Database (JOIN)
+
+[24] Wage employment in services, aged 15-64, urban (% of urban workers in the service sector) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Global Jobs Indicators Database (JOIN)
+
+[25] EGRA: Reading Comprehension - Share of students scoring at least 80 percent (%). Silozi. 2nd Grade | pub=World Bank | src=worldbank.jsonl
+  desc: Share of students who scored 80 percent or higher on the reading comprehension assessment. The reading comprehension subtask follows the oral reading fluency subtask; students are required to respond to literal and inferential questions about the ora
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[26] TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) | pub=World Bank | src=worldbank.jsonl
+  desc: TIMSS: Fourth grade students reaching the low international benchmark of mathematics achievement (%) is the share of 4th grade students scoring at least 400 on the mathematics assessment. Students at this benchmark have some basic mathematical knowle
+  cols: country, date, value, indicator
+  tags: Education 
+  cat: Education Statistics
+
+[27] Value added, manufacturing growth rate (%) | pub=World Bank | src=worldbank.jsonl
+  desc: This is the annual rate of growth of value added in manufacturing.  Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is
+  cols: country, date, value, indicator
+  tags: None
+  cat: Africa Development Indicators
+
+[28] World Bank: Share of recurrent expenditures for goods and services (%) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[29] World Bank: Total education expenditures from international sources (in USD or local currency) | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[30] Poverty Headcount reduction (%) -  Active Labor Market  - 1st quintile (poorest) -urban | pub=World Bank | src=worldbank.jsonl
+  desc: Poverty headcount reduction due to Active Labor Market programs as % of pre-transfer poverty headcount
+  cols: country, date, value, indicator
+  tags: Social Protection & Labor
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[31] Adequacy of benefits in 2nd quintile (%) - Domestic Private Transfers (preT) | pub=World Bank | src=worldbank.jsonl
+  desc: Total transfer amount received by all beneficiaries in a population group as a share of the total welfare of beneficiaries in that group
+  cols: country, date, value, indicator
+  tags: Social Protection & Labor
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[32] Average per capita transfer held by 2nd quintile - Conditional Cash Transfers (preT) | pub=World Bank | src=worldbank.jsonl
+  desc: Average transfer amount of  Conditional Cash Transfer programs among program beneficiaries (per capita, daily $ppp)
+  cols: country, date, value, indicator
+  tags: None
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[33] Benefits incidence in extreme poor (<$2.15 a day) (%) - In-Kind (preT) | pub=World Bank | src=worldbank.jsonl
+  desc: Percentage of benefits going to the extreme poor (those below $125 a day)  relative to the total benefits going to the population
+  cols: country, date, value, indicator
+  tags: Social Protection & Labor
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[34] Beneficiary incidence in 1st quintile (poorest) (%) - School Feeding Programs (preT) -male-recipient | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[35] Beneficiary incidence in 3rd quintile (%) - Contributory Pensions (preT) | pub=World Bank | src=worldbank.jsonl
+  desc: Percentage of program beneficiaries in a quintile relative to the total number of beneficiaries in the population
+  cols: country, date, value, indicator
+  tags: None
+  cat: The Atlas of Social Protection: Indicators of Resilience and Equity
+
+[36] Wittgenstein Projection: Percentage of the total population by highest level of educational attainme | pub=World Bank | src=worldbank.jsonl
+  desc: Share of the population of the stated age group that has completed post-secondary or tertiary education as the highest level of educational attainment. Projections are based on collected census and survey data for the base year (around 2010) and the 
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[37] Assets owned by individual's household (% of persons aged 45 to 64 years with any degree of function | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Disability Data Hub (DDH)
+
+[38] Above Proficiency;PISA 2012 for grade 15Y using MPL Level 2 for reading, Fourth Quintile | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[39] Learning Deprivation Gap;SEA-PLM 2019 for grade 5 using MPL Level 6 for math, Third Quintile | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[40] Above Proficiency;PASEC 2019 for grade 6 using MPL 4 for math, Rural | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[41] Above Proficiency;TIMSS 2019 for grade 9 using MPL Low (400 points) for math, Rural | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[42] (De Facto) Percent of teachers that report being evaluated in the past 12 months | pub=World Bank | src=worldbank.jsonl
+  desc: None
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[43] Problems in accessing health care (knowing where to go for treatment) (% of women): Q3 | pub=World Bank | src=worldbank.jsonl
+  desc: Problems in accessing health care: Percentage of women who report they have big problems in accessing health care for themselves when they are sick, by type of problem. The types of problem specified are; knowing where to go for treatment, getting pe
+  cols: country, date, value, indicator
+  tags: Health 
+  cat: Health Nutrition and Population Statistics by Wealth Quintile
+
+[44] Malnourished children (stunting, -3SD) (% of children under 5): Q4 | pub=World Bank | src=worldbank.jsonl
+  desc: Malnourished children: Percentage of children under age five years who are classified as undernourished according to three anthropometric indices of nutritional status: height-for-age (stunting), weight-for-age (underweight) and weight-for-height (wa
+  cols: country, date, value, indicator
+  tags: Health 
+  cat: Health Nutrition and Population Statistics by Wealth Quintile
+
+[45] Population ages 0-14, female | pub=World Bank | src=worldbank.jsonl
+  desc: Female population between the ages 0 to 14. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.
+  cols: country, date, value, indicator
+  tags: Health 
+  cat: World Development Indicators
+
+[46] Other consumer goods imports (constant US$) | pub=World Bank | src=worldbank.jsonl
+  desc: Consumer goods imports, cif (includes freight and insurance costs) in 1987 constant US dollars. 
+  cols: country, date, value, indicator
+  tags: None
+  cat: Africa Development Indicators
+
+[47] Percentage of students in lower secondary education showing proficiency in knowledge of environmenta | pub=World Bank | src=worldbank.jsonl
+  desc: Percentage of students in lower secondary education showing proficiency in knowledge of environmental science and geoscience. This indicator serves to identify country's students capacity to take informed decisions and responsible actions for environ
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[48] Total net attendance rate, lower secondary, poorest quintile, adjusted gender parity index (GPIA) | pub=World Bank | src=worldbank.jsonl
+  desc: The Adjusted Gender Parity Index (GPIA) is calculated by dividing the female value for the indicator by the male value for the indicator. If the resulting value exceeds 1, the ratio is inverted and subtracted from 2. The adjusted gender parity index 
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics
+
+[49] Out-of-school rate for adolescents of lower secondary school age, middle quintile, female, adjusted  | pub=World Bank | src=worldbank.jsonl
+  desc: The Adjusted Location Parity Index (LPIA) is calculated by dividing the rural value for the indicator by the urban value for the indicator. If the resulting value exceeds 1, the ratio is inverted and subtracted from 2. The adjusted location parity in
+  cols: country, date, value, indicator
+  tags: None
+  cat: Education Statistics

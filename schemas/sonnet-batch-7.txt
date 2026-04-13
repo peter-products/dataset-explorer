@@ -1,0 +1,311 @@
+[350] FAL. Programma di Esercizio Ferroviario - Anno 2021 | pub=Regione Puglia | src=italy.jsonl
+  desc: Programma di esercizio ferroviario della società Ferrovie Appulo Lucane relativo all'anno 2021.
+Il file contiene informazioni sulle corse ferroviarie effettuate durante l'anno con indicazione della stazione di partenza e di arrivo, dell'orario di pa
+  cols: None
+  tags: tpl, trasporto-pubblico-locale, treni
+  cat: Trasporti
+
+[351] Delibere pubblicate Comune di Massafra 2022 | pub=Regione Puglia | src=italy.jsonl
+  desc: Delibere pubblicate in Albo Pretorio nell' anno 2022, aventi le seguenti informazioni: Numero Atto, Data Esecutivita, Oggetto
+  cols: None
+  tags: N_A
+  cat: Governo
+
+[352] Commercio al dettaglio al di fuori di negozi, banchi e mercati per numero di esercizi anno 2015 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il file contiene i dati relativi al numero di esercizi del commercio al dettaglio al di fuori dei negozi, banchi e mercati dell'anno 2015.
+  cols: None
+  tags: banchi, commercio-dettaglio, esercizi, mercati, negozi
+  cat: Economia
+
+[353] LE IMPRESE DELLA  PROVINCIA DI LECCE – 3^ TRIMESTRE 2022 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il file contiene l’elenco delle Imprese della Provincia di Lecce, registrate e distinte per attività economica e classe di natura giuridica, capitale investito, valore della produzione, numero di addetti e classe di addetti
+  cols: None
+  tags: 2022, imprese, lecce, provincia, terzo-trimestre
+  cat: Economia
+
+[354] Mare - Monitoraggio Ostreopsis ovata - anno 2023 | pub=Regione Puglia | src=italy.jsonl
+  desc: Dati di monitoraggio Ostreopsis ovata - Alga tossica relativi alla stagione Giugno - Settembre 2023
+  cols: None
+  tags: 2023, acque-di-balneazione, ambiente, arpa-puglia, mare, monitoraggio, monitoraggio-osteopsis-ovata, protezione-e-prevenzione-ambientale
+  cat: Ambiente
+
+[355] Articolazione degli uffici Comune di Martina Franca | pub=Regione Puglia | src=italy.jsonl
+  desc: Articolazione degli uffici, presente nella sezione 
+ [__Trasparenza__](https://martinafranca.etrasparenza.it/pagina25_articolazione-degli-uffici.html) del Comune.
+  cols: None
+  tags: responsabili, uffici
+  cat: Governo
+
+[356] Imprese Artigiane dei Comuni della Provincia di Lecce III trim 2020 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il file contiene l'elenco delle imprese artigiane registrate per singolo comune della provincia di Lecce al terzo trimestre 2020 distinte per attività economica, capitale sociale, natura giuridica, numero e classe addetti, anno costituzione.
+  cols: None
+  tags: imprese-artigiane, terzo-trimestre-2020
+  cat: Economia
+
+[357] Gr.Ap. – Distribuzione delle tecnologie relative ad ACCELERATORI  per la diagnostica e terapia | pub=Regione Puglia | src=italy.jsonl
+  desc: Dataset relativo  a distribuzione in Regione Puglia di Acceleratori Lineari  in sedi Pubbliche. Dati suddivisi per data di collaudo, tipologia di tecnologia, azienda sanitaria, struttura ospedaliera, coordinate GPS (Latitudine e Longitudine), unità o
+  cols: None
+  tags: nsis-grandi-apparecchiature, tecnologie-complesse
+  cat: Salute
+
+[358] Operazioni cimiteriali 2016 eseguite mensilmente progressivo | pub=Regione Puglia | src=italy.jsonl
+  desc: Operazioni cimiteriali  eseguite mensilmente progressivamente costi - incassi 
+
+  cols: None
+  tags: cimitero, defunti, operazioni-cimiteriali, sepolture, tumulazioni
+  cat: Società
+
+[359] Le imprese dei comuni per settore di attività - 1° trimestre 2020 | pub=Regione Puglia | src=italy.jsonl
+  desc: Le imprese dei comuni per settore di attività - 1° trimestre 2020
+  cols: None
+  tags: N_A
+  cat: Economia
+
+[360] Contributi Economici 2023 | pub=Regione Puglia | src=italy.jsonl
+  desc: Contributi economici anno 2023 comune di crispiano
+  cols: None
+  tags: N_A
+  cat: Società
+
+[361] Società partecipate ed Enti pubblici controllati dal Comune di Oria | pub=Regione Puglia | src=italy.jsonl
+  desc: Elenco delle attuali società partecipate ed Enti Pubblici controllati dal Comune di Oria con relativa quota di partecipazione e funzioni svolte dal soggetto partecipato e/controllato
+  cols: None
+  tags: economia, societa-partecipate
+  cat: None
+
+[362] Numero Di Veicoli Di Proprietà Comunale Del Comune Di Montemesola | pub=Regione Puglia | src=italy.jsonl
+  desc: Elenco e quantità dei veicoli a disposizione del Comune di Montemesola.
+  cols: None
+  tags: mezzi-di-trasporto, veicoli
+  cat: Governo
+
+[363] Elenco matrimoni, unioni civili, separazioni e divorzi (anni 2015-2024) - Comune di Montemesola | pub=Regione Puglia | src=italy.jsonl
+  desc: Elenco matrimoni, unioni civili, separazioni e divorzi degli anni 2015-2024 del Comune di Montemesola.
+  cols: None
+  tags: divorzi, matrimoni, separazioni, unioni-civili
+  cat: Cultura
+
+[364] Albo Regionale delle associazioni Pro Loco | pub=Regione Puglia | src=italy.jsonl
+  desc: In base a quanto previsto dall'articolo 3 della legge regionale n. 25/2018 e ss. mm. e ii., la Sezione Turismo e Internazionalizzazione gestisce l'albo regionale delle associazioni Pro Loco 
+  cols: None
+  tags: cultura, istruzione, sport
+  cat: Cultura
+
+[365] Classificazione delle acque di balneazione per la stagione balneare - Qualità 2024 | pub=Regione Puglia | src=italy.jsonl
+  desc: Qualità delle Acque di Balneazione ai sensi dell’art. 7, punto c), del D.Lgs. 116/2008 Valutazione della qualità sul quadriennio 2021-2024, in ottemperanza a quanto riportato negli Allegati I e II del D.Lgs. 116/2008
+
+  cols: None
+  tags: acque-balneazione, puglia, salute
+  cat: Salute
+
+[366] Questionario soddisfazione per Sala OPEN SPACE | pub=Regione Puglia | src=italy.jsonl
+  desc: Attenzione!! il dataset non verrà più aggiornato in quanto il settore Programmazione Strategica e comunitaria non gestisce più tale servizio.
+
+Risposte al questionario di rilevazione della soddisfazione degli utenti che usufruiscono dei servizi off
+  cols: None
+  tags: gradimento, lecce-giovani, openspace, soddisfazione
+  cat: Governo
+
+[367] Protocolli di intesa attivi 2014 | pub=Regione Puglia | src=italy.jsonl
+  desc: Protocolli di intesa attivi promossi dal Settore Programmazione Strategica e Comunitaria del Comune di Lecce
+  cols: None
+  tags: intese, protocolli-di-intesa
+  cat: Internazionali
+
+[368] Sinistri Stradali 2022 per fasce d'età dei coinvolti | pub=Regione Puglia | src=italy.jsonl
+  desc: Dati relativi alle fasce di età dei coinvolti nei sinistri stradali dell'anno 2022, completi di prognosi.
+  cols: None
+  tags: N_A
+  cat: Trasporti
+
+[369] Bilancio Pluriennale degli Investimenti 2016/2018 Elenco CDR | pub=Regione Puglia | src=italy.jsonl
+  desc: Allegato A al Bilancio pluriennale degli investimenti per gli anni 2016/2018, approvato con delibera di Consiglio Comunale n.57/2016 e successive variazioni di bilancio. Elenco dei Centri di Responsabilita' 
+  cols: None
+  tags: bilancio, bilancio-2016, bilancio-pluriennale, elenco-cdr, investimenti
+  cat: Regioni
+
+[370] Consumi energetici: Mezzi comunali e trasporti pubblici 2007/2012 | pub=Regione Puglia | src=italy.jsonl
+  desc: Consumi energetici nel Settore Pubblico relativamente a parco auto comunali e trasporti pubblici dal 2007 al 2012 
+  cols: None
+  tags: consumi-energetici, mezzi-comunali, trasporti-pubblici
+  cat: Regioni
+
+[371] Lidi Balneari | pub=Regione Puglia | src=italy.jsonl
+  desc: Elenco Lidi Balneari con superficie e descrizione.
+  cols: None
+  tags: concessioni, lidi, lidi-balneari
+  cat: Regioni
+
+[372] LE IMPRESE DEI COMUNI  DELLA PROVINCIA DI LECCE - 1^ TRIMESTRE 2023 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il dataset contiene l’elenco delle Imprese per singolo Comune della Provincia di Lecce, distinte per attività economica (registrate e attive – iscritte e cessate), per classe di natura giuridica, per capitale investito, per valore della produzione, p
+  cols: None
+  tags: 2023, comune, imprese, lecce, trimestre
+  cat: Economia
+
+[373] Delibere Commissario con poteri di Consiglio pubblicate Comune di Massafra 2025 | pub=Regione Puglia | src=italy.jsonl
+  desc: Delibere Commissario con poteri di Consiglio pubblicate Comune di Massafra 2025
+  cols: None
+  tags: governo-e-settore-pubblico
+  cat: None
+
+[374] Imprese Individuali gestite da imprenditori extracomunitari della prov di Lecce I trim 2019 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il file contiene i dati sulle imprese straniere registrate nella Provincia di Lecce e distinti per attività economica, classe di addetti, sesso, età, nazionalità e anno di costituzione. Si fa presente che, dal computo sono stati esclusi gli imprendit
+  cols: None
+  tags: imprese-straniere, primo-trimestre-2019
+  cat: Economia
+
+[375] Richiesta utilizzo Sala openSpace Lecce Giovani | pub=Regione Puglia | src=italy.jsonl
+  desc: Attenzione!! il dataset non verrà più aggiornato in quanto il settore Programmazione Strategica e comunitaria non gestisce più tale servizio.
+
+Servizio di prenotazione della sala polifunzionale "openSpace Lecce Giovani" sita in Piazza Sant'oronzo c
+  cols: None
+  tags: cultura, lecce-giovani, openspace, sala-polifunzionale
+  cat: Società
+
+[376] Iscrizioni Asili Nido Comunali anno educativo 2018_19 | pub=Regione Puglia | src=italy.jsonl
+  desc: Istanze di iscrizione pervenute per l'anno scolastico 2018/19, posti disponibili nei due asili comunali a gestione diretta, suddivisi per fasce di età: 
+Piccoli dai 3 ai 12 mesi; 
+Medi dai 12 ai 24 mesi; 
+Grandi dai 24 ai 36 mesi.
+  cols: None
+  tags: asilo, famiglia, nido, welfare
+  cat: Cultura
+
+[377] Le imprese femminili della provincia di Lecce per settore di attività - 2° trimestre 2021 | pub=Regione Puglia | src=italy.jsonl
+  desc: Le imprese femminili della provincia di Lecce per settore di attività - 2° trimestre 2021
+  cols: None
+  tags: N_A
+  cat: Economia
+
+[378] Statistiche uso web app opendataleccebot | pub=Regione Puglia | src=italy.jsonl
+  desc: Statistiche aggregate sulle richieste da parte dei cittadini attraverso l'app del Comune di Lecce realizzata da @piersoft che promuove gli opendata: https://telegram.me/opendataleccebot
+
+  cols: None
+  tags: bot, cittadini, opendata, statistiche, telegram
+  cat: Scienza
+
+[379] Comune di Bitonto - Provvedimenti organi di indirizzo politico | pub=Regione Puglia | src=italy.jsonl
+  desc: Provvedimenti organi di indirizzo politico
+  cols: None
+  tags: comune-di-bitonto
+  cat: Governo
+
+[380] Indicatori di Benessere Equo e Sostenibile (BES) Puglia.Periodo 2010-2021 | pub=Regione Puglia | src=italy.jsonl
+  desc: Il dataset contiene i 153 indicatori del Benessere Equo e Sostenibile della Puglia suddivisi nei 12 domini tematici individuati nel framework dell’Istat. Gli indicatori sono riferiti al periodo 2010-2021e presentano sempre un confronto con altri cont
+  cols: None
+  tags: ambiente, benessere-soggettivo, bes, innovazione, relazioni-sociali, salute, sicurezza
+  cat: Scienza
+
+[381] SMARTCIG anno 2016 | pub=ANAC - Autorità Nazionale Anticorruzione | src=italy.jsonl
+  desc: Il dataset contiene tutte le informazioni relative agli appalti pubblicati nell'anno 2016
+  cols: None
+  tags: N_A
+  cat: Governo
+
+[382] Iscritti AIRE 2024 | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Iscritti AIRE 2024
+  cols: None
+  tags: aire, popolazione
+  cat: Società
+
+[383] Andamento competenza entrata per titoli - ENNA | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Andamento competenza entrata per titoli - ENNA - Aggiornato al 01-04-2026
+  cols: None
+  tags: bilancio, economia, entrate
+  cat: Economia
+
+[384] Analisi dipendenti dell'Ente - FERLA | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Analisi dipendenti dell'Ente - FERLA - Aggiornato al 01-04-2026
+  cols: None
+  tags: amministrazione-del-personale, personale
+  cat: Governo
+
+[385] Uffici - POGGIO RENATICO | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Uffici - POGGIO RENATICO - Aggiornato al 01-04-2026
+  cols: None
+  tags: amministrazione-trasparente, comune
+  cat: Governo
+
+[386] Stradario comunale - Orani | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Stradario comunale - Orani - Aggiornato al 01-04-2026
+  cols: None
+  tags: territorio
+  cat: Trasporti
+
+[387] Elenco delle pubblicazioni - CEFALA' DIANA | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Elenco delle pubblicazioni - CEFALA' DIANA - Aggiornato al 01-04-2026
+  cols: None
+  tags: albo-pretorio, pubblicazioni
+  cat: Governo
+
+[388] Andamento demografico - MAGNANO IN RIVIERA | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Andamento demografico - MAGNANO IN RIVIERA - Aggiornato al 02-04-2026
+  cols: None
+  tags: anagrafe, demografici, popolazione
+  cat: Società
+
+[389] Atti amministrativi - BAGNARIA ARSA | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Atti amministrativi - BAGNARIA ARSA - Aggiornato al 02-04-2026
+  cols: None
+  tags: atti, delibere, determine
+  cat: Governo
+
+[390] Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per classi di anzia | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per classi di anzianità - POVOLETTO - Aggiornato al 02-04-2026
+  cols: None
+  tags: amministrazione-del-personale, personale
+  cat: Governo
+
+[391] Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per classi di anzia | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per classi di anzianità - BONDENO - Aggiornato al 02-04-2026
+  cols: None
+  tags: amministrazione-del-personale, personale
+  cat: Governo
+
+[392] Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per titolo di studi | pub=Boxxapps (data vendor) | src=italy.jsonl
+  desc: Conto annuale: Personale a tempo indeterminato e personale dirigente distribuito per titolo di studio - SESTO AL REGHENA - Aggiornato al 02-04-2026
+  cols: None
+  tags: amministrazione-del-personale, personale
+  cat: Governo
+
+[393] Unità Organizzative | pub=AgID - Agenzia per l'Italia Digitale | src=italy.jsonl
+  desc: Dati anagrafici delle Unità Organizzative degli enti (UO). Ciascuna UO é individuata dal valore del campo Codice_uni_uo. Ogni UO può essere associata ad una Area Organizzativa Omogenea dell'ente individuata dal valore del campo Codice_uni_aoo (il cod
+  cols: None
+  tags: fattura-elettronica, ordine-di-acquisto, responsabile-transizione-digitale, unita-organizzativa
+  cat: Governo
+
+[394] Settore Ateco M - Imprese Attive in Italia per Territorio e Tempo (frequenza mensile) | pub=Camera di Commercio delle Marche | src=italy.jsonl
+  desc: Settore Ateco M: Attività immobiliari - Stock Sedi di Impresa Attive in Italia per Territorio (Province e Regioni) e Tempo (Frequenza Mensile, Valori fine periodo)
+  cols: None
+  tags: immobiliare, imprese, settori-economici, statistica
+  cat: Economia
+
+[395] Rifiuti - impianti - Inceneritori attivi - anno 2020 | pub=GeoDati RNDT (Italy) | src=italy.jsonl
+  desc: Localizazione degli inceneritori attivi della regione Emilia-Romagnsa - edizione 2021 - dati aggiornati al 2020	
+  cols: None
+  tags: eu, gestione, gestione-dei-rifiuti, impianto-di-trattamento-dei-rifiuti, incenerimento, incenerimento-di-rifiuti, inceneritore, open-data
+  cat: Energia
+
+[396] PTCP - COSTA (ART12) | pub=GeoDati RNDT (Italy) | src=italy.jsonl
+  desc: LIVELLO APPARTENENTE AL PIANO TERRITORIALE DI COORDINAMENTO PROVINCIALE
+  cols: None
+  tags: eu, open-data, pianificazione, regionale, unita-amministrative
+  cat: Governo
+
+[397] Atlante climatico 1961-2015 - Edizione 2017 - Temperatura minima - Media annuale - Clima 1991-2015 - | pub=GeoDati RNDT (Italy) | src=italy.jsonl
+  desc: Media sul periodo 1991- 2015 della media annuale della temperatura minima giornaliera (°C)
+  cols: None
+  tags: clima, climatologia, elementi-geografici-meteorologici, eu, meteorologia, monitoraggio-meteorologico, open-data, regionale
+  cat: Ambiente
+
+[398] Distribuzione di sabbie e peliti lungo le spiaggie emiliano-romagnole - 2012 | pub=GeoDati RNDT (Italy) | src=italy.jsonl
+  desc: Distribuzione spaziale del dato relativo alla percentuale di sabbia e  pelite presente nei campioni di sedimenti prelevati sulle spiaggie regionali nel 2012 (%)
+  cols: None
+  tags: ambiente-marino, eu, gestione-delle-zone-costiere, giacimento-in-mare-profondo, giacimento-sabbioso, mare, offshore, parametro
+  cat: Ambiente
+
+[399] Depuratori della Regione Emilia-Romagna - edizione 2021 | pub=GeoDati RNDT (Italy) | src=italy.jsonl
+  desc: Localizzazione degli impianti di trattamento delle acque reflue urbane della Regione Emilia-Romagna - aggiornamento 2020 - edizione 2021
+  cols: None
+  tags: acqua-urbana, acqua-usata, acque-luride, depurazione, depurazione-dell-acqua, depurazione-fisico-chimica, eu, fango
+  cat: Economia

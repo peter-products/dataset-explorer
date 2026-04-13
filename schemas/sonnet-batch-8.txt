@@ -1,0 +1,300 @@
+[400] For Hire Vehicles (FHV) - Active | pub=Taxi and Limousine Commission (TLC) | src=nyc.jsonl
+  desc: PLEASE NOTE: This dataset of all TLC licensed for-hire vehicles in good standing is updated daily between 4–7 PM. Check the “Last Update Date” to confirm it shows today’s or yesterday’s date. If it’s older, find the latest data here: Active Vehicles 
+  cols: DMV License Plate Number, Active, Base Type, Vehicle License Number, Website, License Type, Base Name, Base Address, Expiration Date, Wheelchair Accessible, Name, Base Telephone Number
+  tags: drivers, active, taxi, fhv, for hire, for-hire, for-hire-vehicles, inactive
+  cat: Transportation
+
+[401] DOB ECB Violations | pub=Department of Buildings (DOB) | src=nyc.jsonl
+  desc: This data set includes summonses issued by the Department of Buildings that are adjudicated by OATH/ECB. Separately, civil penalties (commonly referred to as ‘DOB Violations’) are found in the DOB Safety Violations (for newer issuances) and DOB Viola
+  cols: ISN_DOB_BIS_EXTRACT, ECB_VIOLATION_NUMBER, ECB_VIOLATION_STATUS, DOB_VIOLATION_NUMBER, BIN, BORO, BLOCK, LOT, HEARING_DATE, HEARING_TIME, SERVED_DATE, ISSUE_DATE
+  tags: dob, buildings, violation ecb, nov, 2018od4a-report
+  cat: Housing & Development
+
+[402] Property Data (Buildings Information System) | pub=Department of Buildings (DOB) | src=nyc.jsonl
+  desc: Do not use this dataset. It does not actually provide Property Data in its current form. We are working on improvements to the dataset to more accurately reflect its title and original intent.
+  cols: Permit Sequence Number, Permit Application Document Number, Permit SubType, Permit Status Date, Permit Issuance Date, Permit Application Job Type, Permit BIN, Permit Experation Date, Permit Type, Permit Status Description, Permit Application Job Number
+  tags: clean web, jurisdiction, building, property
+  cat: Housing & Development
+
+[403] Open Restaurant Applications (Historic) | pub=US Dept of Transportation | src=nyc.jsonl
+  desc: The Temporary Program, is no longer accepting applications. *****Visit Permanent Dining Out website for information: https://www.diningoutnyc.info/ The New York City Open Restaurant is an effort to implement a citywide multi-phase program to expand o
+  cols: Seating Interest (Sidewalk/Roadway/Both), Roadway Dimensions (Area), Approved for Sidewalk Seating, Legal Business Name, Borough, Building Number, Census Tract, Restaurant Name, Doing Business As (DBA), Roadway Dimensions (Length), Roadway Dimensions (Width), Business Address
+  tags: restaurant, sidewalk, roadway, open
+  cat: Transportation
+
+[404] Storefronts Reported Vacant or Not | pub=Department of Finance (DOF) | src=nyc.jsonl
+  desc: Storefronts Reported Vacant or Not. The dataset was created to comply with Local Law 157 of 2019. Data is collected using an online portal, which allows owners to provide information about ground and second floor storefronts on their properties. Each
+  cols: Expiration date of the most recent lease, Vacant 6/30 or Date Sold, Property Number, Sold Date, Unit, BBL, BIN, Borough, Filing Due Date, Longitude, Reporting Year, Property Street Address or Storefront Address
+  tags: None
+  cat: City Government
+
+[405] Forestry Tree Points | pub=Department of Parks and Recreation | src=nyc.jsonl
+  desc: Record of Forestry tree points for NYC Parks & Recreation. Tree Points and Planting Spaces form the basis of ForMS 2.0’s data inventory and are the core entities that all Service Requests, Inspections, and Work Orders are associated to. The system ha
+  cols: Borough Boundaries 2, Zip Codes 2, TPCondition, RiskRatingDate, PlantedDate, Community Districts 2, UpdatedDate, Police Precincts 2, Location, StumpDiameter, City Council Districts 2, PlantingSpaceGlobalID
+  tags: parks, trees, forestry
+  cat: Environment
+
+[406] Capital Project Schedules and Budgets | pub=School Construction Authority (SCA) | src=nyc.jsonl
+  desc: List of capital projects with managing organization, phase status and project costs.
+  cols: Final Estimate of Actual Costs Through End of Phase Amount, Project Type , Project School Name, Project Phase Actual Start Date, Project Phase Actual End Date, Total Phase Actual Spending Amount, Project Phase Planned End Date, Project Geographic District , Project Building Identifier, Project Budget Amount, Project Status Name, Project Description
+  tags: education, current, authority, construction, improvement, school, project, capital
+  cat: Housing & Development
+
+[407] Parking Violations Issued - Fiscal Year 2020 | pub=Department of Finance (DOF) | src=nyc.jsonl
+  desc: This dataset provides data on Parking Violations Issued between July 1, 2019 to June 30, 2020. In New York City, the fiscal year begins on July 1st of one calendar year and ends on June 30th of the following calendar year. Click here to find out more
+  cols: Street Code2, Issue Date, From Hours In Effect, Violation Time, Street Code1, Issuing Agency, Violation Location, Vehicle Body Type, Issuer Squad, Meter Number, Issuer Precinct, Street Code3
+  tags: parking violations issued - fiscal year, parking ticket, dof parking violations issued - data collection, summons, dof, finance, stars, ticket
+  cat: City Government
+
+[408] Annual Examination Schedule of Each Fiscal Year | pub=Department of Citywide Administrative Services (DCAS) | src=nyc.jsonl
+  desc: An annual list of civil service exams. The exam schedule is posted every July, lists all upcoming exams for the fiscal year, and is updated every month. Civil service exams may be available only for a limited time and it may be a few years before a c
+  cols: Open Competitive/Promotion/
+Qualified Incumbent Exam (QIE), Application Period End Date, Application Period Start Date, Examination Title, Examination Number, Data Current As Of
+  tags: civil service, examinations, department of citywide administrative services, dcas, human capital, exams
+  cat: City Government
+
+[409] Agency Spending by Budget Function | pub=Mayor’s Office of Management & Budget (OMB) | src=nyc.jsonl
+  desc: This dataset contains information, for a select number of agencies, detailing the costs of providing services within an agency. Amounts are in dollars. This dataset is updated three times per year after publication of the Preliminary, Executive and A
+  cols: FIRST ACTUAL FISCAL YEAR  , SPENDING TYPE DESCRIPTION, AGENCY CODE, AGENCY NAME, YEAR 3 ACTUAL, PLAN AMOUNT YEAR 2, SPENDING TYPE, PLAN AMOUNT YEAR 1, YEAR 2 ACTUAL, PUBLICATION DATE, YEAR 1 ACTUAL, FIRST PLAN FISCAL YEAR  
+  tags: None
+  cat: City Government
+
+[410] Bi-Annual Pedestrian Counts | pub=US Dept of Transportation | src=nyc.jsonl
+  desc: An index of pedestrian volumes tracking the long-term trends of neighborhood commercial corridors. Data is collected at 114 locations, including 100 on-street locations (primarily retail corridors), 13 East River and Harlem River bridge locations, an
+  cols: Street_Nam, Borough, May19_PM, Oct20_PM, May22_MD, June24_MD, May25_AM, May11_AM, Sept16_MD, Iex, Sept07_PM, May15_PM
+  tags: None
+  cat: Transportation
+
+[411] Dedicated Children's Areas (DCAs) | pub=Department of Parks and Recreation (DPR) | src=nyc.jsonl
+  desc: This dataset represents Dedicated Children's Areas in NYC Parks, previously known as Children’s Play Areas (CPAs). Each DCA is a designated space featuring play equipment specifically designed for children (i.e. play structures and spray showers) and
+  cols: shape, Borough, PublicLocation, OMPpropID, GISpropNum, ParkDistrict, PublicName, System
+  tags: playground, play units, play equipment, centroid, play areas
+  cat: Recreation
+
+[412] Vehicle Classification Counts (2011 - 2024) | pub=US Dept of Transportation | src=nyc.jsonl
+  desc: Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM). For NYBPM screenline locations where data has been collected within the last three years are
+  cols: 2:00-3:00AM, To, 11:00-12:00PM, Direction, ID, Roadway Name, Date, 10:00-11:00PM, 5:00-6:00PM, 12:00-1:00 AM, SegmentID, 3:00-4:00PM
+  tags: traffic volume; vehicle classification; counts; screenline; nymtc; lion
+  cat: Transportation
+
+[413] Forestry Service Requests | pub=Department of Parks and Recreation (DPR) | src=nyc.jsonl
+  desc: Record of Forestry service requests for NYC Parks & Recreation. Two-way integration with 311 is maintained in ForMS 2.0. Forestry related Service Requests (SRs) created by a 311 operator or submitted by the caller through either the 311 website, 311 
+  cols: BBL, City Council Districts 2, BoroughCode, SRResolution, Descriptor1, Police Precincts 2, BuildingNumber, Borough Boundaries 2, Location, Community Districts 2, ComplaintType, ParkName
+  tags: None
+  cat: Environment
+
+[414] Housing Database by 2020 NTA | pub=Department of City Planning (DCP) | src=nyc.jsonl
+  desc: Net change in housing units arising from new buildings, demolitions, or alterations for NYC NTAs since 2010. The NYC Department of City Planning's (DCP) Housing Database provide the 2010 census count of housing units, the net change in Class A housin
+  cols: comp2020, nta2020, comp2010, comp2015, Shape_Length, inactive, permitted, cenunits20, comp2024, comp2023, comp2016, comp2021
+  tags: job application, development, building, house, housing, permit, dwelling unit, certificate of occupancy
+  cat: Housing & Development
+
+[415] Weights, Measures, and Other Tests | pub=Department of Consumer and Worker Protection (DCWP) | src=nyc.jsonl
+  desc: This dataset features inspections of devices such as gasoline pumps, fuel oil meters, scales, petroleum octane ratings, and other weights and measures devices conducted by DCWP. DCWP inspects businesses to ensure compliance with the NYS Department of
+  cols: State, Business Unique ID, Date of Occurance, Devices Approved, Business Name, Devices Inspected, DBA Trade Name, Business Category, Inspection type, Device Class, Device Type, BIN
+  tags: scales, fuel oil, consumer, inspection, petroleum, individual, measurement, test
+  cat: City Government
+
+[416] 2016 - 2017 School Safety Report | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: Since 1998, the New York City Police Department (NYPD) has been tasked with the collection and maintenance of crime data for incidents that occur in New York City public schools. The NYPD has provided this data to the New York City Department of Educ
+  cols: Vio N, NYPD Site Name, Major N, NoCrim N, NYPD Site Code, School Year, # Schools, Borough, Location Name, Location Code, BBL, NTA
+  tags: doe, incidents, major crimes, non-criminal incidents
+  cat: Education
+
+[417] Pharmaceutical and Syringe Drop-Off Locations in NYC | pub=Department of Sanitation (DSNY) | src=nyc.jsonl
+  desc: Locations where NYC residents can drop off their pharmaceuticals and syringes for safe disposal. For more information, see: https://www.nyc.gov/site/dsny/collection/get-rid-of/pharmaceutical-sharps-drop-off.page. Carefully place household sharps in l
+  cols: City Council Districts, Zip Codes, Site Name, Days Hours, Census Tract, Community Districts, Longitude, Police Precincts, Borough Boundaries, Senate District, Zipcode, Phone Number
+  tags: pharmaceuticals, sharps, disposal, sanitation, dsny, syringes
+  cat: Environment
+
+[418] NYC Parks Events Listing – Event Locations | pub=Department of Parks and Recreation (DPR) | src=nyc.jsonl
+  desc: The NYC Parks Events Listing database is used to store event information displayed on the Parks website, nyc.gov/parks. There are seven related tables that make up the this database: 1. Events_Events table (This is the primary table that contains bas
+  cols: borough, accessible, name, Borough Boundaries, Police Precincts, City Council Districts, long, lat, event_id, Zip Codes, park_id, zip
+  tags: events, parks, outdoor, activities
+  cat: City Government
+
+[419] Policy and Procedure Recommendations (PPR) Portal | pub=Department of Investigation (DOI) | src=nyc.jsonl
+  desc: The New York City Department of Investigation’s Policy and Procedure Recommendations (PPR) Portal provides the public with a greater understanding of the recommendations DOI issues to City agencies and entities. PPRs are formal written recommendation
+  cols: Implementation Status, Recommendation, Date Issued, Agency, Date Implemented, Agency Reported Status, Acceptance Status
+  tags: investigation, department of investigation, policy and procedure recommendation
+  cat: City Government
+
+[420] NYC Open Data Plan: Website Data | pub=Office of Technology and Innovation (OTI) | src=nyc.jsonl
+  desc: NOTE: To review the latest plan, make sure to filter the "Report Year" column to the latest year. Data on public websites maintained by or on behalf of the city agencies.
+  cols: Already on Open Data?, Data Set Description, Report Year, Public Statement, Automatically Updated?, Update Frequency, Data Set Title, NYC Open Data URL, URL on Agency Website, Status, Scheduled for Publication?, Agency Name
+  tags: open data plan, local law 11 of 2012, compliance plan, open data report
+  cat: City Government
+
+[421] Directory Of Family Shelter Performance Ranking FY 2012 Q4 and 2013 Q1 | pub=Department of Homeless Services (DHS) | src=nyc.jsonl
+  desc: List of Facilities, Providers and their Rankings for Q4 2012 and Q1 2013
+  cols: Year & Quarter, Facility Name, Performance Tier, Provider Agency
+  tags: dhs, homeless, family, shelter, performance, ranking, q4, 2012
+  cat: Social Services
+
+[422] Mayor's Management Report Spending and Budget | pub=Mayor's Office of Operations (OPS) | src=nyc.jsonl
+  desc: Contains Spending and Budget information for City agencies, as reported in the Mayoral Management Report (MMR).
+  cols: Appropriation Type, Applicable_MMR_Goals, Modified Budget - Current FY ($000,000), Notes, Unit of Appropriation, Agency Code, Agency Name, Reporting Fiscal Year, Expenditures - Previous FY ($000,000), Agency
+  tags: spending, mmr, key performance indicators, kpi, kpis, spending and budget table, adopted budget, office of management and budget
+  cat: City Government
+
+[423] Buildings Selected for the Heat Sensor Program (HSP) | pub=City of New York | src=nyc.jsonl
+  desc: Every two years beginning in July 2020, the Department of Housing Preservation and Development (HPD) designates 50 class "A" multiple dwellings with heat violations and complaints for participation in a program requiring installation of heat sensors.
+  cols: PROGRAM_START_DATE, TOTAL_UNITS, CURRENT_STATUS, BBL, Council District, BUILDING_ID, Community Board, Neighborhood Tabulation Area (NTA) (2020), BIN, Latitude, DISCHARGE_DATE, Longitude
+  tags: housing; heat sensors program; sensors; hpd
+  cat: Housing & Development
+
+[424] 2015 School Allocation Memorandum (SAM) | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: This data represents funding allocated to New York City public schools in the school year.
+  cols: Total, SAM_LINK, SAM #, Subcategory
+  tags: doe, sam
+  cat: Education
+
+[425] Office of The Comptroller: Police Retirement System Holdings Data | pub=Office of the Comptroller | src=nyc.jsonl
+  desc: This dataset sets forth the Police Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.
+  cols: Data As Of, Security Name, Moody's Quality Rating, Security Description, Major Industry Name, Base Accrued Interest, Local Market Value, S and P Quality Rating, Period End Date, Local Total Cost Amount, Base Unrealized Gain/Loss, Local Unrealized Gain/Loss
+  tags: equity, stock, "fixed income", pension, retirement, holdings
+  cat: City Government
+
+[426] DOF: Condominium Comparable Rental Income – Brooklyn – FY 2009/2010 | pub=Department of Finance (DOF) | src=nyc.jsonl
+  desc: The Department of Finance (DOF) is required by NY State law to value condominiums or cooperatives as if they were residential rental apartment buildings. DOF uses income information from rental properties similar in physical features and location to 
+  cols: BROOKLYN CONDOMINIUM PROPERTY Full Market Value, NTA, Council District, COMPARABLE RENTAL 1  Building Classification, BBL, Borough, COMPARABLE RENTAL 1  Gross Income per SqFt, Community Board, BROOKLYN CONDOMINIUM PROPERTY Boro-Block-Lot, Longitude, Postcode, COMPARABLE RENTAL 2  Gross SqFt
+  tags: residential, rental property, finance, brooklyn, rental properties, buildings, apartment, condominiums
+  cat: None
+
+[427] DOP Adult Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average) | pub=Department of Probation (DOP) | src=nyc.jsonl
+  desc: The percentage of adult probationer arrests relative to all arrests recorded by the Police Department during the reporting period.
+  cols: Region, Month, Year, Rate
+  tags: dop
+  cat: Public Safety
+
+[428] TLC Authorized Behind The Wheel Providers (Historical) | pub=Taxi and Limousine Commission (TLC) | src=nyc.jsonl
+  desc: **NOTE**: This list is historical. The providers listed DO NOT offer this course. The course is on hold and will be offered again by different providers in late 2019.
+  cols: City, City Council Districts, BIN, BBL, Location 1, Council District , Borough Boundaries, Census Tract, SuiteApt, Zip Codes, Street, Number
+  tags: tlc, provider, education, training, taxi
+  cat: Transportation
+
+[429] DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009 | pub=Department of Finance (DOF) | src=nyc.jsonl
+  desc: The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-, 2- and 3-Family homes in the Bronx in 2009. Update 
+  cols: AVERAGE SALE PRICE, MEDIAN SALE PRICE, NUMBER OF SALES, TYPE OF HOME, TOTAL NO. OF PROPERTIES, HIGHEST SALE PRICE, NEIGHBORHOOD, LOWEST SALE PRICE
+  tags: department of finance, finance, dof, property, properties, neighborhoods, sales, neighborhood sales
+  cat: Housing & Development
+
+[430] Inclusionary Housing Transfers | pub=Department of Housing Preservation and Development (HPD) | src=nyc.jsonl
+  desc: The Inclusionary Housing Program is designed to preserve and promote affordable housing within neighborhoods where zoning has been modified to encourage new development. The Voluntary Inclusionary Housing program, enacted in 1987, enables a developme
+  cols: Transferred Floor Area, Generating Building ID, Transfer Building ID, Generating Project ID, Transfer Date
+  tags: None
+  cat: Housing & Development
+
+[431] Adult Protective Services - Ineligible Referral | pub=Human Resources Administration (HRA) | src=nyc.jsonl
+  desc: APS ineligible referrals with their closing reasons
+  cols: Under 18, Client Died - Citywide, Under 18 by Geographic Subset, Does Not Reside in NYC by Geographic Subset, Someone Else Willing and Able Responsibly  - Citywide, Client Died by Geographic Subset, Someone Else Willing and Able Responsibly by Geographic Subset, Does Not Reside in NYC, Unable to Locate  - Citywide, Does Not Reside in NYC  - Citywide, Unable to Locate by Geographic Subset, Total Ineligible Referrals  - Citywide
+  tags: None
+  cat: Social Services
+
+[432] Bus Delays April2020 994 - July 1, - December 31, 2019 | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: School bus delays report for first half of fiscal 2019/2020 school year. School bus companies report this data, and it is therefore subject to data entry error. Failure to arrive at school is not captured from the school bus company reported source f
+  cols: Month, School_Affiliation, Vendor_Name, Call_Count
+  tags: None
+  cat: Education
+
+[433] Funded Capacity Seats and Additional Needs | pub=School Construction Authority (SCA) | src=nyc.jsonl
+  desc: Funded capacity seats and additional needs by district for elementary, middle school, by borough for high school.
+  cols: Number of Seats in Scope / Design, District, Sub-District, November 2017 Identified Need, February 2018 Funded Need, Additional Need (Unfunded)
+  tags: education, sca, capacity, schools
+  cat: Education
+
+[434] NYC Climate Budgeting Report: Emission Factors | pub=Office of Management and Budget (OMB) | src=nyc.jsonl
+  desc: This dataset contains forecasted emissions factors for electricity generation and transportation. These factors are used to convert activity data to particulate matter 2.5 (PM2.5) emissions and metric ton of carbon dioxide equivalent (mTCO2e). This d
+  cols: Forecasted Year 2, Scenario, Published Date, Conversion Units, Source, Forecast Year, Conversion Value
+  tags: nyc omb, climate budgeting, executive budget, emissions
+  cat: None
+
+[435] Supervised Release Dockets | pub=Mayors Office of Criminal Justice (MOCJ) | src=nyc.jsonl
+  desc: Supervised Release entry data for each court docket that was released into the program.
+  cols: intake_max_severity, program_entry_date, program_name, supervision_level, docket_id, gender
+  tags: dockets, supervision, srp, supervised release
+  cat: City Government
+
+[436] DOF: Cooperative Comparable Rental Income – Bronx – FY 2010/2011 | pub=Department of Finance (DOF) | src=nyc.jsonl
+  desc: The Department of Finance (DOF) is required by NY State law to value condominiums or cooperatives as if they were residential rental apartment buildings. DOF uses income information from rental properties similar in physical features and location to 
+  cols: COMPARABLE RENTAL – 1 –Building Classification, COMPARABLE RENTAL – 2 –Est. Gross Income, COMPARABLE RENTAL – 2 –Building Classification, Postcode, BIN, COMPARABLE RENTAL – 1 –Market Value per SqFt, BRONX – COOPERATIVES COMPARABLE PROPERTIES – Gross Income per SqFt, BRONX – COOPERATIVES COMPARABLE PROPERTIES – Gross SqFt, BRONX – COOPERATIVES COMPARABLE PROPERTIES – Building Classification, NTA, COMPARABLE RENTAL – 2 –Year Built, COMPARABLE RENTAL – 1 –Address (zip)
+  tags: department of finance, finance, dof, rental property, cooperatives, residential, apartment, buildings
+  cat: Housing & Development
+
+[437] Weigh in Motion (Historical) | pub=US Dept of Transportation | src=nyc.jsonl
+  desc: Weigh In Motion (WIM) devices are designed to capture and record the axle weights and gross vehicle weights as trucks drive over sensors at measurement sites. WIM devices are installed on City-owned section of the Brooklyn-Queens Expressway from the 
+  cols: month, day, year, dirtravel, wt13, spc12, direction, lane, spc6, wt12, gvw, wt14
+  tags: axle, wim, weigh in motion, trucks, overweight, gvw, gross vehicle weight
+  cat: Transportation
+
+[438] Midday Trips | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: List of daily field trip destinations for a month along with number of trips and number of vehicles.
+  cols: Total Vehicles, School_Year, Total Field Trips, Unique Destinations, OPT Code, Total Passengers
+  tags: None
+  cat: Education
+
+[439] 2019-2020 Local Law 231 | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: The workshop provides an overview of the DOE policies related to New York State’s Dignity for All Students Act, with a focus on Chancellor’s Regulations A-832-Student to Student Discrimination, Harassment, Intimidation, and/or Bullying and A-831-Stud
+  cols: LGBTQGNC Training - Teachers, Gender Sexuality Alliance?, LGBTQGNC Training - Admin, Location_Name, Location_Category_Description, LocationCode, LGBTQGNC Training - Other
+  tags: None
+  cat: Education
+
+[440] CSC Appeals Filed in Calendar Year | pub=Civil Service Commission (CSC) | src=nyc.jsonl
+  desc: A list of all appeals filed with the Civil Service Commission in CYs beginning from CY 2014. This list includes both Civil Service Law Section 50 Disqualification Appeals and Civil Service Law Section 76 Disciplinary Appeals. The expiration dates lis
+  cols: Title, Date Closed, Date Filed, Agency, Appeal Subtype, Expiration, Exam No., Extension, Status, Acronym, Appeal Type
+  tags: civil service commission, appeals
+  cat: City Government
+
+[441] Historical Medallion Drivers – Passenger Assistance Trained 2018 | pub=Taxi and Limousine Commission (TLC) | src=nyc.jsonl
+  desc: This list contains information on the status of current medallion drivers who had completed Passenger Assistance Training. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. To view the lates
+  cols: Type, Last Date Updated, Name, License Number, Last Time Updated, Expiration Date, Completed Both Training
+  tags: None
+  cat: Transportation
+
+[442] 2015-16 Demographic Data - Grades K-8 Special Programs | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: None
+  cols: %ELL Spanish, MATH %L3 + L4, %Asian, #Male, %Black, #Other, %Other, #Grade 8, %ELL Chinese, #Asian, #Grade 7, ELA #Test Takers
+  tags: grades k-8 special programs; plan2017-demographicreport, 2015, demographic data, 2016
+  cat: Education
+
+[443] Capital Grant Awards 2015 | pub=Manhattan Borough President | src=nyc.jsonl
+  desc: Every year the Manhattan Borough President provides funding in support of various important capital projects throughout Manhattan. This funding is available to city agencies, nonprofit organizations, cultural institutions, and public schools for proj
+  cols: LONGITUDE, 2015 AWARD, BOROUGH, PROJECT TITLE, 2015 ORGANIZATION, POSTCODE, PROJECT ADDRESS, BBL, NTA, COUNCIL DISTRICT, CENSUS TRACT, COMMUNITY BOARD
+  tags: plan-cga
+  cat: City Government
+
+[444] VZV Street Improvement Projects (SIP) Corridor | pub=US Dept of Transportation | src=nyc.jsonl
+  desc: Safety-oriented engineering improvements that use multiple treatments (signals, markings, concrete etc) on both corridors and intersections. Improvements are generally aimed at better organizing traffic, improving travel times, creating shorter, safe
+  cols: pjct_name, sip_year, Shape_Leng, end_date, the_geom
+  tags: sip, corridor, vision zero, vz, vzv, vision zero view
+  cat: Transportation
+
+[445] Local Law 161 - Escorts at Benefits Access Centers and SNAP Centers | pub=Human Resources Administration (HRA) | src=nyc.jsonl
+  desc: Escorts at the Benefits Access Centers and SNAP Centers, disaggregated by: (a) The job center or SNAP center where the escort occurred;(b) The basis for the encounter. The term “escort” means the accompaniment of an individual by a peace officer or s
+  cols: Council District, BIN, Latitude, Community Board, Center, BBL, Census Tract (2020), Neighborhood Tabulation Area (NTA) (2020), Longitude, Year, Quarter, Location
+  tags: escorts, snap center, benefit access center, local law 161
+  cat: Public Safety
+
+[446] nyct2000 | pub=Department of City Planning (DCP) | src=nyc.jsonl
+  desc: GIS data: Boundaries of 2000 Census Tracts. All previously released versions of this data are available at BYTES of the BIG APPLE- Archive
+  cols: PUMA, CDEligibil, NTACode, BoroName, CT2000, Shape_Leng, Shape_Area, BoroCode, BoroCT2000, CTLabel, the_geom, NTANAme
+  tags: geographic, boundary, location, tract, dcp, census, poll, map
+  cat: City Government
+
+[447] 2018-2019 Class Size Report District K-8 Class Size Distribution | pub=NYC Dept of Education | src=nyc.jsonl
+  desc: 2018-2019 Class Size District report for kindergarten through eighth grades by program type, number of students, number of classes and average class size.
+  cols: Number of Students, Program Type, Class Size, % of Students within Grade, District, Number of Classes, Grade Level
+  tags: None
+  cat: Education
+
+[448] Election Districts (water areas included) | pub=Department of City Planning (DCP) | src=nyc.jsonl
+  desc: New York City Board of Elections election district boundaries for New York City including portions under water. All previously released versions of this data are available on the DCP Website: BYTES of the BIG APPLE. Current version: 26a
+  cols: Shape_Length, ElectDist, Shape_Area, the_geom
+  tags: election districts, political, boundary, boundaries, districts, lion, cscl, department of city planning
+  cat: City Government
+
+[449] 2010 Census Blocks (water areas included) | pub=Department of City Planning (DCP) | src=nyc.jsonl
+  desc: Census Blocks from the 2010 US Census for New York City including portions under water. These boundary files are derived from the US Census Bureau's TIGER project and have been geographically modified to fit the New York City base map. All previously
+  cols: BoroCode, BCTCB2010, CT2010, BoroName, CB2010, the_geom, Shape_Length, Shape_Area
+  tags: boundary, lion, us census bureau, districts, boundaries, new york city, 2010, department of city planning
+  cat: City Government

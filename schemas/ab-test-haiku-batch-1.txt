@@ -1,0 +1,299 @@
+[50] Current account - quarterly data | pub=Eurostat | src=eurostat.jsonl
+  desc: Current account - quarterly data. Path: Balance of payments. Data period: 1991-Q1 to 2025-Q4.
+  cols: None
+  tags: Balance of payments
+  cat: Balance of payments
+
+[51] Persons aged 25-64 with tertiary educational attainment level by sex and NUTS 2 region | pub=Eurostat | src=eurostat.jsonl
+  desc: Persons aged 25-64 with tertiary educational attainment level by sex and NUTS 2 region. Path: Regional education statistics. Data period: 2013 to 2024.
+  cols: None
+  tags: Regional education statistics
+  cat: Regional education statistics
+
+[52] Persons at risk of poverty or social exclusion by NUTS 2 region | pub=Eurostat | src=eurostat.jsonl
+  desc: Persons at risk of poverty or social exclusion by NUTS 2 region. Path: Regional poverty and social exclusion statistics. Data period: 2015 to 2025.
+  cols: None
+  tags: Regional poverty and social exclusion statistics
+  cat: Regional poverty and social exclusion statistics
+
+[53] Population in private households by care responsibilities and degree of urbanisation (2018) | pub=Eurostat | src=eurostat.jsonl
+  desc: Population in private households by care responsibilities and degree of urbanisation (2018). Path: 2018. Reconciliation between work and family life. Data period: 2018 to 2018.
+  cols: None
+  tags: 2018. Reconciliation between work and family life
+  cat: 2018. Reconciliation between work and family life
+
+[54] Electricity and gas prices for households - ENP-South countries | pub=Eurostat | src=eurostat.jsonl
+  desc: Electricity and gas prices for households - ENP-South countries. Path: Energy. Data period: 2005 to 2024.
+  cols: None
+  tags: Energy
+  cat: Energy
+
+[55] Real GDP per capita | pub=Eurostat | src=eurostat.jsonl
+  desc: Real GDP per capita. Path: GDP and components. Data period: 1995 to 2025.
+  cols: None
+  tags: GDP and components
+  cat: GDP and components
+
+[56] Remaining maturity of general government gross debt | pub=Eurostat | src=eurostat.jsonl
+  desc: Remaining maturity of general government gross debt. Path: Structure of government debt. Data period: 1995 to 2024.
+  cols: None
+  tags: Structure of government debt
+  cat: Structure of government debt
+
+[57] Population by current activity status, age and NUTS 2 region | pub=Eurostat | src=eurostat.jsonl
+  desc: Population by current activity status, age and NUTS 2 region. Path: Population by employment characteristics. Data period: 2021 to 2021.
+  cols: None
+  tags: Population by employment characteristics
+  cat: Population by employment characteristics
+
+[58] Infant mortality by mother's educational attainment level (ISCED11f) and father's educational attain | pub=Eurostat | src=eurostat.jsonl
+  desc: Infant mortality by mother's educational attainment level (ISCED11f) and father's educational attainment level (ISCED11). Path: Mortality (national level). Data period: 2013 to 2024.
+  cols: None
+  tags: Mortality (national level)
+  cat: Mortality (national level)
+
+[59] Long-term residence permits issued during the year by age, sex and citizenship | pub=Eurostat | src=eurostat.jsonl
+  desc: Long-term residence permits issued during the year by age, sex and citizenship. Path: Residence permits by reason, age, sex and citizenship. Data period: 2020 to 2024.
+  cols: None
+  tags: Residence permits by reason, age, sex and citizenship
+  cat: Residence permits by reason, age, sex and citizenship
+
+[60] Devices for medical imaging | pub=Eurostat | src=eurostat.jsonl
+  desc: Devices for medical imaging. Path: Health care facilities. Data period: 1980 to 2024.
+  cols: None
+  tags: Health care facilities
+  cat: Health care facilities
+
+[61] Detailed deaths related to transport accidents occurring in the EU | pub=Eurostat | src=eurostat.jsonl
+  desc: Detailed deaths related to transport accidents occurring in the EU. Path: Public health themes. Data period: 2011 to 2023.
+  cols: None
+  tags: Public health themes
+  cat: Public health themes
+
+[62] Labour force participation rates by level of disability (activity limitation) and educational attain | pub=Eurostat | src=eurostat.jsonl
+  desc: Labour force participation rates by level of disability (activity limitation) and educational attainment level. Path: Access to the labour market. Data period: 2022 to 2024.
+  cols: None
+  tags: Access to the labour market
+  cat: Access to the labour market
+
+[63] Distribution of education and training activities by field (ISCED-F 1999) (2007-2011) | pub=Eurostat | src=eurostat.jsonl
+  desc: Distribution of education and training activities by field (ISCED-F 1999) (2007-2011). Path: -----. Data period: 2007 to 2011.
+  cols: None
+  tags: -----
+  cat: -----
+
+[64] Annual expenditure on educational institutions per pupil/student based on FTE, by education level an | pub=Eurostat | src=eurostat.jsonl
+  desc: Annual expenditure on educational institutions per pupil/student based on FTE, by education level and programme orientation. Path: Expenditure of/on public and private educational institutions. Data p
+  cols: None
+  tags: Expenditure of/on public and private educational institutions
+  cat: Expenditure of/on public and private educational institutions
+
+[65] Employment by educational attainment level - quarterly data | pub=Eurostat | src=eurostat.jsonl
+  desc: Employment by educational attainment level - quarterly data. Path: Employment and activity - LFS adjusted series. Data period: 2009-Q1 to 2025-Q4.
+  cols: None
+  tags: Employment and activity - LFS adjusted series
+  cat: Employment and activity - LFS adjusted series
+
+[66] Temporary employees by main reason | pub=Eurostat | src=eurostat.jsonl
+  desc: Temporary employees by main reason. Path: Temporary employment. Data period: 1983 to 2024.
+  cols: None
+  tags: Temporary employment
+  cat: Temporary employment
+
+[67] Unemployment rate by work experience while studying and country of birth (2024) | pub=Eurostat | src=eurostat.jsonl
+  desc: Unemployment rate by work experience while studying and country of birth (2024). Path: Labour market outcomes. Data period: 2024 to 2024.
+  cols: None
+  tags: Labour market outcomes
+  cat: Labour market outcomes
+
+[68] Employed persons working on weekends by educational attainment level and work experience while study | pub=Eurostat | src=eurostat.jsonl
+  desc: Employed persons working on weekends by educational attainment level and work experience while studying - % of total employment (2016). Path: Labour market outcomes. Data period: 2016 to 2016.
+  cols: None
+  tags: Labour market outcomes
+  cat: Labour market outcomes
+
+[69] Percentage of employees working overtime, by sex, age and occupation | pub=Eurostat | src=eurostat.jsonl
+  desc: Percentage of employees working overtime, by sex, age and occupation. Path: Work organisation and working time arrangements (2004). Data period: 2004 to 2004.
+  cols: None
+  tags: Work organisation and working time arrangements (2004)
+  cat: Work organisation and working time arrangements (2004)
+
+[70] Employees by sex, economic activity and educational attainment (2014) | pub=Eurostat | src=eurostat.jsonl
+  desc: Employees by sex, economic activity and educational attainment (2014). Path: Number of employees. Data period: 2014 to 2014.
+  cols: None
+  tags: Number of employees
+  cat: Number of employees
+
+[71] Monthly minimum wages - bi-annual data | pub=Eurostat | src=eurostat.jsonl
+  desc: Monthly minimum wages - bi-annual data. Path: Minimum wages. Data period: 1999-S1 to 2026-S1.
+  cols: None
+  tags: Minimum wages
+  cat: Minimum wages
+
+[72] Mean and median income by household type | pub=Eurostat | src=eurostat.jsonl
+  desc: Mean and median income by household type. Path: Distribution of income. Data period: 1995 to 2025.
+  cols: None
+  tags: Distribution of income
+  cat: Distribution of income
+
+[73] Inability to make ends meet | pub=Eurostat | src=eurostat.jsonl
+  desc: Inability to make ends meet. Path: Economic strain. Data period: 2003 to 2025.
+  cols: None
+  tags: Economic strain
+  cat: Economic strain
+
+[74] Persons not participating in cultural or sport activities in the last 12 months by sex, age, level o | pub=Eurostat | src=eurostat.jsonl
+  desc: Persons not participating in cultural or sport activities in the last 12 months by sex, age, level of disability (activity limitation), activity type and reasons. Path: Social and cultural participati
+  cols: None
+  tags: Social and cultural participation - new indicators and breakdowns (2022)
+  cat: Social and cultural participation - new indicators and breakdowns (2022)
+
+[75] Distribution of direct and indirect taxes paid by households as a percentage of their gross income b | pub=Eurostat | src=eurostat.jsonl
+  desc: Distribution of direct and indirect taxes paid by households as a percentage of their gross income by household type - experimental statistics. Path: Taxation. Data period: 2010 to 2020.
+  cols: None
+  tags: Taxation
+  cat: Taxation
+
+[76] Police officers (1993-2007) | pub=Eurostat | src=eurostat.jsonl
+  desc: Police officers (1993-2007). Path: Crime - historical data (until 2007). Data period: 1993 to 2007.
+  cols: None
+  tags: Crime - historical data (until 2007)
+  cat: Crime - historical data (until 2007)
+
+[77] Number of enterprises by importance of barriers met in cross border trade and economic activity (200 | pub=Eurostat | src=eurostat.jsonl
+  desc: Number of enterprises by importance of barriers met in cross border trade and economic activity (2004). Path: Business Services (2004-2020). Data period: 2004 to 2004.
+  cols: None
+  tags: Business Services (2004-2020)
+  cat: Business Services (2004-2020)
+
+[78] Establishments, bedrooms and bed-places in tourist accommodation, by degree of urbanisation and coas | pub=Eurostat | src=eurostat.jsonl
+  desc: Establishments, bedrooms and bed-places in tourist accommodation, by degree of urbanisation and coastal/non-coastal area and NUTS 2 region. Path: Capacity of tourist accommodation establishments. Data
+  cols: None
+  tags: Capacity of tourist accommodation establishments
+  cat: Capacity of tourist accommodation establishments
+
+[79] Machinery for livestock management by age and training of manager, size classes of livestock and NUT | pub=Eurostat | src=eurostat.jsonl
+  desc: Machinery for livestock management by age and training of manager, size classes of livestock and NUTS 2 region. Path: Management and practices. Data period: 2023 to 2023.
+  cols: None
+  tags: Management and practices
+  cat: Management and practices
+
+[80] Price indices of agricultural products, output (2000 = 100) - monthly data | pub=Eurostat | src=eurostat.jsonl
+  desc: Price indices of agricultural products, output (2000 = 100) - monthly data. Path: Price indices of agricultural products (2000 = 100). Data period: 1988-01 to 2005-12.
+  cols: None
+  tags: Price indices of agricultural products (2000 = 100)
+  cat: Price indices of agricultural products (2000 = 100)
+
+[81] Fishing fleet, total tonnage | pub=Eurostat | src=eurostat.jsonl
+  desc: Fishing fleet, total tonnage. Path: Fishing fleet. Data period: 2013 to 2024.
+  cols: None
+  tags: Fishing fleet
+  cat: Fishing fleet
+
+[82] Inland waterway transport by type of cargo, type of goods and coverage | pub=Eurostat | src=eurostat.jsonl
+  desc: Inland waterway transport by type of cargo, type of goods and coverage. Path: Inland waterways transport measurment - goods- historical annual data (1982-2007). Data period: 2014 to 2024.
+  cols: None
+  tags: Inland waterways transport measurment - goods- historical annual data (1982-2007)
+  cat: Inland waterways transport measurment - goods- historical annual data (1982-2007)
+
+[83] Goods transported by group of goods - from 2008 onwards based on NST 2007 | pub=Eurostat | src=eurostat.jsonl
+  desc: Goods transported by group of goods - from 2008 onwards based on NST 2007. Path: Railway transport measurement - goods - historical data (1982-2002). Data period: 2008 to 2024.
+  cols: None
+  tags: Railway transport measurement - goods - historical data (1982-2002)
+  cat: Railway transport measurement - goods - historical data (1982-2002)
+
+[84] Road motor vehicle traffic performance by traffic and registration location and type of vehicle | pub=Eurostat | src=eurostat.jsonl
+  desc: Road motor vehicle traffic performance by traffic and registration location and type of vehicle. Path: Road traffic - historical data (until 2012). Data period: 2008 to 2024.
+  cols: None
+  tags: Road traffic - historical data (until 2012)
+  cat: Road traffic - historical data (until 2012)
+
+[85] Management of waste excluding major mineral waste, by waste management operations | pub=Eurostat | src=eurostat.jsonl
+  desc: Management of waste excluding major mineral waste, by waste management operations. Path: Waste generation and treatment. Data period: 2010 to 2022.
+  cols: None
+  tags: Waste generation and treatment
+  cat: Waste generation and treatment
+
+[86] GERD by source of funds | pub=Eurostat | src=eurostat.jsonl
+  desc: GERD by source of funds. Path: Gross domestic expenditure on R&D (GERD) at national and regional level. Data period: 1980 to 2024.
+  cols: None
+  tags: Gross domestic expenditure on R&D (GERD) at national and regional level
+  cat: Gross domestic expenditure on R&D (GERD) at national and regional level
+
+[87] Basic economic information on the enterprises by NACE Rev. 2 activity and size class (2014) | pub=Eurostat | src=eurostat.jsonl
+  desc: Basic economic information on the enterprises by NACE Rev. 2 activity and size class (2014). Path: Community innovation survey 2014 (CIS2014). Data period: 2014 to 2014.
+  cols: None
+  tags: Community innovation survey 2014 (CIS2014)
+  cat: Community innovation survey 2014 (CIS2014)
+
+[88] Employed HRST by category, NACE Rev. 1.1 activity and NUTS 1 region (1994 - 2007) | pub=Eurostat | src=eurostat.jsonl
+  desc: Employed HRST by category, NACE Rev. 1.1 activity and NUTS 1 region (1994 - 2007). Path: Stocks of HRST - historical data. Data period: 1999 to 2008.
+  cols: None
+  tags: Stocks of HRST - historical data
+  cat: Stocks of HRST - historical data
+
+[89] Persons with information and communications technology (ICT) education by labour status | pub=Eurostat | src=eurostat.jsonl
+  desc: Persons with information and communications technology (ICT) education by labour status. Path: -----. Data period: 2004 to 2024.
+  cols: None
+  tags: -----
+  cat: -----
+
+[90] Balance of payments, current account, quarterly data | pub=Eurostat | src=eurostat.jsonl
+  desc: Balance of payments, current account, quarterly data. Path: Current account. Data period: 2023-Q1 to 2025-Q4.
+  cols: None
+  tags: Current account
+  cat: Current account
+
+[91] Area at risk of severe soil erosion by water | pub=Eurostat | src=eurostat.jsonl
+  desc: Area at risk of severe soil erosion by water. Path: Goal 2 - Zero hunger. Data period: 2000 to 2023.
+  cols: None
+  tags: Goal 2 - Zero hunger
+  cat: Goal 2 - Zero hunger
+
+[92] Youth unemployment rate by sex | pub=Eurostat | src=eurostat.jsonl
+  desc: Youth unemployment rate by sex. Path: Employment performance monitor - indicators. Data period: 2005 to 2025.
+  cols: None
+  tags: Employment performance monitor - indicators
+  cat: Employment performance monitor - indicators
+
+[93] People living in households with very low work intensity by sex | pub=Eurostat | src=eurostat.jsonl
+  desc: People living in households with very low work intensity by sex. Path: At risk of poverty or social exclusion (AROPE) components and 2030 targets. Data period: 2015 to 2025.
+  cols: None
+  tags: At risk of poverty or social exclusion (AROPE) components and 2030 targets
+  cat: At risk of poverty or social exclusion (AROPE) components and 2030 targets
+
+[94] Population in private households by educational attainment level, citizenship and NUTS 2 region | pub=Eurostat | src=eurostat.jsonl
+  desc: Population in private households by educational attainment level, citizenship and NUTS 2 region. Path: Distribution of the population by educational attainment level. Data period: 2004 to 2024.
+  cols: None
+  tags: Distribution of the population by educational attainment level
+  cat: Distribution of the population by educational attainment level
+
+[95] Foreign-born population | pub=Eurostat | src=eurostat.jsonl
+  desc: Foreign-born population. Path: Population by age, sex, country of birth and migration status. Data period: 2014 to 2025.
+  cols: None
+  tags: Population by age, sex, country of birth and migration status
+  cat: Population by age, sex, country of birth and migration status
+
+[96] Women who have experienced violence by a non-partner, by type of violence | pub=Eurostat | src=eurostat.jsonl
+  desc: Women who have experienced violence by a non-partner, by type of violence. Path: Gender-based violence. Data period: 2021 to 2021.
+  cols: None
+  tags: Gender-based violence
+  cat: Gender-based violence
+
+[97] Individuals using the internet for seeking health-related information | pub=Eurostat | src=eurostat.jsonl
+  desc: Individuals using the internet for seeking health-related information. Path: Internet and computer use. Data period: 2013 to 2025.
+  cols: None
+  tags: Internet and computer use
+  cat: Internet and computer use
+
+[98] Participation rate in education and training by labour status | pub=Eurostat | src=eurostat.jsonl
+  desc: Participation rate in education and training by labour status. Path: -----. Data period: 2007 to 2022.
+  cols: None
+  tags: -----
+  cat: -----
+
+[99] Population by size of the locality, housing arrangements and NUTS 3 region | pub=Eurostat | src=eurostat.jsonl
+  desc: Population by size of the locality, housing arrangements and NUTS 3 region. Path: Housing arrangements. Data period: 2021 to 2021.
+  cols: None
+  tags: Housing arrangements
+  cat: Housing arrangements

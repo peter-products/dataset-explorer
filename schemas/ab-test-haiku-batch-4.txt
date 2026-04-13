@@ -1,0 +1,329 @@
+[200] Maintenance des logiciels de gestion MAINCARE du CHR Metz-Thionville, du CH de Briey, du CH de Boula | pub=CHR METZ-THIONVILLE | src=france.jsonl
+  desc: La procédure de consultation utilisée est celle de la procédure de marché négocié sans publicité et sans mise en concurrence, article R.2122-3-3° du code de la commande publique. Il s’agit d’un marché
+  cols: None
+  tags: maincare, maintenance-logiciel
+  cat: maincare
+
+[201] Taux de pauvreté en 2018 au seuil de 60% de vie médian sur le Littoral Elargi | pub=Région Hauts-de-France | src=france.jsonl
+  desc: La carte met en évidence le taux de pauvreté en pourcentage par EPCI en 2016 sur le littoral élargi
+  cols: None
+  tags: , pauvrete, region, societe, statique
+  cat: None
+
+[202] Part de la population des 65 ans et plus à l'horizon 2040 par EPCI regroupés Bassin Littoral Sud | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Part de la population (7 classes) avec valeur régionale
+  cols: None
+  tags: , bassin, demographie, infra-departemental, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-du-littoral-sud, mobilite, societe, statique
+  cat: None
+
+[203] Résultats des élections municipales 2026 | pub=Communauté de Communes Coeur de France | src=france.jsonl
+  desc: Ce jeu de données présente les résultats détaillés des élections municipales de 2026 pour plusieurs communes du territoire.  
+Il contient, pour chaque commune et pour chaque tour de scrutin, des infor
+  cols: None
+  tags: administration, communes, elections-municipales, epci, suffrage
+  cat: administration
+
+[204] CA du Saint Quentinois | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Zoom sur l'Etablissement Public de Coopération Intercommunale (EPCI) en question avec le découpage communal le concernant.
+  cols: None
+  tags: , epci, referentiel, region, statique
+  cat: None
+
+[205] Evolution de l'emploi salarié privé par EPCI entre le 31/12/2019 et 31/12/2021 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Evolution de l'emploi par EPCI ainsi que le nombre d'emplois gagnés ou perdus
+  cols: None
+  tags: , emploi, region, salarie, statique
+  cat: None
+
+[206] Poids de l'industrie dans l'emploi salarié privé et spécificité de l'espace Métropolitain Lillois | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Représentation par arrondissement du poids de l'emploi industriel dans l'emploi salarié total et spécificités territoriales du type d'industrie
+  cols: None
+  tags: , emploi, region, salarie, statique
+  cat: None
+
+[207] Cartographie de l'offre des formations sanitaires : pédicure podologue | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Localisation et effectif des formations sanitaires : pédicure podologue
+  cols: None
+  tags: , formation, pedicure, region, statique
+  cat: None
+
+[208] Communes lauréates de l'appel à projet Centre-Ville Centre bourg dans le département de l'Oise | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Représentation des communes lauréates de l'appel à projet Centre-Ville Centre Bourg dans l'Oise
+  cols: None
+  tags: , amenagement, centre-bourg, centre-ville, region, statique
+  cat: None
+
+[209] Communes compétentes en AEP | pub=DDT Tarn | src=france.jsonl
+  desc: Communes compétentes en AEP.
+
+Données mises à jour au 15 janvier 2026.
+
+Pas de restriction d'accès public selon INSPIRE.
+  cols: None
+  tags: donnees-ouvertes, eau-aep
+  cat: donnees-ouvertes
+
+[210] Les sites Picardie en Ligne | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Inventaire des sites Picardie en Ligne selon leur nature.
+  cols: None
+  tags: , amenagement, numerique, region, statique
+  cat: None
+
+[211] Caractéristiques du PPRI de la Seine | pub=Direction Départementale des Territoires et de la Mer de l'E | src=france.jsonl
+  desc: Caractéristiques du PPRI de la Seine
+  cols: None
+  tags: donnees-ouvertes, inspire, risque-zonages-risque-naturel, zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration
+  cat: donnees-ouvertes
+
+[212] Communes lauréates du dispositif Villages d’avenir en région Hauts-de-France - 1ère vague 2024 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: La carte met en évidence les communes lauréates du dispositif Villages d'avenir
+  cols: None
+  tags: , amenagement, avenir, region, statique, village
+  cat: None
+
+[213] Classe du différentiel de mortalité chez les moins de 65 ans en regard de la France hexagonale avec  | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Représentation du taux de surmortalité par EPCI
+  cols: None
+  tags: , demographie, mortalite, region, statique
+  cat: None
+
+[214] Futur pro - indicateurs formation/établissement | pub=Ministères de l'Éducation nationale | src=france.jsonl
+  desc: Futur pro - indicateurs formation/établissement
+  cols: None
+  tags: None
+  cat: None
+
+[215] CA Chauny Tergnier La Fère | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Zoom sur l'Etablissement Public de Coopération Intercommunale (EPCI) en question avec le découpage communal le concernant.
+  cols: None
+  tags: , epci, referentiel, region, statique
+  cat: None
+
+[216] Les Continuités Ecologiques Régionales en Hauts-de-France | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Cet Atlas met en évidence les axes de la stratégie régionale du SRADDET pour la biodiversité :
+•	Assurer un usage durable de la nature et de la biodiversité ;
+•	Préserver la nature et les services qu’
+  cols: None
+  tags: , biodiversite, corridor, environnement, infra-departemental, sraddet-continuites-ecologiques, statique
+  cat: None
+
+[217] Part des « NEET » (Neither in Employment nor in Education or Training) parmi les 15-29 ans en 2017 à | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Part des « NEET » en pourcentage et cercles proportionnels
+  cols: None
+  tags: , emploi, neet, region, statique
+  cat: None
+
+[218] Infrastructures de transport Bassin Arrageois | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Infrastructures de transport
+  cols: None
+  tags: , bassin, infra-departemental, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-de-larrageois, mobilite, societe, statique
+  cat: None
+
+[219] Nombre de 15-29 ans et part dans la population à l’horizon 2040 par EPCI regroupés Bassin Sud de l'A | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Nombre en 2040 de 15-29 ans et part dans la population en % (6 classes) avec moyenne régionale
+  cols: None
+  tags: , bassin, demographie, infra-departemental, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-du-sud-de-laisne, mobilite, societe, statique
+  cat: None
+
+[220] Nombre d’emploi industriel et Poids dans l’emploi du territoire par EPCI en région Hauts-de-France | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Représentation du nombre d’emploi industriel et poids dans l’emploi du territoire par EPCI
+  cols: None
+  tags: , emploi, industriel, region, statique
+  cat: None
+
+[221] Comptages vélos (pas journalier) | pub=Département des Hauts-de-Seine | src=france.jsonl
+  desc: Comptages vélos journaliers collectés par les compteurs vélos permanents du Département des Hauts-de-Seine
+
+* * *
+
+Dans le cadre de sa politique en faveur des mobilités douces, le Département des Haut
+  cols: None
+  tags: bandes-cyclables, comptages, compteurs, pistes-cyclables, transport-mobilite, velos
+  cat: bandes-cyclables
+
+[222] Aires de jeux de Bordeaux | pub=Bordeaux Métropole | src=france.jsonl
+  desc: [ ![picto dictionnaire public](/assets/theme_image/dico_big.png) Dictionnaire Public ](https://data.bordeaux-metropole.fr/dicopub/#/dico#ec_aire_de_jeux_s)
+
+  
+
+
+Ce jeu de données représente l'ensembl
+  cols: None
+  tags: aires-de-jeux, biogeographiques, data-gouv, enfance-jeunesse, environnement, espaces-verts, jardins, nature
+  cat: aires-de-jeux
+
+[223] Hauts-de-France - Diversité - Plantes vasculaires tous statuts (Toutes périodes - Par maille 25 km²) | pub=Conservatoire Botanique National | src=france.jsonl
+  desc: Nombre, par maille de 25 km², de plantes vasculaires (tous statuts) pour la région des Hauts-de-France, observées toutes dates
+
+Description du contenu
+Cette couche précise, par maille de 25 km² et pou
+  cols: None
+  tags: , diversite, flore, maille-25-km2, periodes-ancienne-et-moderne-toutes-dates, plantes-vasculaires, region-des-hauts-de-france
+  cat: None
+
+[224] Occupation des sols à grande échelle - Commune de Beaumes-de-Venise - 2001, 2010, 2014 et 2021 | pub=Communauté d'Agglomération Ventoux Comtat Venaissin | src=france.jsonl
+  desc: Cartographie de l'occupation du sol de la commune de Beaumes-de-Venise réalisée à partir des photographies aériennes IGN 2001, 2010, 2014 et 2021. Validité des sources : 2021. **Producteur **: Syndica
+  cols: None
+  tags: consommation-espace, mos, occupation-des-terres, occupation-du-sol, ocsol, ocsol-1, scot, usage-des-sols
+  cat: consommation-espace
+
+[225] Calque de plantabilité de la Métropole de Lyon (millésime 2025) | pub=Métropole de Lyon | src=france.jsonl
+  desc: Pour planter de manière plus efficiente et prédictive sur le territoire, il est nécessaire d’identifier les zones plantables en prenant en compte les contraintes telles que les réseaux souterrains, us
+  cols: None
+  tags: None
+  cat: None
+
+[226] Prix moyen par pièce des maisons dans les communes Bassin Arrageois | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Valeur foncière moyenne par pièce des maisons mutées de la commune (5 classes)
+  cols: None
+  tags: , bassin, infra-departemental, logement, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-de-larrageois, mobilite, societe, statique
+  cat: None
+
+[227] Tableau de synthèse n°1 relatif à la déclaration R-nano | Rapport 2025 | pub=Ministère de la Transition écologique | src=france.jsonl
+  desc: Ce document fait partie du **rapport R-nano 2025** portant sur **les activités relatives aux nanomatériaux déclarées au titre de l'année 2024.**
+
+Le **rapport R-nano 2025** complet est disponible [ici
+  cols: None
+  tags: declaration, nano, nanotechnologie, produit-chimique, rapport, substances
+  cat: declaration
+
+[228] Fiscalité Economique par EPCI en 2020 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Impact par EPCI de la COVID-19 sur l’économie et les territoires
+  cols: None
+  tags: , economie, fiscalite, region, statique
+  cat: None
+
+[229] Les nouveaux dispositifs de proximité sur les Compétences Clés dans l'Arrondissement de Lille | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Implantation des communes concernées par les nouveaux dispositifs de proximité
+  cols: None
+  tags: , formation, region, statique
+  cat: None
+
+[230] Nombre de dossiers en 2021 par fillière et par type d'agriculture "Volet transformation/commercialis | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Nombre de dossiers du dispositif d’aide directe Pass’Agri filières en 2021 par filière (animale ou végétale) et par type d’agriculture (conventionnelle, agriculture biologique, LR, AOP, CCP) pour le v
+  cols: None
+  tags: , agriculture, economie, region, statique
+  cat: None
+
+[231] Formations aux métiers autour de la création du Canal Seine Nord Europe : Famille Service Transport  | pub=Région Hauts-de-France | src=france.jsonl
+  desc: La carte met en évidence les formations aux métiers autour de la création du Canal Seine Nord Europe - Représentation des effectifs par niveau voie scolaire et apprentissage dans le domaine Service Tr
+  cols: None
+  tags: , canal, formation, metier, region, statique
+  cat: None
+
+[232] Cartographie de l'offre des formations sanitaires : infirmier | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Localisation et effectif des formations sanitaires : infirmier
+  cols: None
+  tags: , formation, infirmier, region, statique
+  cat: None
+
+[233] SKIBUS VALLEE DES BELLEVILLE | pub=Transdev Savoie | src=france.jsonl
+  desc: Horaires des navettes hivernales entre Saint de Martin de Belleville, Les Menuires et Val Thorens.
+
+  cols: None
+  tags: navette, ski, transport, vallee-des-belleville
+  cat: navette
+
+[234] Déplacements intermodaux de plus de 10 km Bassin Littoral Sud | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Part et nombre de déplacements intermodaux
+  cols: None
+  tags: , bassin, infra-departemental, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-du-littoral-sud, mobilite, statique, transport
+  cat: None
+
+[235] Capitaux investis en 2020 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Richesse dégagée par établissement implanté sur le territoire par habitant en 2015 et montants des capitaux investis
+  cols: None
+  tags: , economie, financement, region, statique
+  cat: None
+
+[236] "Carte des loyers" - Indicateurs de loyers d'annonce par commune en 2025 | pub=Ministère de la Transition écologique | src=france.jsonl
+  desc: **Contexte du projet**
+
+La connaissance du niveau des loyers est importante pour garantir le bon fonctionnement du marché locatif et la conduite des politiques nationales et locales de l’habitat. La D
+  cols: None
+  tags: immobilier, logement, loyer
+  cat: immobilier
+
+[237] Lycées engagés dans le projet "Je mange local au lycée" - Année 2022 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: La carte met en évidence les établissements participant au dispositif "Je mange local au lycée" pour l'année 2022 et 2023
+  cols: None
+  tags: , local, manger, region, societe, statique
+  cat: None
+
+[238] Bilan des affectations 2016/2018 de la PRADET par intercommunalité | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Bilan des affectations 2016/2018 de la PRADET par intercommunalité
+  cols: None
+  tags: , amenagement, region, statique
+  cat: None
+
+[239] Indice Comparatif de Mortalité par canton en 2011 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Représentation de l'indice comparatif de mortalité toutes causes de décès en 2011
+  cols: None
+  tags: , atlas-conditions-de-vie, deces, demographie, region, repere-de-multiples-enjeux-regionaux-pour-le-developpement-humain, statique
+  cat: None
+
+[240] 35 cités partenariales ERBM  - Utilisation des éco matériaux au 1er juin 2025 | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Localisation des projets de cités ERBM à la commune avec leur nombre de logements utilisant des éco matériaux
+  cols: None
+  tags: , amenagement, erbm, region, statique
+  cat: None
+
+[241] Les conseillers en énergie partagés en Hauts-de-France | pub=Région Hauts-de-France | src=france.jsonl
+  desc: La carte met en évidence les territoires ayant au moins un conseiller.
+  cols: None
+  tags: , conseiller, environnement, region, statique
+  cat: None
+
+[242] Part de la population habitant un QPV ni en emploi, ni en formation en région Hauts-de-France | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Part de la population de l'EPCI habitant un QPV supérieure à 15% et EPCI ayant un taux de pauvreté des ménages et une part de jeunes (15-29 ans) ni en emploi, ni en formation supérieurs à la moyenne r
+  cols: None
+  tags: , demographie, qpv, region, statique
+  cat: None
+
+[243] Taux de variation annuel moyen du solde migratoire et solde migratoire entre 2014 et 2020 Bassin Sud | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Taux de variation annuel moyen par EPCI (6 classes) et moyennes régionale et nationale
+  cols: None
+  tags: , bassin, demographie, infra-departemental, loi-dorientation-sur-les-mobilites-lom-bassin-de-mobilite-du-sud-de-laisne, mobilite, societe, statique
+  cat: None
+
+[244] Les nouveaux dispositifs de proximité sur les Compétences Clés dans l'Arrondissement de Boulogne-sur | pub=Région Hauts-de-France | src=france.jsonl
+  desc: Implantation des communes concernées par les nouveaux dispositifs de proximité
+  cols: None
+  tags: , formation, region, statique
+  cat: None
+
+[245] PPRMT Cormeilles-en-Parisis (Zone réglementée) | pub=Direction Départementale des Territoires du Val-d'Oise | src=france.jsonl
+  desc: Pour les PPR naturels, le code de l'environnement définit deux catégories de zones (L562-1) : les zones exposées aux risques et les zones qui ne sont pas directement exposées aux risques mais sur lesq
+  cols: None
+  tags: donnees-ouvertes, inspire, risque-zonages-risque-naturel, zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration
+  cat: donnees-ouvertes
+
+[246] Exposition potentiel au radon des communes de Haute-Loire | pub=Direction Départementale des Territoires de la Haute-Loire | src=france.jsonl
+  desc: Le radon est un gaz radioactif produit par la désintégration naturelle de l’uranium présent dans les roches. Cancérigène pulmonaire, il peut présenter un risque pour la santé lorsqu’il s’accumule dans
+  cols: None
+  tags: alea, donnees-ouvertes, inspire, radon, risque-radon, zones-a-risque-naturel
+  cat: alea
+
+[247] france collection dataset | pub=French Ambassador for Digital Affairs / Ambassadeur pour le  | src=france.jsonl
+  desc: This dataset consolidates the contractual documents of 124 service providers, in all their versions that were accessible online between February 8, 2022 and April 6, 2026.
+
+This dataset is tailored fo
+  cols: None
+  tags: None
+  cat: None
+
+[248] OpenData 2022 data | pub=Occitanie Pyrénées en Intelligence Géomatique | src=france.jsonl
+  desc: Représentation des couches de données ouvertes de l'open data de PMMCU
+  cols: None
+  tags: opendata
+  cat: opendata
+
+[249] Passages piétons sécurisés par des dispositifs lumineux | pub=Grand Paris Seine Ouest | src=france.jsonl
+  desc: Passages piétons sécurisés par des dispositifs lumineux 
+
+Flowell se distingue par l’installation de dalles lumineuses aux extrémités des bandes du passage. 
+
+Ces dalles, activées par détection thermi
+  cols: None
+  tags: environnement-cadre-de-vie, transports-deplacements-mobilite
+  cat: environnement-cadre-de-vie

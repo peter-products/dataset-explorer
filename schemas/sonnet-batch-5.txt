@@ -1,0 +1,300 @@
+[250] Casos positivos de COVID-19 en Colombia. | pub=Instituto Nacional de Salud | src=colombia.jsonl
+  desc: Información importante: En este momento respecto a la transmisión de SARS- CoV2, el país está en zona de seguridad de acuerdo con los umbrales que se construyeron para este análisis, pero todavía lleva muy poco tiempo allí para poder asegurar si está
+  cols: Unidad de medida de edad, Fecha de diagnóstico, Pertenencia étnica, Tipo de contagio, Edad, Tipo de recuperación, Fecha de inicio de síntomas, Nombre municipio, Código ISO del país, Sexo, Código DIVIPOLA departamento, Recuperado
+  tags: None
+  cat: Salud y Protección Social
+
+[251] Base de datos: NIT y Actividad Económica | pub=Cámara de Comercio de Buenaventura | src=colombia.jsonl
+  desc: Base de datos: NIT y Actividad Económica del Municipio de Buenaventura
+  cols: TAM-EMPRESA, PERSONAL, NOMBRE 1, NOMBRE 2, NIT, FEC-MATRICULA, APELLIDO 1, CIIU-1, RAZON SOCIAL, DIR-COMERCIAL, FEC-RENOVACION, APELLIDO 2
+  tags: nit, base de datos, actividad económica
+  cat: Comercio, Industria y Turismo
+
+[252] Calidad del agua del Rio Cauca | pub=Corporación Autónoma Regional del Valle del Cauca | src=colombia.jsonl
+  desc: Contiene información de calidad de agua en el Rio Cauca, en 19 estaciones de muestro. Se miden aproximadamente 50 parámetros de calidad en el agua, entre Fisicoquímicos, Microbiológicos y Biológicos. Contiene datos desde el año 1990.
+  cols: FOSFATOS (mg PO4/l), NITRATOS (mg N-NO3/l), MAGNESIO (mg Mg/l), CLORUROS (mg Cl/l), CADMIO TOTAL (mg Cd/l), TEMPERATURA (°C), SODIO TOTAL (mg Na/l), ZINC DISUELTO (mg Zn/l), FECHA DE MUESTREO, MANGANESO DISUELTO (mg Mn/l), ALCALINIDAD TOTAL (mg CaCO3/l), TURBIEDAD (UNT)
+  tags: calidad del agua, valle del cauca, caracterización, río cauca
+  cat: Ambiente y Desarrollo Sostenible
+
+[253] Ejecución Presupuestal de Regalías | pub=Ministerio de Hacienda y Crédito Público | src=colombia.jsonl
+  desc: Este tablero permite consultar del valor de presupuesto SGR que valor ya se encuentra invertido en proyectos : Consulte para cada entidad territorial y cada fuente de inversión del SGR, el presupuesto SGR, los recursos aprobados por las diferentes in
+  cols: NombreFondo, CodigoFondo, PresupuestoSGRInversion, RecursosAprobadosAsignadosSPGR, NombreBolsaRegional, NombreEntidad, NumeroProyectosAprobadosAsignadosSPGR, CodigoDaneEntidad, NombreDepartamento, Vigencia, CodigoDaneDepartamento
+  tags: fondos
+  cat: Hacienda y Crédito Público
+
+[254] Registro de Deuda Pública | pub=Contraloría General de la República | src=colombia.jsonl
+  desc: Es el registro de todos los contratos de crédito o emisión de bonos que las entidades públicas colombianas realizan con el sector financiero nacional e internacional, sus saldos y flujos producidos en una vigencia.
+  cols: valorinterescop, valorajustesamotizacionesusd, valordesembolososcop, valorcomisionesusd, valorcomisionescop, valorInteresusd, saldodeudacop, saldodeudamonedatramo, valorajustesdesemmbolsosusd, valoramortizacionesusd, codigounicocontrato, cierreperiodocontable
+  tags: intereses, bonos, títulos de tesorería, tes b, deuda pública, crédito público, deuda, registro
+  cat: Economía y Finanzas
+
+[255] Vallas Publicitarias Pereira | pub=dirección operativa de control físico | src=colombia.jsonl
+  desc: Información relevante como: dirección, anunciante y observaciones en general de las vallas publicitarias en en municipio de Pereira
+  cols: TIPO DE ESTRUCTURA, AREA DE CARA, PROPIETARIO ESTRUCTURA, DIRECCIÓN, # DE CARAS
+  tags: publicidad exterior, vallas, comercio
+  cat: Comercio, Industria y Turismo
+
+[256] LISTA VIGENTE DE PREDIOS CERTIFICADOS Y RECERTIFICADOS EN BUENAS PRÁCTICAS AGRÍCOLAS | pub=INSTITUTO COLOMBIANO AGROPECUARIO ICA | src=colombia.jsonl
+  desc: LISTA VIGENTE DE PREDIOS CERTIFICADOS Y RECERTIFICADOS EN BUENAS PRÁCTICAS AGRÍCOLAS POR EL ICA EN COLOMBIA
+  cols: NOMBRE_PREDIO, ÁREA (ha), VIGENCIA, NOMBRE COMÚN, VEREDA, FECHA_
+CERTIFICADO, No., DEPARTAMENTO, CONCEPTO, MUNICIPIO
+  tags: buenas practicas, agricola, ica
+  cat: Agricultura y Desarrollo Rural
+
+[257] Habitante de calle: Número de afiliados por departamento, municipio, régimen y año según tipo de pob | pub=Ministerio de Salud y Protección Social | src=colombia.jsonl
+  desc: Número de afiliados por departamento, municipio, régimen y año según tipo de población: Habitante de calle a partir del 2022 Diligencia la Encuesta de Satisfacción: https://tramites.minsalud.gov.co/FormularioInscripcion/EncuestaSatisfaccion.aspx
+  cols: año, total, mes, nompio, tipopoblación, idmpio, nomdepto, tiporegimen, iddepto
+  tags: ciudadanos habitantes de calle
+  cat: Salud y Protección Social
+
+[258] Servicios de Salud - Red de Salud del Oriente (Cali - Valle) 2020 Ver1 | pub=La red de salud del Oriente | src=colombia.jsonl
+  desc: La información presentada muestra los servicios de salud que se prestan en todas las sedes que componen la Red de Salud del Oriente de Cali - Valle del Cauca.
+  cols: sede_nombre, depa_nombre, grse_nombre, institucion_remisora, email, direccion, grse_codigo, muni_nombre, numero_sede, numero_distintivo, serv_codigo, fecha_apertura
+  tags: habilitación, salud, servicios de salud
+  cat: Salud y Protección Social
+
+[259] Empresas San Andres Providencia y Santa Catalina | pub=Cámara de comercio de San Andres, Providencia y Santa Catali | src=colombia.jsonl
+  desc: None
+  cols: MUN-COMERCIAL, TEL-COM-2, EMAIL-NOTIFICACION, MATRICULA, TEL-COM-3, TEL-COM-1, EST-MATRICULA, ULT-ANO_REN, CIIU-1, RAZON SOCIAL, IDENTIFICACION
+  tags: None
+  cat: Comercio, Industria y Turismo
+
+[260] BASE DE DATOS DE CONTRIBUYENTES IMPUESTO INDUSTRIA Y COMERCIO | pub=ALCALDÍA MUNICIPAL DE ARATOCA | src=colombia.jsonl
+  desc: Base de datos de contribuyentes de Impuesto de Industria y Comercio del Municipio de Aratoca
+  cols: CIIU, RAZON SOCIAL/ NOMBRE COMERCIAL, UBICACIÓN, DIRECCION, CIUDAD
+  tags: comercio, industria, impuestos
+  cat: Hacienda y Crédito Público
+
+[261] Declaración de activos - patrimonial servidores públicos | pub=Departamento Administrativo de la Función Pública | src=colombia.jsonl
+  desc: Reporte de los bienes y rentas e impuesto sobre la renta y complementarios registrados por las personas naturales que son sujetos obligados a publicar sus declaraciones en cumplimiento de la Ley 2013 de 2019.
+  cols: SEGUNDO_APELLIDO_DECLARANTE_PN, PRIMER_APELLIDO_DECLARANTE_PN, TIPO_DECLARACION, BIENES_PATRIMONIALES_PN, ACREENCIAS_OBLIGACIONES_PN, NOMBRE_ENTIDAD, FECHA_PUBLICAC_DECLARAC, PRIMER_NOMBRE_DECLARANTE_PN, NUMERO_DOCUMENTO, NUMERO_FORMULARIO, ESTADO_DECLARACION, TIPO_DOCUMENTO
+  tags: inmubles, bienes mubles, patrimonio, ingresos
+  cat: Función pública
+
+[262] Consumo de agua potable en el casco urbano primer semestre. | pub=Organización | src=colombia.jsonl
+  desc: Consumo de agua potable en el primer semestre en el casco urbano del municipio de Toledo.
+  cols: AÑO, CONSUMO MARZO, CONSUMO MAYO, CONSUMO FEBRERO, ESTRATO, CONSUMO ENERO, CONSUMO JUNIO, CONSUMO ABRIL, Tipo, PROMEDIO
+  tags: consumo agua potable
+  cat: Ambiente y Desarrollo Sostenible
+
+[263] Aprovechamiento Forestal | pub=CARDER | src=colombia.jsonl
+  desc: El conjunto de datos de aprovechamiento forestal denota el año, departamento y municipio, así como la aprobación y clase de aprovechamiento con su volumen y cantidad otorgada por la Corporación Autónoma Regional de Risaralda en el departamento a pred
+  cols: Volumen Aprovec. (m3), Municipio, Cantidad Otorgada o Autorizada arboles, Nombre Común, Mes, Año de la Información, Procedencia del aprovechamiento, Clase Licencia, Semestre, Departamento, Tipo de Predio, Clase Aprovechamiento
+  tags: aprovechamiento, risaralda, forestal
+  cat: Ambiente y Desarrollo Sostenible
+
+[264] Evaluación de Tierras con fines Agrícolas para el cultivo de fríjol (Phaseolus vulgaris), en el depa | pub=UPRA (Colombia) | src=colombia.jsonl
+  desc: El mapa es el producto resultante de la validación y aplicación de la metodología de Evaluación de Tierras para el departamento de Nariño a escala general 1:100.000, incluyendo los componentes biofísicos, socioeconómicos y socioecosistémicos, en el m
+  cols: Gridcode, Área (ha), Consecutivo, the_geom, Aptitud
+  tags: evaluación de tierras, fríjol, zonificación, competitividad, productividad, sostenibilidad, cultivo, aptitud
+  cat: Agricultura y Desarrollo Rural
+
+[265] Aseguramiento en Salud | pub=Alcaldía de Cúcuta | src=colombia.jsonl
+  desc: Contempla el número de personas afiliadas al sistema de salud en el municipio de San José de Cúcuta, según régimen de afiliación, nacionalidad, curso de vida y sexo
+  cols: ZONA, MARZO_2025, ID, SEXO, NACIONALIDAD, GRUPO_EDAD, REGIMEN, MUNICIPIO
+  tags: cucuta, personas afiliadas, aseguramiento en salud
+  cat: Salud y Protección Social
+
+[266] Evaluación de Tierras con fines Agrícolas para el cultivo de Granadilla (Passiflora ligularis J.), e | pub=UPRA (Colombia) | src=colombia.jsonl
+  desc: El mapa es el producto resultante de la validación y aplicaciónde la metodología de Evaluación de Tierras para el departamento de Nariño a escala general 1:100.000, incluyendo los componentes biofísicos, socioeconómicos y socioecosistémicos, en el ma
+  cols: the_geom, Gridcode, Área (ha), Consecutivo, Aptitud
+  tags: aptitud, sostenibilidad, granadilla, competitividad, zonificación, cultivo, productividad, evaluación de tierras
+  cat: Agricultura y Desarrollo Rural
+
+[267] Directorio de Funcionarios | pub=Colombia Open Data | src=colombia.jsonl
+  desc: DIRECTORIO FUNCIONARIO DE LA ALCALDÍA DE MAPIRIÁN
+  cols: DEPENDENCIA, TELEFONO INSTITUCIONAL, NOMBRES Y APELLIDOS, DIRECCION DE CORREOS INSTITUCIONAL, FORMACION ACADEMICA, OBJETO, EMPLEO O CARGO QUE DESEMPEÑA, PAIS DE NACIMIENTO
+  tags: funcionarios
+  cat: Función pública
+
+[268] Tasa de cobertura educativa en el Departamento de Risaralda. | pub=Secretaría de Educación departamental de Risaralda | src=colombia.jsonl
+  desc: Es la relación entre el número de estudiantes matriculados que tienen la edad teórica para cursar los niveles educativos y el total de la población proyectada correspondiente a esa misma edad, en el Departamento de Risaralda.
+  cols: Codigo_Municipio, Tasa, Variable, Ano, Municipio
+  tags: educación, cobertura educativa, estudiantes matriculados, departamento de risaralda
+  cat: Educación
+
+[269] ESQUEMA DE PUBLICACIÓN WEB - CEDELCA S.A E.S.P | pub=CEDELCA S.A. E.S.P | src=colombia.jsonl
+  desc: Esquema de publicación WEB de la empresa Centrales Electricas del Cauca S.A E.S.P - CEDELCA
+  cols: Nombre del responsable de la información, Frecuencia de actualización, Lugar de Consulta, Nombre del responsable de la producción de la información, NOMBRE O TÍTULO DEL INFORMACIÓN, Formato, Medio de conservación y/o soporte, Fecha de generación de la información, Idioma
+  tags: servicios publicos, cauca, esquema de publicación, cedelca, minas y energia, transparencia
+  cat: Minas y Energía
+
+[270] Evaluación de tierras con fines agrícolas para el Cultivo tecnificado de plátano (Musa paradisiaca L | pub=UPRA (Colombia) | src=colombia.jsonl
+  desc: El mapa es el producto resultante de la validación y aplicación de la metodología de Evaluación de Tierras para el departamento de Meta a escala general 1:100.000, incluyendo los componentes biofísicos, socioeconómicos y socioecosistémicos, en el mar
+  cols: Consecutivo, the_geom, Gridcode, Área (ha), Aptitud
+  tags: plátano, zonificación, cultivo, aptitud, evaluación de tierras, competitividad, sostenibilidad, productividad
+  cat: Agricultura y Desarrollo Rural
+
+[271] Guardianes de la Naturaleza en municipios de la jurisdicción de Corantioquia | pub=Subdirección de Participación y Cultura Ambiental | src=colombia.jsonl
+  desc: Información de seguimiento y valoración al proceso de Guardianes de la Naturaleza en municipios de la jurisdicción de Corantioquia vigencia 2019.
+  cols: REFLEXIÓN, CORREGIMIENTO / VEREDA, SEGUIMIENTO PROYECTOS, NOMBRE DEL GRUPO, SOSTENIBILIDAD - AUTONOMÍA, PLANEACIÓN AMBIENTAL, MUNICIPIO, INSTITUCIÓN EDUCATIVA, INDICADOR, VALORACIÓN CUMPLIMIENTO INDICADOR, CONTEXTUALIZACIÓN, TERRITORIAL
+  tags: cultura ambiental, educación ambiental, guardianes de la naturaleza, niños guardianes de la naturaleza
+  cat: Ambiente y Desarrollo Sostenible
+
+[272] Histórico Matriculados | pub=Planeación IUE | src=colombia.jsonl
+  desc: Número de personas Matriculadas por Periodo y programa desde 2014-1 y 2022-1.
+  cols: consecutivo, cod_prog, dpto_nac, ciudad_nac, s_primer_curso, pais_nac, anno_primer_curso, programa, periodo_matricula, codsnier, municipio_pro
+  tags: None
+  cat: Educación
+
+[273] Practicas y Pasantías Universidad del Quindio | pub=Universidad del Quindío (Colombia) | src=colombia.jsonl
+  desc: Practicas y pasantías realizadas por los estudiantes de los diferentes programas en los periodos 2019-2 y 2020-1
+  cols: GENERO, NOMBRE DEL PROGRAMA, NOMBRE DE LA PASANTÍA O PRACTICA, Facultad, MODALIDAD, AÑO, METODOLOGIA
+  tags: pasantias, practicas, modalidad, metodologia, genero, programa, facultad, periodo
+  cat: Educación
+
+[274] INDICE DE INFORMACIÓN CLASIFICADA Y RESERVADA - CÁMARA DE COMERCIO ABURRÁ SUR | pub=Cámara de Comercio Aburrá Sur | src=colombia.jsonl
+  desc: Indice de Información Clasificada y Reservada
+  cols: Descripción del fundamento legal y constitucional, Plazo de clasificación o reserva, Categoría, Responsable de la información, Fecha de generación de la información, Medio de Conservación, Excepción parcial o total, Clasificación, Fecha de la clasificación, Título, Responsable de la producción de la información, Idioma
+  tags: None
+  cat: Comercio, Industria y Turismo
+
+[275] Indice de Información Clasificada y Reservada | pub=Colombia Open Data | src=colombia.jsonl
+  desc: None
+  cols: Nombre o título de la información, Excepción Total o Parcial, Fundamento jurídico de la excepción, Objetivo Legítimo de la excepción, Nombre del responsable de la información, Fecha de la calificación, Fundamento constitucional o legal, Nombre del responsable de la producción de la información, Fecha de generación de la información, Nombre o título de la Categoría de la información, Plazo de la clasificación o reserva, Medio de conserva-ción y soporte
+  tags: meta, exc_001, villavicencio, clasificada, control, contraloria departamental del meta
+  cat: None
+
+[276] Registros Diarios de Observación Climatológica (temperatura del aire) | pub=Corporación Autónoma Regional del Quindío | src=colombia.jsonl
+  desc: Corresponde a las lecturas obtenidas en los equipos que monitorean variables ambientales tales como temperatura del aire. (De que años)
+  cols: Municipio, Valor (°C), FECHA, Estación
+  tags: quindio, temperatura, car
+  cat: Ambiente y Desarrollo Sostenible
+
+[277] Índice de información clasificada y reservada CDB 2020 | pub=Colombia Open Data | src=colombia.jsonl
+  desc: El Índice de Información Clasificada y Reservada es el inventario de la información pública generada, obtenida, adquirida o controlada por el sujeto obligado, en calidad de tal, que ha sido calificada como clasificada o reservada
+  cols: Fundamento jurídico de la excepción (Explicar o justificar el por qué la información debe ser clasificada o reservada bajo el fundamentalmente constitucional o legal nombrado en la casilla anterior), Dependencia, Plazo de la clasificación o la reserva, Idioma:, Fundamento contitucional o legal, Nombre o título de la información :, Objetivo legitimo de la excepción , Nombre del responsable de la producción de la información:, Lugar de consulta:, Frecuencia de actualización:, Exepción total o parcial, Medio de conservación y/o soporte:
+  tags: None
+  cat: Organismos de Control
+
+[278] Docentes de planta por facultad | pub=Universidad del Quindío (Colombia) | src=colombia.jsonl
+  desc: Docentes de planta por facultad académica varios periodos
+  cols: Dedicacion, Genero, Dependencia/Programa, Tipo de Vinculacion, Categorias, VIGENCIA, FACULTAD, Formacion_Academica
+  tags: facultad, programa, género, formación académica, categorías, dedicación
+  cat: Educación
+
+[279] Adopción de la zonificación de aptitud para el cultivo tecnificado de banano (Musa AAA) cultivar "Ca | pub=UPRA (Colombia) | src=colombia.jsonl
+  desc: El mapa de adopción de la zonificación de aptitud para el cultivo tecnificado de banano (Musa AAA) cultivar "Cavedish", es un instrumento de planificación para las áreas rurales que facilita la identificación de áreas geográficas con una combinación 
+  cols: Área (ha), Código municipio, Municipio, Gridcode, the_geom, Departamento, Consecutivo, Código departamento, Aptitud
+  tags: sostenibilidad, upra, banano, aptitud, zonificación, planificación, productividad
+  cat: Agricultura y Desarrollo Rural
+
+[280] Inscritos a programas Colegio Mayor de Antioquia | pub=Institución Universitaria Colegio Mayor de Antioquia | src=colombia.jsonl
+  desc: 2300 personas se inscribieron en la Institución Universitaria Colegio Mayor de Antioquia con el objetivo de acceder a los programas académicos ofrecidos. Contar con esta información en una plataforma de datos abiertos es crucial, ya que promueve la t
+  cols: CÓDIGO IES, SEMESTRE, AÑO, CANTIDAD DE INSCRITOS, NOMBRE IES, SEXO
+  tags: aspirantes, educación superior, inscritos
+  cat: Educación
+
+[281] Índice de Información Clasificada y Reservada 2024 | pub=Gobernacion de Boyacá | src=colombia.jsonl
+  desc: Inventario de la información pública que puede causar un daño a determinados derechos o intereses públicos (Reserva) o privados (Clasificación), y sobre los medios a través de los cuales se puede acceder a la misma. Adoptado mediante Decreto No. 0900
+  cols: Fecha de la calificación, Nombre o título de la información, Fundamento jurídico de la excepción, Fundamento constitucional o legal, Objetivo legítimo de la excepción, Nombre del responsable de la producción de la información, Excepción total o parcial, Nombre o título  de la categoría de información, Nombre del responsable de la información, Plazo de clasificación o reserva
+  tags: reservada
+  cat: Función pública
+
+[282] CENSO DE AREAS PROTEGIDAS DEL MUNICIPIO DE RESTREPO VALLE | pub=SECRETARIA AMBIENTAL Y DESARROLLO ECONOMICO | src=colombia.jsonl
+  desc: Indica si la totalidad o parte del predio corresponde a cobertura boscosa natural o plantada, según criterios técnicos de clasificación de coberturas del suelo. Este campo es clave para la gestión ambiental, la conservación de ecosistemas y la planif
+  cols: nombre_predio, no_catastral, vereda, estado_predio, area_total_ha, area_protegida_ha, tipo_proteccion
+  tags: areas protegidas
+  cat: Ambiente y Desarrollo Sostenible
+
+[283] Top de causas, según número de procesos y pretensiones | pub=Agencia Nacional de Defensa Jurídica del Estado | src=colombia.jsonl
+  desc: Top de causas, según número de procesos y pretensiones. Desde el año 2025 hasta la fecha.
+  cols: Numero_Ekogui_nunique, _id, ID_de_la_entidad, Causa_proceso, Valor_economico_indexado_sum, Valor_economico_indexado_mean, Vigencia
+  tags: procesos judiciales, defensa judicial, causas proceso judicial
+  cat: Justicia y Derecho
+
+[284] Registro de activos de información | pub=Notaría Única de Manatí | src=colombia.jsonl
+  desc: Registro de activos de información
+  cols: Idioma, Información Disponible, Descripción del contenido la categoría de información, Medio de conservación y/o soporte, Formato, Nombre o título de la categoría de Información, Lugar donde se encuentra disponible, Información Publicada
+  tags: None
+  cat: Función pública
+
+[285] SISTEMA DE VIGILANCIA DE CALIDAD DE AIRE CLUB UNION | pub=Corporación autónoma para la defensa de la meseta de Bucaram | src=colombia.jsonl
+  desc: La Corporación Autónoma Regional para la Defensa de la Meseta de Bucaramanga (CDMB) opera el Sistema de Vigilancia de la Calidad del Aire (SVCA), conformado por cuatro estaciones automáticas de monitoreo, entre ellas una ubicada en la terraza del Clu
+  cols: BANDERAS 7, DATOS VALIDOS T, DATOS VALIDOS NOX, DATOS PLATAFORMA NO, DATOS VALIDOS NO, DATOS VALIDOS PP, DATOS PLATAFORMA CO, DATOS PLATAFORMA RS, DATOS PLATAFORMA PM2.5, DATOS VALIDOS TRS, DATOS PLATAFORMA SO2, DATOS VALIDOS NO2
+  tags: calidad del aire, cdmb
+  cat: Ambiente y Desarrollo Sostenible
+
+[286] Histórico Eventos de Salud Pública San Pedro | pub=Alcaldía municipal de San Pedro de los Milagros | src=colombia.jsonl
+  desc: Base de datos histórica (2007–2021) de eventos en salud pública reportados en el municipio de San Pedro de los Milagros. Incluye información anual sobre la notificación de casos y situaciones de interés en salud pública. Con el fin de facilitar el ac
+  cols: AÑO, TIPO DE TASA, TIPO DE ENFERMEDAD O EVENTO DE SALUD, TASA, EVENTOS DE SALUD PÚBLICA, CASOS, SUBTIPO DE ENFERMEDAD O EVENTO DE SALUD
+  tags: violencia, intoxicaciones, eventos de salud, zoonosis, enfermedades crónicas no transmisibles, enfermedades inmunoprevenibles, vectores
+  cat: Salud y Protección Social
+
+[287] Tablas de Retención Documental | pub=Notaría 4 del Círculo de Ibagué | src=colombia.jsonl
+  desc: Tablas de Retención Documental
+  cols: BOLSA, PICAR, PROCEDIMIENTO, CÓDIGO, CONSERVACIÓN, SUBSERIES, ELECTRÓNICA, DIGITALIZACIÓN Y CONSERVACIÓN DEL ARCHIVO FÍSICO, CARPETA, SERIE, RECICLAR, TIEMPO DE RETENCIÓN 1
+  tags: tablas de retención documental, gestión documental, notaría
+  cat: Función pública
+
+[288] Inscritos a programas Colegio Mayor de Antioquia | pub=Institución Universitaria Colegio Mayor de Antioquia | src=colombia.jsonl
+  desc: 2271 personas se inscribieron en la Institución Universitaria Colegio Mayor de Antioquia con el objetivo de acceder a los programas académicos ofrecidos. Contar con esta información en una plataforma de datos abiertos es crucial, ya que promueve la t
+  cols: AÑO, SEMESTRE, NOMBRE DE LA INSTITUCIÓN, SEGUNDO NOMBRE, SEGUNDO APELLIDO, PRIMER NOMBRE, SEXO, PRIMER APELLIDO, CÓDIGO SNIES INSTITUCIONAL
+  tags: inscritos, educación superior, aspirantes
+  cat: Educación
+
+[289] Esquema de Publicación de Información | pub=Notaría Única de San Calixto | src=colombia.jsonl
+  desc: Esquema de Publicación de Información
+  cols: Idioma, Frecuencia  de actualización, Nombre del responsable de la producción de la información, Nombre o título de la información, Nombre del responsable de la información, Formato, Medio de conservación, Lugar de consulta, Fecha de Generación  de la Información
+  tags: None
+  cat: Función pública
+
+[290] Esquema de publicación de información | pub=Notaría sexta del círculo de Barranquilla | src=colombia.jsonl
+  desc: None
+  cols: Medio de conservación, Fecha de Generación  de la Información, Idioma, Lugar de consulta, Formato, Nombre del responsable de la información, Frecuencia  de actualización, Nombre del responsable de la producción de la información, Nombre o título de la información
+  tags: esquema de publicación de la información, notaría, gestión documental
+  cat: Función pública
+
+[291] Índice de Información Clasificada y Reservada | pub=Notaría Única del Círculo de Gómez Plata | src=colombia.jsonl
+  desc: None
+  cols: Idioma, Nombre del responsable de la producción de la información, Nombre o título de la información, Excepción total o parcial, Fundamento constitucional o legal, Fundamento jurídico de la excepción, Nombre del responsable de la información, Subcategorías, Calificación, Fecha de generación de la información, Nombre o título  de la categoría de información, Objetivo legítimo de la excepción
+  tags: indice de información clasificada y reservada, gestión documental, notaria
+  cat: Función pública
+
+[292] Registro de Activos de Información | pub=Notaría Única de Calima (El Darién) - Valle | src=colombia.jsonl
+  desc: Corresponde al inventario de la información pública que la notaría como sujeto obligado genere, obtenga, adquiera, transforme o controle en su calidad de tal, de acuerdo con lo dispuesto en la Ley 1712 de 2014, Decreto 103 de 2015, art. 37 y demás no
+  cols: Idioma, Información Publicada, Medio de conservación y/o soporte, Formato, Descripción del contenido la categoría de información, Nombre o título de la categoría de Información, Lugar donde se encuentra disponible, Información Disponible
+  tags: gestión documental, notaria
+  cat: Función pública
+
+[293] Información clasificada y reservada | pub=Personería de Manizales | src=colombia.jsonl
+  desc: Información clasificada y reservada Personería de Manizales
+  cols: Nombre del responsable de la producción de la información, Medio de conservación y/o soporte, Fundamento constitucional o legal, Plazo de clasificación o reserva, Fecha de generación de la información, Nombre del responsable de la información, Subcategorías, Fecha de la calificación, Nombre o título  de la categoría de información, Nombre o título de la información, Fundamento jurídico de la excepción, Calificación
+  tags: índice de información clasificada y reservada
+  cat: Organismos de Control
+
+[294] Registro de Activos de Información | pub=Notaría Única de Santa Fe de Antioquia - Antioquia | src=colombia.jsonl
+  desc: Corresponde al inventario de la información pública que la notaría como sujeto obligado genere, obtenga, adquiera, transforme o controle en su calidad de tal, de acuerdo con lo dispuesto en la Ley 1712 de 2014, Decreto 103 de 2015, art. 37 y demás no
+  cols: Idioma, Medio de conservación y/o soporte, Lugar donde se encuentra disponible, Formato, Información Disponible, Descripción del contenido la categoría de información, Nombre o título de la categoría de Información, Información Publicada
+  tags: notaria, gestión documental
+  cat: Función pública
+
+[295] Ejecución de presupuesto de gasto por dependencia vigencia Palmira 2015 | pub=Alcaldía de Palmira | src=colombia.jsonl
+  desc: Ejecución de presupuesto de gasto en la alcaldia municipal de Palmira vigencia 2015
+  cols: DISPONIBLE, PAGOS ACUMULADOS, PAGO  MES, PORCENTAJE, PRESUPUESTO POR PAGAR, DISPONIBILIDAD MES, DISPONIBILIDAD ACUMULADA, PRESUPUESTO DEFINIDO, OBLIGACION ACUMULADA, NOMBRE RUBRO, OBLIGACION MES, COMPROMISO ACUMULADO
+  tags: ejecución presupuestal, alcaldia de palmira, palmira
+  cat: Gastos Gubernamentales
+
+[296] Esquema de Publicación de Información | pub=Notaría Primera de Zipaquirá - Cundinamarca | src=colombia.jsonl
+  desc: Es el instrumento del que disponen los sujetos obligados para informar, de forma ordenada, a la ciudadanía, interesados y usuarios, sobre la información publicada y que publicará, conforme al principio de divulgación proactiva de la información previ
+  cols: Frecuencia  de actualización, Nombre del responsable de la producción de la información, Idioma, Nombre o título de la información, Nombre del responsable de la información, Formato, Fecha de Generación  de la Información, Lugar de consulta, Medio de conservación
+  tags: notaria, gestión documental
+  cat: Función pública
+
+[297] Índice de Información Clasificada y Reservada | pub=Notaría Única de Andes - Antioquia | src=colombia.jsonl
+  desc: Corresponde al inventario de la información pública generada, obtenida, adquirida o controlada por la notaría en calidad de sujeto obligado, que ha sido calificada como clasificada o reservada, de acuerdo con lo dispuesto en la Ley 1712 de 2014, el D
+  cols: Nombre o título  de la categoría de información, Idioma, Objetivo legítimo de la excepción, Fundamento constitucional o legal, Nombre o título de la información, Nombre del responsable de la producción de la información, Formato, Plazo de clasificación o reserva, Fundamento jurídico de la excepción, Nombre del responsable de la información, Medio de conservación y/o soporte, Excepción total o parcial
+  tags: gestión documental, notaria
+  cat: Función pública
+
+[298] Registro de Activos de Información | pub=Notaria Unica de Rionegro Santander | src=colombia.jsonl
+  desc: Corresponde al inventario de la información pública que la notaría como sujeto obligado genere, obtenga, adquiera, transforme o controle en su calidad de tal, de acuerdo con lo dispuesto en la Ley 1712 de 2014, Decreto 103 de 2015, art. 37 y demás no
+  cols: Medio de conservación y/o soporte, Información Disponible, Idioma, Formato, Descripción del contenido la categoría de información, Lugar donde se encuentra disponible, Nombre o título de la categoría de Información, Información Publicada
+  tags: notaria, gestion documental
+  cat: Función pública
+
+[299] Esquema de Publicación de Información | pub=Notaría Primera de Ibagué - Tolima | src=colombia.jsonl
+  desc: Es el instrumento del que disponen los sujetos obligados para informar, de forma ordenada, a la ciudadanía, interesados y usuarios, sobre la información publicada y que publicará, conforme al principio de divulgación proactiva de la información previ
+  cols: Lugar de consulta, Formato, Nombre del responsable de la información, Idioma, Medio de conservación, Nombre del responsable de la producción de la información, Nombre o título de la información, Frecuencia  de actualización, Fecha de Generación  de la Información
+  tags: notaria, gestión documental
+  cat: Función pública

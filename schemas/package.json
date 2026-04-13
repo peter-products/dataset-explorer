@@ -1,0 +1,16 @@
+{
+  "name": "schemas",
+  "version": "1.0.0",
+  "description": "## Purpose Machine-readable schema records for every public dataset identified in the research phase. Each record contains enough metadata for vector store indexing and semantic search.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
+    "@google-cloud/bigquery": "^8.1.1"
+  }
+}

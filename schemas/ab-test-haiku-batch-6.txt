@@ -1,0 +1,299 @@
+[300] Power density limit at 900 MHz (W/m^2) | pub=WHO | src=who-gho.jsonl
+  desc: Power density limit at 900 MHz (W/m^2)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[301] Biomedical technicians density (per 10 000 population) | pub=WHO | src=who-gho.jsonl
+  desc: Biomedical technicians density (per 10 000 population)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[302] Reported number of children receiving antiretroviral therapy, month and year of report | pub=WHO | src=who-gho.jsonl
+  desc: Reported number of children receiving antiretroviral therapy, month and year of report
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[303] Chemical | pub=WHO | src=who-gho.jsonl
+  desc: Chemical
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[304] YLLs attributable to ambient air pollution (age-standardized) | pub=WHO | src=who-gho.jsonl
+  desc: YLLs attributable to ambient air pollution (age-standardized)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[305] Number of dentists | pub=WHO | src=who-gho.jsonl
+  desc: Number of dentists
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[306] Existence of dementia-friendly initiative for assistance with home modification | pub=WHO | src=who-gho.jsonl
+  desc: Existence of dementia-friendly initiative for assistance with home modification
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[307] Representativeness of survey of youth - smokeless | pub=WHO | src=who-gho.jsonl
+  desc: Representativeness of survey of youth - smokeless
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[308] Law requires fines for violations of direct advertising bans | pub=WHO | src=who-gho.jsonl
+  desc: Law requires fines for violations of direct advertising bans
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[309] Screening and brief interventions for substance use and substance use disorders | pub=WHO | src=who-gho.jsonl
+  desc: Screening and brief interventions for substance use and substance use disorders
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[310] System of monitoring drugs involvement in forensic pathology | pub=WHO | src=who-gho.jsonl
+  desc: System of monitoring drugs involvement in forensic pathology
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[311] Inclusion of basic dementia competencies in training of nurses | pub=WHO | src=who-gho.jsonl
+  desc: Inclusion of basic dementia competencies in training of nurses
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[312] Occupational carcinogens attributable DALYs per 100'000 capita | pub=WHO | src=who-gho.jsonl
+  desc: Occupational carcinogens attributable DALYs per 100'000 capita
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[313] Existence of standards/ guidelines/ protocols for other post-diagnostic supports of people with deme | pub=WHO | src=who-gho.jsonl
+  desc: Existence of standards/ guidelines/ protocols for other post-diagnostic supports of people with dementia
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[314] Comprehensive bans in place subnationally | pub=WHO | src=who-gho.jsonl
+  desc: Comprehensive bans in place subnationally
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[315] Providing oversight and enforcement of data ownership | pub=WHO | src=who-gho.jsonl
+  desc: Providing oversight and enforcement of data ownership
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[316] Age-standardized death rates, falls, per 100,000 | pub=WHO | src=who-gho.jsonl
+  desc: Age-standardized death rates, falls, per 100,000
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[317] Domestic general government health expenditure (GGHE-D) as percentage of general government expendit | pub=WHO | src=who-gho.jsonl
+  desc: Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[318] Off-premise sales restrictions at petrol stations | pub=WHO | src=who-gho.jsonl
+  desc: Off-premise sales restrictions at petrol stations
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[319] Substance use policy at the national level | pub=WHO | src=who-gho.jsonl
+  desc: Substance use policy at the national level
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[320] Main sector for treatment for drug use disorders | pub=WHO | src=who-gho.jsonl
+  desc: Main sector for treatment for drug use disorders
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[321] Existence of a national seat-belt law | pub=WHO | src=who-gho.jsonl
+  desc: Existence of a national seat-belt law
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[322] Research into new analytical methods needs occur to meet the challenges of working with big data | pub=WHO | src=who-gho.jsonl
+  desc: Research into new analytical methods needs occur to meet the challenges of working with big data
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[323] Smoking cessation support is available in other settings | pub=WHO | src=who-gho.jsonl
+  desc: Smoking cessation support is available in other settings
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[324] Repeating interval for survey of youth (years) | pub=WHO | src=who-gho.jsonl
+  desc: Repeating interval for survey of youth (years)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[325] National guidelines for implementing effective community-based interventions | pub=WHO | src=who-gho.jsonl
+  desc: National guidelines for implementing effective community-based interventions
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[326] Community health workers density (per 10 000 population) | pub=WHO | src=who-gho.jsonl
+  desc: Community health workers density (per 10 000 population)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[327] Deaths due to HIV/AIDS (per 100 000 population) | pub=WHO | src=who-gho.jsonl
+  desc: Deaths due to HIV/AIDS (per 100 000 population)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[328] Elder abuse: Extent of implementation  of caregiver-support programmes | pub=WHO | src=who-gho.jsonl
+  desc: Elder abuse: Extent of implementation  of caregiver-support programmes
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[329] Number of diarrhoea deaths from inadequate hygiene | pub=WHO | src=who-gho.jsonl
+  desc: Number of diarrhoea deaths from inadequate hygiene
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[330] Are the health warnings on other smoked tobacco packaging written in the principal language(s) of th | pub=WHO | src=who-gho.jsonl
+  desc: Are the health warnings on other smoked tobacco packaging written in the principal language(s) of the country?
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[331] Other smoked tobacco packaging and labelling must not use descriptors depicting flavours | pub=WHO | src=who-gho.jsonl
+  desc: Other smoked tobacco packaging and labelling must not use descriptors depicting flavours
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[332] Number of national population surveys -  HIV prevalence | pub=WHO | src=who-gho.jsonl
+  desc: Number of national population surveys -  HIV prevalence
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[333] Low-birth-weight newborns (%) | pub=WHO | src=who-gho.jsonl
+  desc: Low-birth-weight newborns (%)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[334] Prevalence of current tobacco use among adolescents aged 13-15 years | pub=WHO | src=who-gho.jsonl
+  desc: Prevalence of current tobacco use among adolescents aged 13-15 years
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[335] Most sold brand of cigarettes - price in PPP$ | pub=WHO | src=who-gho.jsonl
+  desc: Most sold brand of cigarettes - price in PPP$
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[336] Prevalence of bacteriologically-confirmed pulmonary TB who are smear positive among those aged ≥15 y | pub=WHO | src=who-gho.jsonl
+  desc: Prevalence of bacteriologically-confirmed pulmonary TB who are smear positive among those aged ≥15 years, per 100,000 population by age group
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[337] Tobacco Warning: W1c smokeless tobacco packaging health warnings | pub=WHO | src=who-gho.jsonl
+  desc: Tobacco Warning: W1c smokeless tobacco packaging health warnings
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[338] Tobacco Raise taxes: Annual tax revenues from tobacco products, previous reporting period | pub=WHO | src=who-gho.jsonl
+  desc: Tobacco Raise taxes: Annual tax revenues from tobacco products, previous reporting period
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[339] Partners and donors | pub=WHO | src=who-gho.jsonl
+  desc: Partners and donors
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[340] Foodborne years of life lost per 100 000, all ages | pub=WHO | src=who-gho.jsonl
+  desc: Foodborne years of life lost per 100 000, all ages
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[341] In-prison people who drink/drank alcohol (number of prisoners, in the last 12 months) | pub=WHO | src=who-gho.jsonl
+  desc: In-prison people who drink/drank alcohol (number of prisoners, in the last 12 months)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[342] Coverage of people in need of assistive technology by legislation | pub=WHO | src=who-gho.jsonl
+  desc: Coverage of people in need of assistive technology by legislation
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[343] Prevalence of use of assistive products (%) | pub=WHO | src=who-gho.jsonl
+  desc: Prevalence of use of assistive products (%)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[344] Population pushed below a relative poverty line by household health expenditures - 60% of median dai | pub=WHO | src=who-gho.jsonl
+  desc: Population pushed below a relative poverty line by household health expenditures - 60% of median daily per capita consumption or income (%, national, rural, urban)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[345] Year of most recent survey of adults | pub=WHO | src=who-gho.jsonl
+  desc: Year of most recent survey of adults
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[346] Number of cases of cutaneous leishmaniasis reported | pub=WHO | src=who-gho.jsonl
+  desc: Number of cases of cutaneous leishmaniasis reported
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[347] Population pushed further below a relative poverty line by household health expenditures - 60% of me | pub=WHO | src=who-gho.jsonl
+  desc: Population pushed further below a relative poverty line by household health expenditures - 60% of median daily per capita consumption or income (%, national, rural, urban)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[348] Total population pushed further below a relative poverty line by household health expenditures - 60% | pub=WHO | src=who-gho.jsonl
+  desc: Total population pushed further below a relative poverty line by household health expenditures - 60% of median daily per capita consumption or income (millions, regional, global)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health
+
+[349] Proportion of population with primary reliance on polluting fuels and technologies for cooking (%) | pub=WHO | src=who-gho.jsonl
+  desc: Proportion of population with primary reliance on polluting fuels and technologies for cooking (%)
+  cols: SpatialDim, TimeDim, NumericValue, Dim1, Dim2, Dim3
+  tags: EN
+  cat: global_health

@@ -1,0 +1,299 @@
+[450] Proportion of the population living below the international poverty line by sex, age, employment sta | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG1, target-1.1
+  cat: SDG 1: End poverty in all its forms everywhere
+
+[451] Proportion of total adult population with secure tenure rights to land, (a) with legally recognized  | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG1, target-1.4
+  cat: SDG 1: End poverty in all its forms everywhere
+
+[452] Proportion of total government spending on essential services (education, health and social protecti | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of total government spending on essential services (education, health and social protection)
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG1, target-1.a
+  cat: SDG 1: End poverty in all its forms everywhere
+
+[453] Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Or | pub=United Nations | src=un-sdg.jsonl
+  desc: Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG2, target-2.2
+  cat: SDG 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+
+[454] Average income of small-scale food producers, by sex and indigenous status | pub=United Nations | src=un-sdg.jsonl
+  desc: Average income of small-scale food producers, by sex and indigenous status
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG2, target-2.3
+  cat: SDG 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+
+[455] Total official flows (official development assistance plus other official flows) to the agriculture  | pub=United Nations | src=un-sdg.jsonl
+  desc: Total official flows (official development assistance plus other official flows) to the agriculture sector
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG2, target-2.a
+  cat: SDG 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+
+[456] Under‑5 mortality rate | pub=United Nations | src=un-sdg.jsonl
+  desc: Under‑5 mortality rate
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.2
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[457] Number of people requiring interventions against neglected tropical diseases | pub=United Nations | src=un-sdg.jsonl
+  desc: Number of people requiring interventions against neglected tropical diseases
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.3
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[458] Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare  | pub=United Nations | src=un-sdg.jsonl
+  desc: Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.5
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[459] Coverage of essential health services | pub=United Nations | src=un-sdg.jsonl
+  desc: Coverage of essential health services
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.8
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[460] Total net official development assistance to medical research and basic health sectors | pub=United Nations | src=un-sdg.jsonl
+  desc: Total net official development assistance to medical research and basic health sectors
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.b
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[461] Percentage of bloodstream infections due to selected antimicrobial-resistant organisms | pub=United Nations | src=un-sdg.jsonl
+  desc: Percentage of bloodstream infections due to selected antimicrobial-resistant organisms
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG3, target-3.d
+  cat: SDG 3: Ensure healthy lives and promote well-being for all at all ages
+
+[462] Participation rate of youth and adults in formal and non-formal education and training in the previo | pub=United Nations | src=un-sdg.jsonl
+  desc: Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG4, target-4.3
+  cat: SDG 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+
+[463] Proportion of schools offering basic services, by type of service | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of schools offering basic services, by type of service
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG4, target-4.a
+  cat: SDG 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+
+[464] Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other  | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG5, target-5.2
+  cat: SDG 5: Achieve gender equality and empower all women and girls
+
+[465] Proportion of women in managerial positions | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of women in managerial positions
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG5, target-5.5
+  cat: SDG 5: Achieve gender equality and empower all women and girls
+
+[466] Proportion of individuals who own a mobile telephone, by sex | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of individuals who own a mobile telephone, by sex
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG5, target-5.b
+  cat: SDG 5: Achieve gender equality and empower all women and girls
+
+[467] Proportion of domestic and industrial wastewater flows safely treated | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of domestic and industrial wastewater flows safely treated
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG6, target-6.3
+  cat: SDG 6: Ensure availability and sustainable management of water and sanitation for all
+
+[468] Change in the extent of water-related ecosystems over time | pub=United Nations | src=un-sdg.jsonl
+  desc: Change in the extent of water-related ecosystems over time
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG6, target-6.6
+  cat: SDG 6: Ensure availability and sustainable management of water and sanitation for all
+
+[469] Renewable energy share in the total final energy consumption | pub=United Nations | src=un-sdg.jsonl
+  desc: Renewable energy share in the total final energy consumption
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG7, target-7.2
+  cat: SDG 7: Ensure access to affordable, reliable, sustainable and modern energy for all
+
+[470] Proportion of informal employment in total employment, by sector and sex | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of informal employment in total employment, by sector and sex
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG8, target-8.3
+  cat: SDG 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+
+[471] Proportion of youth (aged 15-24 years) not in education, employment or training | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of youth (aged 15-24 years) not in education, employment or training
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG8, target-8.6
+  cat: SDG 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+
+[472] Tourism direct GDP as a proportion of total GDP and in growth rate | pub=United Nations | src=un-sdg.jsonl
+  desc: Tourism direct GDP as a proportion of total GDP and in growth rate
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG8, target-8.9
+  cat: SDG 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+
+[473] Existence of a developed and operationalized national strategy for youth employment, as a distinct s | pub=United Nations | src=un-sdg.jsonl
+  desc: Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG8, target-8.b
+  cat: SDG 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+
+[474] Proportion of small-scale industries in total industry value added, based on (a) international class | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of small-scale industries in total industry value added, based on (a) international classification and (b) national classifications
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG9, target-9.3
+  cat: SDG 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+
+[475] Total official international support (official development assistance plus other official flows) to  | pub=United Nations | src=un-sdg.jsonl
+  desc: Total official international support (official development assistance plus other official flows) to infrastructure
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG9, target-9.a
+  cat: SDG 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+
+[476] Proportion of population reporting having personally felt discriminated against or harassed in the p | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG10, target-10.3
+  cat: SDG 10: Reduce inequality within and among countries
+
+[477] Proportion of countries with migration policies that facilitate orderly, safe, regular and responsib | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG10, target-10.7
+  cat: SDG 10: Reduce inequality within and among countries
+
+[478] Total resource flows for development (e.g. official development assistance, foreign direct investmen | pub=United Nations | src=un-sdg.jsonl
+  desc: Total resource flows for development (e.g. official development assistance, foreign direct investment and other flows)
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG10, target-10.b
+  cat: SDG 10: Reduce inequality within and among countries
+
+[479] Proportion of cities with a direct participation structure of civil society in urban planning and ma | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG11, target-11.3
+  cat: SDG 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+
+[480] Proportion of municipal solid waste collected and managed in controlled facilities out of total muni | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG11, target-11.6
+  cat: SDG 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+
+[481] Number of countries that adopt and implement national disaster risk reduction strategies in line wit | pub=United Nations | src=un-sdg.jsonl
+  desc: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG11, target-11.b
+  cat: SDG 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+
+[482] Domestic material consumption, domestic material consumption per capita, and domestic material consu | pub=United Nations | src=un-sdg.jsonl
+  desc: Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG12, target-12.2
+  cat: SDG 12: Ensure sustainable consumption and production patterns
+
+[483] Number of companies publishing sustainability reports | pub=United Nations | src=un-sdg.jsonl
+  desc: Number of companies publishing sustainability reports
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG12, target-12.6
+  cat: SDG 12: Ensure sustainable consumption and production patterns
+
+[484] Amount of fossil-fuel subsidies (production and consumption) per unit of GDP | pub=United Nations | src=un-sdg.jsonl
+  desc: Amount of fossil-fuel subsidies (production and consumption) per unit of GDP
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG12, target-12.c
+  cat: SDG 12: Ensure sustainable consumption and production patterns
+
+[485] Number of countries with reports under the Paris Agreement, as submitted to the secretariat of the U | pub=United Nations | src=un-sdg.jsonl
+  desc: Number of countries with reports under the Paris Agreement, as submitted to the secretariat of the United Nations Framework Convention on Climate Change
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG13, target-13.2
+  cat: SDG 13: Take urgent action to combat climate change and its impacts
+
+[486] Degree of implementation of international instruments aiming to combat illegal, unreported and unreg | pub=United Nations | src=un-sdg.jsonl
+  desc: Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG14, target-14.6
+  cat: SDG 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable development
+
+[487] Proportion of fish stocks within biologically sustainable levels | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of fish stocks within biologically sustainable levels
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG14, target-14.4
+  cat: SDG 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable development
+
+[488] Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protec | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG15, target-15.1
+  cat: SDG 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+
+[489] Red List Index | pub=United Nations | src=un-sdg.jsonl
+  desc: Red List Index
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG15, target-15.5
+  cat: SDG 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+
+[490] (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) rev | pub=United Nations | src=un-sdg.jsonl
+  desc: (a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG15, target-15.a
+  cat: SDG 15: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+
+[491] Proportion of population that feel safe walking alone around the area they live after dark | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of population that feel safe walking alone around the area they live after dark
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG16, target-16.1
+  cat: SDG 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+[492] Unsentenced detainees as a proportion of overall prison population | pub=United Nations | src=un-sdg.jsonl
+  desc: Unsentenced detainees as a proportion of overall prison population
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG16, target-16.3
+  cat: SDG 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+[493] Proportion of businesses that had at least one contact with a public official and that paid a bribe  | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG16, target-16.5
+  cat: SDG 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+[494] Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disab | pub=United Nations | src=un-sdg.jsonl
+  desc: Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG16, target-16.7
+  cat: SDG 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+[495] Existence of independent national human rights institutions in compliance with the Paris Principles | pub=United Nations | src=un-sdg.jsonl
+  desc: Existence of independent national human rights institutions in compliance with the Paris Principles
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG16, target-16.a
+  cat: SDG 16: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+[496] Volume of remittances (in United States dollars) as a proportion of total GDP | pub=United Nations | src=un-sdg.jsonl
+  desc: Volume of remittances (in United States dollars) as a proportion of total GDP
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG17, target-17.3
+  cat: SDG 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+
+[497] Total amount of funding for developing and developed countries to promote the development, transfer, | pub=United Nations | src=un-sdg.jsonl
+  desc: Total amount of funding for developing and developed countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG17, target-17.7
+  cat: SDG 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+
+[498] Weighted average tariffs faced by developing countries, least developed countries and small island d | pub=United Nations | src=un-sdg.jsonl
+  desc: Weighted average tariffs faced by developing countries, least developed countries and small island developing States
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG17, target-17.12
+  cat: SDG 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+
+[499] Amount in United States dollars committed to public-private partnerships for infrastructure | pub=United Nations | src=un-sdg.jsonl
+  desc: Amount in United States dollars committed to public-private partnerships for infrastructure
+  cols: geoAreaCode, geoAreaName, timePeriodStart, value, sex
+  tags: SDG17, target-17.17
+  cat: SDG 17: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development

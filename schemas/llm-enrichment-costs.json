@@ -1,0 +1,15 @@
+[
+  {
+    "records_processed": 500,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "cost_input": 0,
+    "cost_output": 0,
+    "total_cost": 0,
+    "elapsed_seconds": 0.135,
+    "records_per_second": 3703.7037037037035,
+    "cost_per_record": 0,
+    "extrapolated_200k_cost": 0,
+    "timestamp": "2026-04-12T00:33:05.204Z"
+  }
+]

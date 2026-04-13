@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+
+# Data files (too large for git)
+schemas/enriched/
+schemas/final/
+schemas/sonnet-batches/
+schemas/sonnet-results*.json
+schemas/ab-test-*.json
+schemas/llm-batch-*.json
+schemas/llm-enrichment-output.jsonl
+schemas/llm-enrichment-sample.jsonl
+schemas/enrichment-sample-input.jsonl
+schemas/enrichment-sample-output.jsonl
+schemas/enrichment-checkpoint.json
+schemas/sonnet-checkpoint.json
+schemas/publisher-lookup.json
+schemas/publisher-raw-list.json
+search-app/data/
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Agent context (local only)
+AGENT-CONTEXT.md
+
+# Installer
+GoogleCloudSDKInstaller.exe
