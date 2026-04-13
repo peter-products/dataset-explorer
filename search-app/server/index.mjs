@@ -1,13 +1,18 @@
-// Data Catalog Search API
+// Dataset Explorer — Search API
+// Portable: uses @xenova/transformers for embeddings (no Ollama/GPU needed)
 
 import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { pipeline } from '@xenova/transformers';
 
-const DATA_DIR = path.resolve('../data');
-const FINAL_DIR = path.resolve('../../schemas/final');
-const PORT = 3001;
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = path.resolve(__dirname, '../data');
+const FINAL_DIR = path.resolve(__dirname, '../../schemas/final');
+const CLIENT_DIST = path.resolve(__dirname, '../client/dist');
+const PORT = process.env.PORT || 3001;
 
 let metadata = [];
 let embeddings = null;
@@ -15,22 +20,98 @@ let DIM = 0;
 let totalRecords = 0;
 let dedupIndex = {};
 let idToFileIndex = {};
+let embedder = null;
 
 const FACET_KEYS = ['domain', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'];
-const SCORE_THRESHOLD = 0.58; // minimum cosine similarity to count as a "match"
+const SCORE_THRESHOLD = 0.35; // MiniLM has different score range than nomic
+
+// ============ SYNONYM EXPANSION ============
+
+const SYNONYM_GROUPS = [
+  ['death', 'mortality', 'fatality', 'decedent', 'deceased', 'dying'],
+  ['income', 'revenue', 'earnings', 'salary', 'wages', 'compensation', 'pay'],
+  ['housing', 'home', 'residence', 'dwelling', 'apartment', 'rental'],
+  ['permit', 'license', 'licence', 'approval', 'authorization'],
+  ['crime', 'offense', 'offence', 'criminal', 'felony', 'misdemeanor', 'arrest'],
+  ['school', 'education', 'student', 'academic', 'enrollment', 'enrolment'],
+  ['hospital', 'clinic', 'medical', 'healthcare', 'health care'],
+  ['pollution', 'contamination', 'emission', 'pollutant'],
+  ['road', 'street', 'highway', 'roadway', 'pavement'],
+  ['job', 'employment', 'occupation', 'workforce', 'worker'],
+  ['unemployment', 'jobless', 'unemployed'],
+  ['tax', 'taxation', 'levy', 'assessment', 'excise'],
+  ['property', 'parcel', 'real estate', 'land'],
+  ['water', 'aquatic', 'hydro', 'watershed', 'stream', 'river'],
+  ['forest', 'timber', 'woodland', 'forestry', 'silviculture'],
+  ['fish', 'salmon', 'fishery', 'fisheries', 'aquaculture'],
+  ['election', 'voting', 'ballot', 'voter', 'precinct'],
+  ['budget', 'expenditure', 'spending', 'appropriation'],
+  ['poverty', 'low-income', 'disadvantaged', 'indigent'],
+  ['child', 'children', 'youth', 'juvenile', 'minor', 'kid'],
+  ['elderly', 'senior', 'aging', 'aged', 'older adult'],
+  ['vehicle', 'car', 'automobile', 'traffic', 'motor'],
+  ['bridge', 'overpass', 'crossing', 'span'],
+  ['fire', 'wildfire', 'blaze', 'burn', 'arson'],
+  ['flood', 'inundation', 'floodplain', 'deluge'],
+  ['earthquake', 'seismic', 'quake', 'tremor'],
+  ['vaccine', 'vaccination', 'immunization', 'immunisation'],
+  ['disease', 'illness', 'infection', 'pathology', 'morbidity'],
+  ['agriculture', 'farming', 'crop', 'livestock', 'agricultural'],
+  ['energy', 'electricity', 'power', 'electric', 'utility'],
+  ['transit', 'bus', 'train', 'subway', 'metro', 'rail'],
+  ['park', 'recreation', 'trail', 'open space', 'greenspace'],
+  ['waste', 'garbage', 'refuse', 'recycling', 'landfill', 'trash'],
+  ['sewer', 'wastewater', 'sewage', 'sanitary'],
+  ['zoning', 'land use', 'comprehensive plan', 'urban planning'],
+  ['demographic', 'population', 'census', 'headcount'],
+  ['airport', 'aviation', 'flight', 'airline'],
+  ['bicycle', 'bike', 'cycling', 'cyclist', 'biking'],
+];
+
+const synonymLookup = {};
+for (const group of SYNONYM_GROUPS) {
+  for (const word of group) {
+    if (!synonymLookup[word]) synonymLookup[word] = new Set();
+    for (const w of group) synonymLookup[word].add(w);
+  }
+}
+
+function expandQuery(query) {
+  const words = query.toLowerCase().split(/\s+/);
+  const expanded = new Set(words);
+  for (const w of words) {
+    if (synonymLookup[w]) for (const syn of synonymLookup[w]) expanded.add(syn);
+  }
+  return expanded;
+}
+
+function keywordOverlap(query, record) {
+  const originalWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 2);
+  if (originalWords.length === 0) return 0;
+  const colNames = (record.columns || []).map(c => typeof c === 'string' ? c : (c.name || '')).join(' ');
+  const tagStr = (record.tags || []).map(t => typeof t === 'string' ? t : '').join(' ');
+  const rText = ((record.name || '') + ' ' + (record.summary || '') + ' ' + colNames + ' ' + tagStr).toLowerCase();
+  let hits = 0;
+  for (const w of originalWords) {
+    if (rText.includes(w)) { hits++; }
+    else if (synonymLookup[w]) {
+      for (const syn of synonymLookup[w]) { if (rText.includes(syn)) { hits++; break; } }
+    }
+  }
+  return hits / originalWords.length;
+}
+
+// ============ INDEX LOADING ============
 
 function loadIndex() {
   console.log('Loading index...');
-
   const info = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'index-info.json'), 'utf8'));
   DIM = info.dim;
+  console.log(`  Model: ${info.model}, dim: ${DIM}`);
 
   const metaLines = fs.readFileSync(path.join(DATA_DIR, 'metadata.jsonl'), 'utf8').trim().split('\n');
-  metadata = metaLines.filter(l => l.trim()).map(l => {
-    try { return JSON.parse(l); } catch { return null; }
-  }).filter(Boolean);
+  metadata = metaLines.filter(l => l.trim()).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
   totalRecords = metadata.length;
-  console.log(`  Metadata: ${totalRecords} records`);
 
   for (let i = 0; i < metadata.length; i++) {
     if (metadata[i].id) idToFileIndex[metadata[i].id] = { source: metadata[i].source, idx: i };
@@ -41,9 +122,8 @@ function loadIndex() {
     totalRecords = Math.floor(embBuffer.length / (DIM * 4));
     metadata = metadata.slice(0, totalRecords);
   }
-
   embeddings = new Float32Array(embBuffer.buffer, embBuffer.byteOffset, totalRecords * DIM);
-  console.log(`  Embeddings: ${totalRecords} x ${DIM} (${(embBuffer.length / 1024 / 1024).toFixed(1)} MB)`);
+  console.log(`  Embeddings: ${totalRecords} x ${DIM} (${(embBuffer.length / 1024 / 1024).toFixed(0)} MB)`);
 
   global.norms = new Float32Array(totalRecords);
   for (let i = 0; i < totalRecords; i++) {
@@ -56,24 +136,27 @@ function loadIndex() {
   const dedupPath = path.join(DATA_DIR, 'dedup-metadata.json');
   if (fs.existsSync(dedupPath)) {
     dedupIndex = JSON.parse(fs.readFileSync(dedupPath, 'utf8'));
-    const dupeCount = Object.values(dedupIndex).filter(v => v.duplicate_of).length;
-    console.log(`  Dedup: ${dupeCount} duplicates filtered`);
+    console.log(`  Dedup: ${Object.values(dedupIndex).filter(v => v.duplicate_of).length} duplicates filtered`);
   }
 
-  console.log(`Index loaded: ${totalRecords} records ready.`);
+  console.log(`Index loaded: ${totalRecords} records`);
+}
+
+// ============ EMBEDDING ============
+
+async function initEmbedder() {
+  console.log('Loading embedding model...');
+  const start = Date.now();
+  embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', { quantized: true });
+  console.log(`  Embedder ready (${((Date.now()-start)/1000).toFixed(1)}s)`);
 }
 
 async function getQueryEmbedding(query) {
-  const resp = await fetch('http://localhost:11434/api/embed', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: 'nomic-embed-text', input: [query] }),
-    signal: AbortSignal.timeout(10000),
-  });
-  if (!resp.ok) throw new Error('Ollama embedding failed');
-  const data = await resp.json();
-  return new Float32Array(data.embeddings[0]);
+  const result = await embedder(query, { pooling: 'mean', normalize: true });
+  return new Float32Array(result.data);
 }
+
+// ============ SEARCH ============
 
 function passesFilter(m, filters, skipKey) {
   for (const key of FACET_KEYS) {
@@ -83,23 +166,11 @@ function passesFilter(m, filters, skipKey) {
   return true;
 }
 
-function keywordOverlap(query, record) {
-  const qWords = new Set(query.toLowerCase().split(/\s+/).filter(w => w.length > 2));
-  if (qWords.size === 0) return 0;
-  const rText = ((record.name || '') + ' ' + (record.summary || '')).toLowerCase();
-  let hits = 0;
-  for (const w of qWords) {
-    if (rText.includes(w)) hits++;
-  }
-  return hits / qWords.size;
-}
-
 function search(queryEmb, topK, filters, queryText) {
   let qNorm = 0;
   for (let j = 0; j < DIM; j++) qNorm += queryEmb[j] ** 2;
   qNorm = Math.sqrt(qNorm);
 
-  // Step 1: Score all non-duplicate records
   const scores = new Float32Array(totalRecords);
   for (let i = 0; i < totalRecords; i++) {
     if (metadata[i].id && dedupIndex[metadata[i].id]?.duplicate_of) continue;
@@ -107,43 +178,30 @@ function search(queryEmb, topK, filters, queryText) {
     const offset = i * DIM;
     for (let j = 0; j < DIM; j++) dot += queryEmb[j] * embeddings[offset + j];
     let cosine = dot / (qNorm * global.norms[i] + 1e-10);
-
-    // Boost score based on keyword overlap (30% weight)
     if (queryText) {
-      const kwBoost = keywordOverlap(queryText, metadata[i]);
-      cosine = cosine * 0.7 + kwBoost * 0.3;
+      cosine = cosine * 0.7 + keywordOverlap(queryText, metadata[i]) * 0.3;
     }
-
     scores[i] = cosine;
   }
 
-  // Step 2: Get all records above threshold (the "matching" set)
   const matchingIndices = [];
   for (let i = 0; i < totalRecords; i++) {
     if (scores[i] >= SCORE_THRESHOLD) matchingIndices.push(i);
   }
 
-  // Step 3: Compute facet counts from matching set
-  // For each facet key, count values considering all OTHER active filters
   const facets = {};
   for (const key of FACET_KEYS) {
     const counts = {};
     for (const i of matchingIndices) {
-      const m = metadata[i];
-      if (!passesFilter(m, filters, key)) continue;
-      const val = m[key] || 'unknown';
+      if (!passesFilter(metadata[i], filters, key)) continue;
+      const val = metadata[i][key] || 'unknown';
       if (val === 'unknown') continue;
       counts[val] = (counts[val] || 0) + 1;
     }
-    facets[key] = Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .map(([value, count]) => ({ value, count }));
+    facets[key] = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
   }
 
-  // Step 4: Apply ALL filters to get final result set
   const filteredIndices = matchingIndices.filter(i => passesFilter(metadata[i], filters));
-
-  // Step 5: Sort by score and return top K
   filteredIndices.sort((a, b) => scores[b] - scores[a]);
 
   const results = filteredIndices.slice(0, topK).map(i => {
@@ -155,12 +213,7 @@ function search(queryEmb, topK, filters, queryText) {
     return r;
   });
 
-  return {
-    totalMatching: matchingIndices.length,
-    totalFiltered: filteredIndices.length,
-    results,
-    facets,
-  };
+  return { totalMatching: matchingIndices.length, totalFiltered: filteredIndices.length, results, facets };
 }
 
 function getFullRecord(id) {
@@ -171,15 +224,11 @@ function getFullRecord(id) {
   const lines = fs.readFileSync(filepath, 'utf8').trim().split('\n');
   for (const line of lines) {
     if (!line.trim()) continue;
-    try {
-      const r = JSON.parse(line);
-      if (r.id === id) return r;
-    } catch {}
+    try { const r = JSON.parse(line); if (r.id === id) return r; } catch {}
   }
   return null;
 }
 
-// Compute global facet counts (no query, no filters) for the landing page
 function getGlobalFacets() {
   const facets = {};
   for (const key of FACET_KEYS) {
@@ -190,30 +239,31 @@ function getGlobalFacets() {
       if (val === 'unknown') continue;
       counts[val] = (counts[val] || 0) + 1;
     }
-    facets[key] = Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .map(([value, count]) => ({ value, count }));
+    facets[key] = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([value, count]) => ({ value, count }));
   }
   return facets;
 }
 
-let cachedGlobalFacets = null;
+// ============ EXPRESS APP ============
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Serve static React build if it exists
+if (fs.existsSync(CLIENT_DIST)) {
+  app.use(express.static(CLIENT_DIST));
+}
+
+// --- Human search endpoint ---
 app.get('/api/search', async (req, res) => {
   const { q, limit = 40, ...filterParams } = req.query;
   if (!q) return res.status(400).json({ error: 'Missing query parameter q' });
-
   try {
-    const queryEmb = await getQueryEmbedding(q);
+    const expanded = expandQuery(q);
+    const queryEmb = await getQueryEmbedding([...expanded].join(' '));
     const filters = {};
-    for (const key of FACET_KEYS) {
-      if (filterParams[key]) filters[key] = filterParams[key];
-    }
-
+    for (const key of FACET_KEYS) { if (filterParams[key]) filters[key] = filterParams[key]; }
     const { totalMatching, totalFiltered, results, facets } = search(queryEmb, Math.min(parseInt(limit) || 40, 200), filters, q);
     res.json({ query: q, totalMatching, totalFiltered, count: results.length, results, facets });
   } catch (e) {
@@ -221,18 +271,118 @@ app.get('/api/search', async (req, res) => {
   }
 });
 
-app.get('/api/filters', (req, res) => {
-  if (!cachedGlobalFacets) cachedGlobalFacets = getGlobalFacets();
-  res.json(cachedGlobalFacets);
+// --- Agent API (v1) ---
+app.get('/api/v1/search', async (req, res) => {
+  const { q, limit = 10, domain, format: formatType, geography, platform } = req.query;
+  if (!q) return res.status(400).json({ error: 'Missing query parameter q', usage: 'GET /api/v1/search?q=your+query' });
+  try {
+    const expanded = expandQuery(q);
+    const queryEmb = await getQueryEmbedding([...expanded].join(' '));
+    const filters = {};
+    if (domain) filters.domain = domain;
+    if (formatType) filters.formatType = formatType;
+    if (geography) filters.geographic_scope = geography;
+    if (platform) filters.source_platform = platform;
+
+    const { totalMatching, totalFiltered, results } = search(queryEmb, Math.min(parseInt(limit) || 10, 50), filters, q);
+
+    // Agent-friendly response: clean, flat, actionable
+    const agentResults = results.map(r => ({
+      name: r.name,
+      description: r.summary,
+      domain: r.domain,
+      publisher: r.publisher,
+      url: r.url,
+      api_endpoint: r.api_endpoint || null,
+      format: r.format,
+      columns: r.columns || [],
+      geographic_scope: r.geographic_scope,
+      update_frequency: r.update_frequency,
+      relevance_score: Math.round(r.score * 100) / 100,
+    }));
+
+    res.json({
+      query: q,
+      total_matching: totalMatching,
+      total_filtered: totalFiltered,
+      count: agentResults.length,
+      results: agentResults,
+    });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
+// --- OpenAPI spec for agents ---
+app.get('/api/v1/openapi.json', (req, res) => {
+  res.json({
+    openapi: '3.0.3',
+    info: {
+      title: 'Dataset Explorer API',
+      description: 'Semantic search across 200K+ public dataset schemas. Find datasets by natural language query.',
+      version: '1.0.0',
+    },
+    servers: [{ url: req.protocol + '://' + req.get('host') }],
+    paths: {
+      '/api/v1/search': {
+        get: {
+          operationId: 'searchDatasets',
+          summary: 'Search for public datasets using natural language',
+          description: 'Returns datasets matching the query, ranked by relevance. Supports filtering by domain, format, geography, and platform.',
+          parameters: [
+            { name: 'q', in: 'query', required: true, schema: { type: 'string' }, description: 'Natural language search query (e.g. "COVID hospitalizations by county")' },
+            { name: 'limit', in: 'query', schema: { type: 'integer', default: 10, maximum: 50 }, description: 'Max results to return' },
+            { name: 'domain', in: 'query', schema: { type: 'string', enum: ['health', 'education', 'transportation', 'environment', 'finance', 'public_safety', 'elections', 'labor', 'demographics', 'natural_resources', 'technology', 'legal', 'energy', 'agriculture', 'housing'] }, description: 'Filter by domain category' },
+            { name: 'format', in: 'query', schema: { type: 'string', enum: ['api', 'flat_file', 'structured', 'geospatial', 'document'] }, description: 'Filter by data format type' },
+            { name: 'geography', in: 'query', schema: { type: 'string', enum: ['global', 'us_national', 'wa_state', 'wa_city', 'wa_county'] }, description: 'Filter by geographic scope' },
+            { name: 'platform', in: 'query', schema: { type: 'string', enum: ['socrata', 'ckan', 'arcgis', 'bigquery', 'aws', 'huggingface', 'kaggle'] }, description: 'Filter by source platform' },
+          ],
+          responses: {
+            200: {
+              description: 'Search results',
+              content: { 'application/json': { schema: {
+                type: 'object',
+                properties: {
+                  query: { type: 'string' },
+                  total_matching: { type: 'integer' },
+                  count: { type: 'integer' },
+                  results: { type: 'array', items: {
+                    type: 'object',
+                    properties: {
+                      name: { type: 'string' },
+                      description: { type: 'string' },
+                      domain: { type: 'string' },
+                      publisher: { type: 'string' },
+                      url: { type: 'string', description: 'Link to dataset on source portal' },
+                      api_endpoint: { type: 'string', nullable: true, description: 'Direct API URL to query data (if available)' },
+                      format: { type: 'string' },
+                      columns: { type: 'array', items: { type: 'string' }, description: 'Column names in the dataset schema' },
+                      geographic_scope: { type: 'string' },
+                      update_frequency: { type: 'string' },
+                      relevance_score: { type: 'number' },
+                    }
+                  }}
+                }
+              }}}
+            }
+          }
+        }
+      }
+    }
+  });
+});
+
+// --- Other endpoints ---
 app.get('/api/dataset/:id', (req, res) => {
   const id = decodeURIComponent(req.params.id);
   const full = getFullRecord(id);
   if (!full) return res.status(404).json({ error: 'Dataset not found' });
   const dedupInfo = dedupIndex[id];
-  const also_available = dedupInfo?.duplicates?.map(d => ({ source: d.source?.replace('.jsonl', ''), url: d.url })) || [];
-  res.json({ ...full, also_available });
+  res.json({ ...full, also_available: dedupInfo?.duplicates?.map(d => ({ source: d.source?.replace('.jsonl', ''), url: d.url })) || [] });
+});
+
+app.get('/api/filters', (req, res) => {
+  res.json(getGlobalFacets());
 });
 
 app.get('/api/stats', (req, res) => {
@@ -241,13 +391,32 @@ app.get('/api/stats', (req, res) => {
 });
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', records: totalRecords });
+  res.json({ status: 'ok', records: totalRecords, model: embedder ? 'loaded' : 'loading' });
 });
 
-try {
-  loadIndex();
-  app.listen(PORT, () => console.log(`Search API at http://localhost:${PORT}`));
-} catch (e) {
-  console.error('Failed:', e.message);
-  process.exit(1);
+// SPA fallback — serve index.html for client-side routes
+if (fs.existsSync(CLIENT_DIST)) {
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(CLIENT_DIST, 'index.html'));
+  });
 }
+
+// ============ START ============
+
+async function start() {
+  try {
+    loadIndex();
+    await initEmbedder();
+    app.listen(PORT, () => {
+      console.log(`\nDataset Explorer running at http://localhost:${PORT}`);
+      console.log(`  Search: /api/search?q=...`);
+      console.log(`  Agent API: /api/v1/search?q=...`);
+      console.log(`  OpenAPI spec: /api/v1/openapi.json`);
+    });
+  } catch (e) {
+    console.error('Failed to start:', e.message);
+    process.exit(1);
+  }
+}
+
+start();
