@@ -2,6 +2,8 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import FilterSidebar from '../components/FilterSidebar';
 import ResultCard from '../components/ResultCard';
+import { LogoFull, LogoIcon } from '../components/Logo';
+import usePageTitle from '../hooks/usePageTitle';
 
 const EXAMPLES = [
   'COVID-19 hospitalizations by county',
@@ -101,6 +103,9 @@ export default function SearchPage() {
 
   const searched = searchParams.has('q');
   const datasetCount = stats ? (stats.uniqueRecords || stats.totalRecords).toLocaleString() : '170,000';
+  const [apiDocsOpen, setApiDocsOpen] = useState(false);
+
+  usePageTitle(searched ? 'Schema Search' : 'SchemaFinder');
 
   // =========== LANDING PAGE ===========
   if (!searched) {
@@ -123,8 +128,8 @@ export default function SearchPage() {
           </div>
           {/* Centered hero */}
           <div className="flex-1 flex flex-col items-center justify-center px-8 -mt-16">
-            <h1 className="text-5xl font-bold text-gray-900 mb-12 tracking-tight">
-              Dataset Explorer
+            <h1 className="mb-12">
+              <LogoFull size="lg" className="text-4xl" />
             </h1>
 
             <div className="w-full max-w-xl bg-blue-50 border border-blue-200 rounded-2xl px-10 py-8 mb-12">
@@ -162,28 +167,83 @@ export default function SearchPage() {
             </div>
           </div>
 
-          {/* API callout */}
+          {/* API section — expandable */}
           <div className="max-w-2xl mx-auto mt-16 mb-8">
-            <div className="bg-white border border-gray-200 rounded-xl p-6 flex items-start gap-5">
-              <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-              </div>
-              <div className="flex-1">
-                <h3 className="font-bold text-gray-900 text-sm mb-1">Build with the API</h3>
-                <p className="text-sm text-gray-500 mb-3">
-                  Let your AI agents find datasets programmatically. Free REST API, OpenAPI spec for tool discovery, and an MCP server for Claude integration.
-                </p>
-                <div className="flex items-center gap-3">
-                  <Link to="/api-docs" className="text-sm font-medium text-blue-600 hover:text-blue-800">
-                    View API docs &rarr;
-                  </Link>
-                  <a href="/api/v1/openapi.json" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-500 hover:text-gray-700">
-                    OpenAPI spec
-                  </a>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                onClick={() => setApiDocsOpen(!apiDocsOpen)}
+                className="w-full flex items-center gap-4 p-5 text-left hover:bg-gray-50 transition-colors"
+              >
+                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                  </svg>
                 </div>
-              </div>
+                <div className="flex-1">
+                  <h3 className="font-bold text-gray-900 text-sm">Build with the API</h3>
+                  <p className="text-sm text-gray-500">Free REST API for AI agents. OpenAPI spec + MCP server for Claude.</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" className={`w-5 h-5 text-gray-400 transition-transform ${apiDocsOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {apiDocsOpen && (
+                <div className="px-5 pb-5 border-t border-gray-100">
+                  <div className="mt-4 space-y-4 text-sm">
+                    {/* Quick start */}
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1.5">Quick Start</h4>
+                      <pre className="bg-gray-900 text-gray-100 rounded-lg p-3 text-xs font-mono overflow-x-auto">
+{`curl "https://schemafinder.com/api/v1/search?q=COVID+hospitalizations&limit=5"`}
+                      </pre>
+                    </div>
+
+                    {/* Response */}
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1.5">Response includes</h4>
+                      <div className="grid grid-cols-2 gap-2 text-xs text-gray-600">
+                        <div className="bg-gray-50 rounded px-2.5 py-1.5"><span className="font-mono text-blue-700">url</span> — link to source portal</div>
+                        <div className="bg-gray-50 rounded px-2.5 py-1.5"><span className="font-mono text-blue-700">api_endpoint</span> — direct data API</div>
+                        <div className="bg-gray-50 rounded px-2.5 py-1.5"><span className="font-mono text-blue-700">columns</span> — schema field names</div>
+                        <div className="bg-gray-50 rounded px-2.5 py-1.5"><span className="font-mono text-blue-700">format</span> — CSV, JSON, API, etc.</div>
+                      </div>
+                    </div>
+
+                    {/* Filters */}
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1.5">Filter parameters</h4>
+                      <p className="text-xs text-gray-500">
+                        <code className="bg-gray-100 px-1 rounded">domain</code> (health, education, finance...) &middot;{' '}
+                        <code className="bg-gray-100 px-1 rounded">format</code> (api, flat_file, geospatial) &middot;{' '}
+                        <code className="bg-gray-100 px-1 rounded">geography</code> (global, us_national, wa_state) &middot;{' '}
+                        <code className="bg-gray-100 px-1 rounded">platform</code> (socrata, ckan, arcgis)
+                      </p>
+                    </div>
+
+                    {/* Agent integration */}
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1.5">AI Agent Integration</h4>
+                      <div className="space-y-1.5 text-xs text-gray-600">
+                        <div className="flex items-center gap-2">
+                          <span className="bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded font-medium">OpenAPI</span>
+                          <a href="/api/v1/openapi.json" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-mono">schemafinder.com/api/v1/openapi.json</a>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="bg-purple-100 text-purple-700 px-1.5 py-0.5 rounded font-medium">MCP</span>
+                          <span>Claude Code/Desktop: <code className="bg-gray-100 px-1 rounded">npx dataset-explorer-mcp</code></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="pt-2">
+                      <Link to="/api-docs" className="text-sm font-medium text-blue-600 hover:text-blue-800">
+                        Full API documentation &rarr;
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -209,7 +269,7 @@ export default function SearchPage() {
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
-            <span className="text-lg font-bold text-blue-700 tracking-tight">Dataset Explorer</span>
+            <LogoFull size="md" />
           </button>
 
           <form onSubmit={handleSearch} className="flex-1 flex gap-2 max-w-3xl">

@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom';
+import { LogoFull } from '../components/Logo';
+import usePageTitle from '../hooks/usePageTitle';
 
 const CODE_BG = 'bg-gray-900 text-gray-100 rounded-lg p-4 text-sm font-mono overflow-x-auto';
 
@@ -8,6 +10,7 @@ function CodeBlock({ children }) {
 
 export default function ApiDocsPage() {
   const navigate = useNavigate();
+  usePageTitle('API Docs — SchemaFinder');
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -17,7 +20,7 @@ export default function ApiDocsPage() {
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
-            <span className="text-lg font-bold text-blue-700">Dataset Explorer</span>
+            <LogoFull size="md" />
           </button>
         </div>
       </header>

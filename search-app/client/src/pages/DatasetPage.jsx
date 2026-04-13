@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import DomainBadge from '../components/DomainBadge';
+import { LogoFull } from '../components/Logo';
+import usePageTitle from '../hooks/usePageTitle';
 
 function InfoRow({ label, value, href }) {
   if (!value || value === 'unknown' || value === 'None' || value === 'null') return null;
@@ -83,7 +85,7 @@ export default function DatasetPage() {
     setLoading(true);
     fetch(`/api/dataset/${encodeURIComponent(id)}`)
       .then(r => { if (!r.ok) throw new Error('Dataset not found'); return r.json(); })
-      .then(d => { setDataset(d); setLoading(false); })
+      .then(d => { setDataset(d); setLoading(false); document.title = d.name ? `${d.name} — SchemaFinder` : 'SchemaFinder'; })
       .catch(e => { setError(e.message); setLoading(false); });
   }, [id]);
 
@@ -114,8 +116,11 @@ export default function DatasetPage() {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-6xl mx-auto px-6 py-3 flex items-center gap-4">
-          <button onClick={() => navigate(-1)} className="text-sm text-gray-500 hover:text-blue-600 flex items-center gap-1">
-            <span>&larr;</span> Back to results
+          <button onClick={() => navigate(-1)} className="flex items-center gap-2 text-gray-500 hover:text-blue-600">
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+            <LogoFull size="md" />
           </button>
         </div>
       </header>
