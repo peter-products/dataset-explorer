@@ -1,0 +1,14 @@
+node_modules
+schemas/enriched
+schemas/sonnet-batches
+schemas/*.json
+schemas/ab-test-*
+schemas/llm-*
+search-app/client/node_modules
+search-app/client/src
+search-app/scripts
+search-app/node_modules
+.git
+AGENT-CONTEXT.md
+*.md
+!README.md
