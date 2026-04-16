@@ -292,6 +292,23 @@ if (fs.existsSync(CLIENT_DIST)) {
   app.use(express.static(CLIENT_DIST));
 }
 
+// --- Browse by category (curated) ---
+let curatedBrowse = {};
+try { curatedBrowse = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'curated-browse.json'), 'utf8')); } catch {}
+
+app.get('/api/browse', rateLimit, (req, res) => {
+  const { domain, limit = 200 } = req.query;
+  if (!domain || !curatedBrowse[domain]) {
+    return res.json({ domain, count: 0, results: [], available: Object.keys(curatedBrowse) });
+  }
+  const indices = curatedBrowse[domain].slice(0, parseInt(limit) || 200);
+  const results = indices.map(i => metadata[i]).filter(Boolean).map(m => ({
+    ...m,
+    score: 1.0,
+  }));
+  res.json({ domain, count: results.length, results });
+});
+
 // --- Human search endpoint ---
 app.get('/api/search', rateLimit, async (req, res) => {
   const { q, limit = 40, includeNoSchema, ...filterParams } = req.query;

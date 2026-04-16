@@ -17,12 +17,12 @@ const EXAMPLES = [
 ];
 
 const CATEGORIES = [
-  { domain: 'health', label: 'Health & Medicine', icon: '🏥', query: 'health care hospitals disease' },
-  { domain: 'education', label: 'Education', icon: '🎓', query: 'school enrollment students education' },
-  { domain: 'finance', label: 'Finance & Economics', icon: '📊', query: 'budget revenue tax economic indicators' },
-  { domain: 'environment', label: 'Environment', icon: '🌿', query: 'air quality water pollution climate' },
-  { domain: 'transportation', label: 'Transportation', icon: '🚌', query: 'transit roads traffic accidents' },
-  { domain: 'demographics', label: 'Demographics', icon: '👥', query: 'population census demographics race ethnicity' },
+  { domain: 'health', label: 'Health & Medicine', icon: '🏥' },
+  { domain: 'education', label: 'Education', icon: '🎓' },
+  { domain: 'finance', label: 'Finance & Economics', icon: '📊' },
+  { domain: 'environment', label: 'Environment', icon: '🌿' },
+  { domain: 'transportation', label: 'Transportation', icon: '🚌' },
+  { domain: 'demographics', label: 'Demographics', icon: '👥' },
 ];
 
 export default function SearchPage() {
@@ -36,7 +36,8 @@ export default function SearchPage() {
   const [totalFiltered, setTotalFiltered] = useState(0);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [includeNoSchema, setIncludeNoSchema] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(60);
+  const [visibleCount, setVisibleCount] = useState(50);
+  const [browseMode, setBrowseMode] = useState(null);
   const inputRef = useRef(null);
 
   const getFiltersFromParams = useCallback(() => {
@@ -100,12 +101,33 @@ export default function SearchPage() {
   }
 
   function handleExample(ex) {
+    setBrowseMode(null);
     setQuery(ex);
     setFilters({});
     doSearch(ex, {});
   }
 
+  async function handleBrowse(cat) {
+    setBrowseMode(cat);
+    setLoading(true);
+    setVisibleCount(50);
+    setSearchParams({ browse: cat.domain }, { replace: true });
+    try {
+      const resp = await fetch(`/api/browse?domain=${cat.domain}&limit=200`);
+      const data = await resp.json();
+      setResults(data.results || []);
+      setTotalMatching(data.count || 0);
+      setTotalFiltered(data.count || 0);
+      setFacets(null);
+    } catch (e) {
+      console.error(e);
+      setResults([]);
+    }
+    setLoading(false);
+  }
+
   function handleBackToHome() {
+    setBrowseMode(null);
     setSearchParams({});
     setResults([]);
     setFilters({});
@@ -116,11 +138,20 @@ export default function SearchPage() {
     fetch('/api/filters').then(r => r.json()).then(setFacets).catch(() => {});
   }
 
-  const searched = searchParams.has('q');
+  const searched = searchParams.has('q') || searchParams.has('browse');
   const datasetCount = stats ? (stats.uniqueRecords || stats.totalRecords).toLocaleString() : '170,000';
   const activeFilterCount = ['domain', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'].filter(k => filters[k]).length;
 
-  usePageTitle(searched ? 'Schema Search' : 'SchemaFinder');
+  usePageTitle(searched ? (browseMode ? browseMode.label : 'Schema Search') : 'SchemaFinder');
+
+  // Load browse on mount if URL has browse param
+  useEffect(() => {
+    const browseDomain = searchParams.get('browse');
+    if (browseDomain && !browseMode) {
+      const cat = CATEGORIES.find(c => c.domain === browseDomain);
+      if (cat) handleBrowse(cat);
+    }
+  }, []); // eslint-disable-line
 
   // =========== LANDING PAGE ===========
   if (!searched) {
@@ -188,7 +219,7 @@ export default function SearchPage() {
           <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider text-center mb-5">Browse by Category</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {CATEGORIES.map(cat => (
-              <button key={cat.domain} onClick={() => handleExample(cat.query)}
+              <button key={cat.domain} onClick={() => handleBrowse(cat)}
                 className="group flex items-center gap-3 p-4 bg-gray-50 border border-gray-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-left">
                 <span className="text-2xl">{cat.icon}</span>
                 <div className="min-w-0">
@@ -323,12 +354,19 @@ export default function SearchPage() {
           ) : (
             <>
               <div className="flex items-center justify-between mb-4">
-                <p className="text-sm text-gray-500">
-                  Showing <span className="font-semibold text-gray-800">{Math.min(visibleCount, results.length)}</span>
-                  {results.length > visibleCount && ` of ${results.length}`}
-                  {totalFiltered > results.length && ` (${totalFiltered.toLocaleString()} matched)`}
-                  {' '}for "<span className="text-gray-700 font-medium">{searchParams.get('q')}</span>"
-                </p>
+                {browseMode ? (
+                  <p className="text-sm text-gray-500">
+                    <span className="font-semibold text-gray-800">{results.length}</span> top datasets in{' '}
+                    <span className="text-gray-700 font-medium">{browseMode.label}</span>
+                  </p>
+                ) : (
+                  <p className="text-sm text-gray-500">
+                    Showing <span className="font-semibold text-gray-800">{Math.min(visibleCount, results.length)}</span>
+                    {results.length > visibleCount && ` of ${results.length}`}
+                    {totalFiltered > results.length && ` (${totalFiltered.toLocaleString()} matched)`}
+                    {' '}for "<span className="text-gray-700 font-medium">{searchParams.get('q')}</span>"
+                  </p>
+                )}
               </div>
               <div className="space-y-3">
                 {results.slice(0, visibleCount).map((r, i) => <ResultCard key={r.id || i} result={r} query={searchParams.get('q')} />)}
