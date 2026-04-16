@@ -85,7 +85,34 @@ export default function DatasetPage() {
     setLoading(true);
     fetch(`/api/dataset/${encodeURIComponent(id)}`)
       .then(r => { if (!r.ok) throw new Error('Dataset not found'); return r.json(); })
-      .then(d => { setDataset(d); setLoading(false); document.title = d.name ? `${d.name} — SchemaFinder` : 'SchemaFinder'; })
+      .then(d => {
+        setDataset(d); setLoading(false);
+        document.title = d.name ? `${d.name} — SchemaFinder` : 'SchemaFinder';
+        // Inject JSON-LD for search engines
+        fetch(`/dataset-jsonld/${encodeURIComponent(id)}`).then(r => r.json()).then(jsonld => {
+          let el = document.getElementById('dataset-jsonld');
+          if (!el) { el = document.createElement('script'); el.id = 'dataset-jsonld'; el.type = 'application/ld+json'; document.head.appendChild(el); }
+          el.textContent = JSON.stringify(jsonld);
+        }).catch(() => {});
+        // Set meta tags
+        const setMeta = (name, content) => {
+          let el = document.querySelector(`meta[name="${name}"], meta[property="${name}"]`);
+          if (!el) { el = document.createElement('meta'); el.setAttribute(name.startsWith('og:') ? 'property' : 'name', name); document.head.appendChild(el); }
+          el.setAttribute('content', content);
+        };
+        const desc = (d.semantic_description || d.description || d.summary || '').slice(0, 155);
+        setMeta('description', desc);
+        setMeta('og:title', d.name || 'SchemaFinder');
+        setMeta('og:description', desc);
+        setMeta('og:url', `https://schemafinder.com/dataset/${encodeURIComponent(id)}`);
+        setMeta('og:type', 'website');
+        setMeta('twitter:card', 'summary');
+        setMeta('twitter:title', d.name || 'SchemaFinder');
+        setMeta('twitter:description', desc);
+        let canonical = document.querySelector('link[rel="canonical"]');
+        if (!canonical) { canonical = document.createElement('link'); canonical.rel = 'canonical'; document.head.appendChild(canonical); }
+        canonical.href = `https://schemafinder.com/dataset/${encodeURIComponent(id)}`;
+      })
       .catch(e => { setError(e.message); setLoading(false); });
   }, [id]);
 

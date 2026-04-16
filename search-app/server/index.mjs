@@ -449,6 +449,76 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', records: totalRecords, model: embedder ? 'loaded' : 'loading' });
 });
 
+// --- robots.txt ---
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain').send(`User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://schemafinder.com/sitemap-index.xml
+`);
+});
+
+// --- Sitemap ---
+const SITEMAP_LIMIT = 50000;
+app.get('/sitemap-index.xml', (req, res) => {
+  const count = Math.ceil(totalRecords / SITEMAP_LIMIT);
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  for (let i = 0; i < count; i++) {
+    xml += `  <sitemap><loc>https://schemafinder.com/sitemap-${i}.xml</loc></sitemap>\n`;
+  }
+  xml += '  <sitemap><loc>https://schemafinder.com/sitemap-pages.xml</loc></sitemap>\n';
+  xml += '</sitemapindex>';
+  res.type('application/xml').send(xml);
+});
+
+app.get('/sitemap-pages.xml', (req, res) => {
+  const pages = ['', '/about', '/api-docs'];
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  for (const p of pages) {
+    xml += `  <url><loc>https://schemafinder.com${p}</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>\n`;
+  }
+  xml += '</urlset>';
+  res.type('application/xml').send(xml);
+});
+
+app.get('/sitemap-:n.xml', (req, res) => {
+  const n = parseInt(req.params.n);
+  if (isNaN(n)) return res.status(404).send('Not found');
+  const start = n * SITEMAP_LIMIT;
+  const end = Math.min(start + SITEMAP_LIMIT, totalRecords);
+  if (start >= totalRecords) return res.status(404).send('Not found');
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  for (let i = start; i < end; i++) {
+    const m = metadata[i];
+    if (!m?.id) continue;
+    xml += `  <url><loc>https://schemafinder.com/dataset/${encodeURIComponent(m.id)}</loc><changefreq>monthly</changefreq></url>\n`;
+  }
+  xml += '</urlset>';
+  res.type('application/xml').send(xml);
+});
+
+// --- JSON-LD for dataset pages (bot-friendly) ---
+app.get('/dataset-jsonld/:id', (req, res) => {
+  const id = decodeURIComponent(req.params.id);
+  const record = getFullRecord(id);
+  if (!record) return res.status(404).json({});
+  const jsonld = {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: record.name,
+    description: record.semantic_description || record.description || record.summary || '',
+    url: `https://schemafinder.com/dataset/${encodeURIComponent(id)}`,
+    keywords: (record.tags || []).slice(0, 10),
+    provider: { '@type': 'Organization', name: record.publisher_normalized || record.publisher || record.provider || 'Unknown' },
+    ...(record.geographic_detail || record.geographic_scope ? { spatialCoverage: record.geographic_detail || record.geographic_scope } : {}),
+  };
+  if (record.url) {
+    jsonld.distribution = { '@type': 'DataDownload', contentUrl: record.url };
+    if (record.format) jsonld.distribution.encodingFormat = typeof record.format === 'string' ? record.format : record.format.join(', ');
+  }
+  res.json(jsonld);
+});
+
 // SPA fallback — serve index.html for client-side routes
 if (fs.existsSync(CLIENT_DIST)) {
   app.use((req, res, next) => {

@@ -45,7 +45,7 @@ function scoreRecord(r) {
     if (!line.trim()) { idx++; continue; }
     const d = JSON.parse(line);
     if (byDomain[d.domain]) {
-      byDomain[d.domain].push({ idx, score: scoreRecord(d), id: d.id, name: d.name });
+      byDomain[d.domain].push({ idx, score: scoreRecord(d), id: d.id, name: d.name, source: d.source, publisher: d.publisher });
     }
     idx++;
   }
@@ -53,9 +53,19 @@ function scoreRecord(r) {
   const curated = {};
   for (const [domain, records] of Object.entries(byDomain)) {
     records.sort((a, b) => b.score - a.score);
-    const top = records.slice(0, PER_CAT);
-    curated[domain] = top.map(r => r.idx);
-    console.log(`${domain}: ${records.length} total, top score ${top[0]?.score}, min score ${top[top.length-1]?.score}`);
+    const selected = [];
+    const sourceCount = {};
+    const MAX_PER_PUB = 20;
+    for (const r of records) {
+      if (selected.length >= PER_CAT) break;
+      const pub = (r.publisher || r.source || 'unknown').slice(0, 60);
+      sourceCount[pub] = (sourceCount[pub] || 0) + 1;
+      if (sourceCount[pub] > MAX_PER_PUB) continue;
+      selected.push(r);
+    }
+    curated[domain] = selected.map(r => r.idx);
+    const sources = Object.keys(sourceCount).filter(s => sourceCount[s] > 0).length;
+    console.log(`${domain}: ${selected.length} picked from ${sources} sources`);
   }
 
   fs.writeFileSync(OUT, JSON.stringify(curated));
