@@ -1,0 +1,23 @@
+[
+{"i":19,"domain":"demographics","summary":"Cemetery burial records for City of Calgary-owned cemeteries with interment year, name, lot, floor level, and ward."},
+{"i":23,"domain":"transportation","summary":"Calgary Transit stop locations with teleride numbers, stop names, status, and community boundaries."},
+{"i":41,"domain":"environment","summary":"Water main break records for Calgary with break type, date, status, and community location."},
+{"i":54,"domain":"energy","summary":"Corporate energy consumption data for Calgary city facilities by site, showing electricity, natural gas, and other energy types by month and year."},
+{"i":57,"domain":"transportation","summary":"Calgary LRT (C-Train) station locations with station names, distances, direction, and community boundaries."},
+{"i":60,"domain":"demographics","summary":"Calgary community centroid points with community name, code, class, structure type, and sector."},
+{"i":68,"domain":"public_safety","summary":"Calgary EMS station locations with name, address, community code, and type."},
+{"i":78,"domain":"transportation","summary":"Calgary traffic sign and sign post data with sign text, unit ID, installation date, and community."},
+{"i":81,"domain":"transportation","summary":"Calgary on-street parking zones with hourly rates, zone type, permit zone, max time, and address description."},
+{"i":117,"domain":"demographics","summary":"Calgary recreation program listings with course names, schedules, location, participant minimums/maximums, and class dates."},
+{"i":122,"domain":"public_safety","summary":"Calgary Fire Service station locations with station number, name, address, community, and contact info."},
+{"i":133,"domain":"demographics","summary":"Calgary quality of life indicators with partial data including indicator descriptions, values, dates, and sources."},
+{"i":141,"domain":"housing","summary":"Calgary Municipal Development Plan urban structure designations with structure typology and multipolygon geometry."},
+{"i":166,"domain":"demographics","summary":"Calgary quadrant boundary polygons dividing the city into NE, NW, SE, and SW quadrants."},
+{"i":190,"domain":"transportation","summary":"Calgary crosswalk locations with street names, direction, type (signalized, midblock, school), material, and crosswalk count."},
+{"i":204,"domain":"finance","summary":"Calgary prosperous city indicators by month and year, including unemployment rate, housing starts, retail sales, and average home price."},
+{"i":228,"domain":"public_safety","summary":"Calgary Police Service district boundaries with district number and label for crime statistics analysis."},
+{"i":243,"domain":"transportation","summary":"Calgary Municipal Development Plan primary transit network point locations for transit stops and nodes."},
+{"i":306,"domain":"transportation","summary":"Calgary Municipal Development Plan primary transit network line routes with route descriptions."},
+{"i":317,"domain":"transportation","summary":"Calgary snow clearing road maintenance point locations with status, community code, and clearing responsibility."},
+{"i":383,"domain":"transportation","summary":"Calgary snow and ice storm status feed with snowing status, start/stop times, phase completion, and parking ban status."}
+]

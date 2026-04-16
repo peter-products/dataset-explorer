@@ -1,0 +1,12 @@
+[
+{"i":1680,"domain":"housing","summary":"Bay Area rent burden data (30%+ of income) by block group with renter building size and income shares."},
+{"i":1681,"domain":"natural_resources","summary":"Bay Area open space areas from CPAD with access type, management agency, site name, and establishment year."},
+{"i":1682,"domain":"demographics","summary":"Sensitive communities designation polygons for Bay Area with community names and geographic boundaries."},
+{"i":1683,"domain":"housing","summary":"Bay Area number of nonwhite renter households by block group with rent burden and building size data."},
+{"i":1684,"domain":"housing","summary":"Preservation priority area for 1-4 unit renter buildings in Bay Area with rent burden and non-white renter data."},
+{"i":1756,"domain":"transportation","summary":"Bay Area TIP 2023 project point locations with project descriptions, amounts, county indicators, and shape type."},
+{"i":1757,"domain":"housing","summary":"Underutilized parcels in Bay Area with AHSC score, selection flag, environmental data, and APN."},
+{"i":1758,"domain":"transportation","summary":"Bay Area transit model network links with mode name, mode code, A/B station nodes, and sequence data."},
+{"i":1759,"domain":"transportation","summary":"Capitol Corridor train station locations for Bay Area."},
+{"i":1760,"domain":"housing","summary":"Share of renter buildings that are 5-19 units in Bay Area with rent burden and renter household data."}
+]

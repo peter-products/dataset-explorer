@@ -1,0 +1,16 @@
+[
+{"i": 13, "domain": "technology", "summary": "OpenNY press releases with title, date, and URL."},
+{"i": 31, "domain": "legal", "summary": "New York State Liquor Authority current pending licenses with type, description, and county."},
+{"i": 34, "domain": "environment", "summary": "New York State active solid waste management facilities with authorization dates and location."},
+{"i": 131, "domain": "legal", "summary": "New York State Liquor Authority inactive licenses with type, effective date, and county."},
+{"i": 278, "domain": "finance", "summary": "New York State Lottery scratch-off game daily prize status with paid, unpaid, and total prizes."},
+{"i": 395, "domain": "finance", "summary": "New York State lottery raffle winning numbers for October 26, 2025 with draw date and tier."},
+{"i": 473, "domain": "finance", "summary": "Essex County New York 2013 property taxes with owner, town, assessment, and base tax."},
+{"i": 476, "domain": "demographics", "summary": "Essex County New York tourist attractions directory with address and URL."},
+{"i": 486, "domain": "demographics", "summary": "Census 2000 and 2010 village total populations in New York State with population change."},
+{"i": 503, "domain": "finance", "summary": "State University Construction Fund advertised design procurements beginning 2000 with project, campus, and estimated value."},
+{"i": 728, "domain": "energy", "summary": "New York State electric utility service territory boundaries with company name and geometry."},
+{"i": 780, "domain": "energy", "summary": "New York State gas utility service territory boundaries with company name and geometry."},
+{"i": 853, "domain": "technology", "summary": "New York State executive agency contact list with agency, title, phone, and URL."},
+{"i": 967, "domain": "finance", "summary": "Olympic Regional Development Authority annual operational revenue by venue and fiscal year beginning 2017."}
+]

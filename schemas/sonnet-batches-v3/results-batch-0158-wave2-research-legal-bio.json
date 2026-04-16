@@ -1,0 +1,17 @@
+[
+{"i": 1, "domain": "health", "summary": "NIH ClinicalTrials.gov observational studies with NCT ID, status, conditions, interventions, and enrollment."},
+{"i": 2, "domain": "health", "summary": "NIH ClinicalTrials.gov expanded access programs for compassionate use of unapproved treatments."},
+{"i": 3, "domain": "health", "summary": "NIH ClinicalTrials.gov cancer studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 4, "domain": "health", "summary": "NIH ClinicalTrials.gov diabetes studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 5, "domain": "health", "summary": "NIH ClinicalTrials.gov COVID-19 studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 8, "domain": "health", "summary": "NIH ClinicalTrials.gov Alzheimer studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 9, "domain": "health", "summary": "NIH ClinicalTrials.gov HIV studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 10, "domain": "health", "summary": "NIH ClinicalTrials.gov obesity studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 11, "domain": "health", "summary": "NIH ClinicalTrials.gov asthma studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 13, "domain": "health", "summary": "NIH ClinicalTrials.gov Parkinson studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 14, "domain": "health", "summary": "NIH ClinicalTrials.gov stroke studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 15, "domain": "health", "summary": "NIH ClinicalTrials.gov arthritis studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 16, "domain": "health", "summary": "NIH ClinicalTrials.gov epilepsy studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 17, "domain": "health", "summary": "NIH ClinicalTrials.gov COPD studies with NCT ID, status, phase, conditions, and enrollment."},
+{"i": 18, "domain": "health", "summary": "NIH ClinicalTrials.gov hepatitis studies with NCT ID, status, phase, conditions, and enrollment."}
+]

@@ -1,0 +1,13 @@
+[1] Rental Buyout Tracking | pub=data.weho.org | cols: Average, Unit Size, Notes of Interest, New Georeferenced Column, Buyout Amount, Execution Date, Address
+[5] WeHo Filming Activity | pub=data.weho.org | cols: West Hollywood Census Tracts, West Hollywood Census Tracts_from_gijz_pqjd, WeHo_West, Date, Production, Category, Production Company, Address, Location, Permit No. 
+[7] Urban Art Locations | pub=data.weho.org | cols: Image or Artist Site, WeHo_West, West Hollywood Census Tracts, Location, West Hollywood Census Tracts_from_gijz_pqjd, Location (city), Location (state), Location (address), Art Type, Art Installation Name
+[8] Active Regulatory Licences | pub=data.weho.org | cols: ActiveLicenses, LicenseStatus, LicenseCategoryCode, BusinessTypeDescription, BusinessLocation (city), LicenseCategoryDescription, BusinessTypeCode, BusinessLocation (state), BusinessLocation, BusinessLocation (address)
+[9] Planning Dashboard | pub=data.weho.org | cols: PROJECTSUBTYPE, EXPIRATION_DATE, APPROVED_DATE, PROJECT_STATUS, APPLIED_DATE, PROJECTTYPE, OWNER_NAME, APPLICANT_NAME, PROJECT_NO, Location
+[11] Building and Safety Dashboard | pub=data.weho.org | cols: ISSUED_DATE, PermitSubType, FullAddress, Location (state), PERMIT_NO, BH Water Boundary, West Hollywood Census Tracts, West Hollywood Census Tracts_from_gijz_pqjd, WeHo_West, Location
+[14] Special Event Permits | pub=data.weho.org | cols: Address (zip), Address (state), Class, Location, Description, Permit  #, # of People, Date, Address, Address (address)
+[25] AED Locations | pub=data.weho.org | cols: Facility Name, Address, AED Location
+[27] Art Events | pub=data.weho.org | cols: Date, Location 1 (zip), City or Placename, Street or Intersection, Event Title, Type of Event, Location 1 (address), Location 1 (state), Location 1, Location 1 (city)
+[28] WeHo_Boundary | pub=data.weho.org | cols: line, objectid, shape_leng
+[29] BH Water Boundary | pub=data.weho.org | cols: the_geom, Shape_STAr, Shape_STLe
+[33] CalFresh | pub=data.weho.org | cols: latitude, longitude, CITY, STATE, WeHo_West, West Hollywood Census Tracts_from_gijz_pqjd, West Hollywood Census Tracts, New Georeferenced Column, ZIP5, ADDRESS2
+[34] WeHo Zoning | pub=data.weho.org | desc: Zoning data for the City of West Hollywood | cols: SCAG_GP_CO, SP_INDEX, CITY_SP_CO, CITY_ZN_CO, SCAG_ZN_CO, LU16, PUB_NAME, PUB_TYPE, PUB_SRC, BF_SQFT

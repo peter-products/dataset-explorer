@@ -1,0 +1,11 @@
+[
+{"i":1,"domain":"legal","summary":"Liquor license data for College Station, TX with license type, applied/expiration dates, address, and owner."},
+{"i":2,"domain":"finance","summary":"College Station outstanding debt obligations (tax-backed and business) with principal and interest payments by year through 2044."},
+{"i":4,"domain":"finance","summary":"College Station business-type debt obligations with principal and interest payments across multiple future years."},
+{"i":9,"domain":"public_safety","summary":"College Station public safety incident records with response date, problem type, agency type, response area, and address."},
+{"i":10,"domain":"demographics","summary":"2016 citizen survey results for College Station on city services, quality of life, communication preferences, and community priorities."},
+{"i":12,"domain":"finance","summary":"College Station tax-backed debt obligations with debt type, original principal, and projected P&I payments by year."},
+{"i":14,"domain":"legal","summary":"City citations issued in College Station with charge description, violation date and time, street name, vehicle make/model, and balance due."},
+{"i":15,"domain":"environment","summary":"College Station recycling schedule changes by neighborhood and street name with old and new collection days."},
+{"i":16,"domain":"legal","summary":"College Station bill tracking table for legislative session with bill descriptions."}
+]

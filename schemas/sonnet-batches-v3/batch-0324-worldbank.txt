@@ -1,0 +1,100 @@
+[27044] Trade (% of GDP, PPP) | pub=World Bank | cols: country, date, value, indicator
+[27046] Trade in goods (% of goods GDP) | pub=World Bank | cols: country, date, value, indicator
+[27053] Merchandise import price index (1987 = 100) | pub=World Bank | cols: country, date, value, indicator
+[27054] Import Price Index, cif (1980=100, US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27055] Import Price Index, cif (1987=100,US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27059] Import volume index, food | pub=World Bank | desc: Total food imports  volume index with 1987=100.  | cols: country, date, value, indicator
+[27060] Import volume index, capital goods | pub=World Bank | desc: Capital goods imports  volume index with 1987=100.  | cols: country, date, value, indicator
+[27064] Import volume index, (nonfactor) services | pub=World Bank | desc: Imports of (non-factor) services. Data; Volume index with 1987=100.  | cols: country, date, value, indicator
+[27066] Import volume index, primary goods | pub=World Bank | desc: Primary goods imports  volume index with 1987=100.  | cols: country, date, value, indicator
+[27113] Food (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27115] CP Imports of Fuels (US$) | pub=World Bank | cols: country, date, value, indicator
+[27116] Fuel (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27122] CP Imports of Manufactures (US$) | pub=World Bank | cols: country, date, value, indicator
+[27124] Machinery and transport equipment (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27125] Minerals and metals (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27128] CP Value of Imports, cif (US$) | pub=World Bank | cols: country, date, value, indicator
+[27129] Merchandise imports (UN, current US$) | pub=World Bank | desc: Merchandise imports show the c.i.f. value of goods received from the rest of the world valued in current U.S. dollars. | cols: country, date, value, indicator
+[27130] Import growth, value (annual %) | pub=World Bank | cols: country, date, value, indicator
+[27134] Imports, cif (1980 US$) (Const. Price) | pub=World Bank | cols: country, date, value, indicator
+[27135] Merchandise imports (constant 1987 US$) | pub=World Bank | cols: country, date, value, indicator
+[27136] Import growth, volume (annual %) | pub=World Bank | cols: country, date, value, indicator
+[27151] Non-food primary commodities (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27152] Imports of Nonfuel Primary Prod.(US$,curr. pr.) | pub=World Bank | cols: country, date, value, indicator
+[27153] CP Imports of Nonfuel Primary Products (US$) | pub=World Bank | cols: country, date, value, indicator
+[27154] Other manufactures (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27155] Other primary commodities (% of merchandise imports) | pub=World Bank | cols: country, date, value, indicator
+[27166] Growth of merch. imports (av. ann grwth %) | pub=World Bank | cols: country, date, value, indicator
+[27167] Terms of Trade Index (1980=100, US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27170] Export: Beverages and tobacco (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27171] Export: Chemical and related products, nes (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27172] Export: Crude materials, inedible, except fuels (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27173] Export: Food and Live Animals (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27174] Export: Mineral fuels, lubricants and related materials (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27175] Export: Manufactured goods, classified chiefly by material (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27176] Export: Miscellaneous manufactures articles (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27177] Export: Machinery and transport equipment (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27178] Export: Animals and vegetable oil, fat and waxes (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27179] Export: Commodities and transaction not elsewhere classified (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27180] Import: Beverages and tobacco (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27181] Import: Chemical and related products, nes (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27182] Import: Crude materials, inedible, except fuels (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27183] Import: Food and Live Animals (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27184] Import: Mineral fuels, lubricants and related materials (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27185] Import: Manufactured goods, classified chiefly by material (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27186] Import: Miscellaneous manufactures articles (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27187] Import: Machinery and transport equipment (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27188] Import: Animals and vegetable oil, fat and waxes (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27189] Import: Commodities and transaction not elsewhere classified (province Level, in USD) | pub=World Bank | cols: country, date, value, indicator
+[27221] Income terms of trade (1987 = 100) | pub=World Bank | cols: country, date, value, indicator
+[27222] Terms of Trade Index (1987=100,US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27223] Net barter terms of trade (1987 = 100) | pub=World Bank | cols: country, date, value, indicator
+[27230] Fuel Export Price Index (1980=100, US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27231] Manufactures Exp. Price Index (1980=100, US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27232] Merchandise export price index (1987 = 100) | pub=World Bank | cols: country, date, value, indicator
+[27233] Export Price Index, fob (1980=100, US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27234] Export Price Index, fob (1987=100,US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27236] Nonfuel Prim.Prod.Exp.Price Index (1980=100,US$-based) | pub=World Bank | cols: country, date, value, indicator
+[27238] Exports of commodity 1 (volume index) | pub=World Bank | desc: Export volume index of commodity 1 with 1987=100.  | cols: country, date, value, indicator
+[27239] Exports of commodity 2 (volume index) | pub=World Bank | desc: Export volume index of commodity 2 with 1987=100.  | cols: country, date, value, indicator
+[27240] Exports of commodity 3 (volume index) | pub=World Bank | desc: Export volume index of commodity 3 with 1987=100.  | cols: country, date, value, indicator
+[27241] Exports of commodity 4 (volume index) | pub=World Bank | desc: Export volume index of commodity 4 with 1987=100.  | cols: country, date, value, indicator
+[27242] Export volume index, manufactures | pub=World Bank | desc: Export volume index of manufactures with 1987=100.   | cols: country, date, value, indicator
+[27243] Merchandise export volume index | pub=World Bank | desc: Merchandise exports volume index with 1987=100.  | cols: country, date, value, indicator
+[27245] Export volume index, (nonfactor) services | pub=World Bank | desc: Exports of (non-factor) services. Data; Volume index with 1987=100.  | cols: country, date, value, indicator
+[27257] Fuels, minerals, and metals (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27258] Food (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27260] CP Exports of Fuels (US$) | pub=World Bank | cols: country, date, value, indicator
+[27264] CP Exports of Manufactures (US$) | pub=World Bank | cols: country, date, value, indicator
+[27267] Manufactures (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27269] Machinery and transport equipment (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27270] Metals (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27272] Minerals (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27274] CP Value of Exports, fob (US$) | pub=World Bank | cols: country, date, value, indicator
+[27275] Merchandise exports (UN, current US$) | pub=World Bank | desc: Merchandise exports show the f.o.b. value of goods provided to the rest of the world valued in current U.S. dollars. | cols: country, date, value, indicator
+[27276] Export growth, value (annual %) | pub=World Bank | cols: country, date, value, indicator
+[27281] Exports, fob (1980 US$) (Const. Price) | pub=World Bank | cols: country, date, value, indicator
+[27282] Merchandise exports (constant 1987 US$) | pub=World Bank | cols: country, date, value, indicator
+[27283] Export growth, volume (annual %) | pub=World Bank | cols: country, date, value, indicator
+[27304] Non-food primary commodities (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27305] Exports of Nonfuel Primary Prod.(US$,curr. pr.) | pub=World Bank | cols: country, date, value, indicator
+[27306] CP Exports of Nonfuel Primary Products (US$) | pub=World Bank | cols: country, date, value, indicator
+[27309] Other primary commodities (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27312] Ratio of commercial service exports to merchandise exports (%) | pub=World Bank | cols: country, date, value, indicator
+[27319] Textiles and clothing (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27320] Other manufactures (% of merchandise exports) | pub=World Bank | cols: country, date, value, indicator
+[27321] Growth of merch. exports (av. ann grwth %) | pub=World Bank | cols: country, date, value, indicator
+[27322] Total Tax Revenue Sharing from duty on the acquisition of land and building rights (BPHTB) (in IDR,  | pub=World Bank | cols: country, date, value, indicator
+[27323] Total Tax Revenue Sharing from income tax (PPh) (in IDR, realization value) | pub=World Bank | cols: country, date, value, indicator
+[27324] Total Tax Revenue Sharing from land and building tax (PBB) (in IDR, realization value) | pub=World Bank | cols: country, date, value, indicator
+[27325] Transfers from Higher Level of Government | pub=World Bank | cols: country, date, value, indicator
+[27326] (i) Outturn of transfers from higher-level government | pub=World Bank | cols: country, date, value, indicator
+[27327] (ii) Earmarked grants outturn | pub=World Bank | cols: country, date, value, indicator
+[27328] (iii) Timeliness of transfers from higher-level government | pub=World Bank | cols: country, date, value, indicator
+[29227] Theoretical duration of pre-primary education (years) | pub=World Bank | desc: Number of grades (years) in pre-primary education. | cols: country, date, value, indicator
+[29295] Non-teaching staff compensation as a percentage of total expenditure in pre-primary public instituti | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29301] Non-teaching staff compensation as a percentage of total expenditure in primary public institutions  | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29307] Non-teaching staff compensation as a percentage of total expenditure in lower secondary public insti | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29314] Non-teaching staff compensation as a percentage of total expenditure in secondary public institution | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29320] Non-teaching staff compensation as a percentage of total expenditure in upper secondary public insti | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29326] Non-teaching staff compensation as a percentage of total expenditure in post-secondary non-tertiary  | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator

@@ -1,0 +1,9 @@
+[
+{"i": 52, "domain": "finance", "summary": "City of Seattle operating budget by program, department, fund, and fiscal year with approved amounts."},
+{"i": 63, "domain": "public_safety", "summary": "Seattle graffiti daily summary dashboard data with new, referred, and closed requests by council district."},
+{"i": 79, "domain": "finance", "summary": "City of Seattle capital budget by department, project, fund, and fiscal year feeding openbudget.seattle.gov."},
+{"i": 92, "domain": "housing", "summary": "Seattle building Certificates of Occupancy with permit number, address, occupancy type, and issue/expiration dates."},
+{"i": 105, "domain": "transportation", "summary": "Monthly SDOT Street Use permit review times by permit type with days and review metrics."},
+{"i": 110, "domain": "transportation", "summary": "Seattle monthly vehicle tow statistics from 2021 onward including impounds, dispositions, and storage days."},
+{"i": 127, "domain": "housing", "summary": "Seattle permit review time data with permit number, review cycle, task status, and team assignments."}
+]

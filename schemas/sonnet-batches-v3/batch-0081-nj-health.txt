@@ -1,0 +1,2 @@
+[121] Categories | pub=healthdata.nj.gov | desc: Major categories and their properties | cols: Category Color, Sort Order, Category Name, ID, Category Icon
+[133] nj_counties | pub=healthdata.nj.gov | desc: Map of New Jersey county boundaries | cols: REGION, SQ_MILES, FIPSCO, POP2010, POPDEN2010, POP1980, FIPSSTCO, COUNTY, ACRES, GNIS

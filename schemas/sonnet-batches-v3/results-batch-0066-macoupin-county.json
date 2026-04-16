@@ -1,0 +1,12 @@
+[
+{"i": 0, "domain": "demographics", "summary": "2020 Census figures for Macoupin County Illinois districts with 2010 comparison and percent change."},
+{"i": 5, "domain": "finance", "summary": "Macoupin County Illinois property tax reports by tax year."},
+{"i": 7, "domain": "finance", "summary": "Macoupin County Illinois open expenditures ledger with vendor, department, fund, and payment details."},
+{"i": 8, "domain": "legal", "summary": "Macoupin County Illinois adopted ordinances text."},
+{"i": 19, "domain": "legal", "summary": "Macoupin County Illinois probate records index from 1832-1880 with name, role, box, and pages."},
+{"i": 22, "domain": "elections", "summary": "Macoupin County Illinois elected officials directory with party, position, phone, and address."},
+{"i": 28, "domain": "legal", "summary": "Macoupin County Illinois probate index Book B 1881-1910 with name, role, box, and pages."},
+{"i": 39, "domain": "elections", "summary": "Macoupin County Illinois total votes by day for general elections from 2008-2022."},
+{"i": 40, "domain": "finance", "summary": "Macoupin County Illinois budget with expenditures and appropriations by fund from 1997-2014."},
+{"i": 45, "domain": "elections", "summary": "Macoupin County Illinois voting precinct GIS polygon data with name and description."}
+]

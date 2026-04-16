@@ -1,0 +1,19 @@
+[
+{"i": 2, "domain": "natural_resources", "summary": "Delaware water well permits with location, capacity, contractor, and permit details."},
+{"i": 83, "domain": "transportation", "summary": "Delaware roadway functional classification sections with mileposts and maintenance responsibility."},
+{"i": 84, "domain": "public_safety", "summary": "Delaware casino involuntary exclusion list of individuals barred from casinos."},
+{"i": 95, "domain": "elections", "summary": "Unofficial Delaware election results by office and candidate."},
+{"i": 105, "domain": "education", "summary": "Delaware public schools directory with location and grades (February 2016)."},
+{"i": 112, "domain": "elections", "summary": "Official Delaware election results by office and candidate."},
+{"i": 126, "domain": "education", "summary": "Delaware Department of Education school district boundaries."},
+{"i": 132, "domain": "demographics", "summary": "Urban area boundaries 2020 Census TIGER/Line data including population and housing."},
+{"i": 141, "domain": "health", "summary": "Delaware influenza vaccination counts by county and time period."},
+{"i": 147, "domain": "elections", "summary": "Wilmington, Delaware City Council district boundaries."},
+{"i": 149, "domain": "transportation", "summary": "Delaware scenic byways points of interest with addresses and locations."},
+{"i": 152, "domain": "elections", "summary": "Delaware county political commission district boundaries."},
+{"i": 153, "domain": "natural_resources", "summary": "Delaware nature preserves boundaries with ownership and acreage."},
+{"i": 155, "domain": "transportation", "summary": "Delaware scenic byways routes with direction and story map."},
+{"i": 159, "domain": "elections", "summary": "Delaware school board nominating district boundaries and board members."},
+{"i": 162, "domain": "housing", "summary": "Delaware Class H construction permit inspections by property, owner, and contractor."},
+{"i": 165, "domain": "health", "summary": "Delaware influenza case counts by county and time period."}
+]

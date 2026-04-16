@@ -1,0 +1,2 @@
+[9] Division Shape Files | pub=policedata.coloradosprings.gov | cols: ID, Shape_area, OBJECTID, the_geom, Div_Name, Shape_len, Div_Code
+[10] Neighborhoods | pub=policedata.coloradosprings.gov | cols: the_geom, objectid_1, name, objectid, shape_acre, shape_area, shape_leng

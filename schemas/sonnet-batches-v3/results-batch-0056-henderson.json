@@ -1,0 +1,20 @@
+[
+{"i": 4, "domain": "public_safety", "summary": "Henderson, Nevada fire and EMS response times and incident counts by quarter."},
+{"i": 6, "domain": "finance", "summary": "Henderson bond rating compared with nearby Nevada jurisdictions over time."},
+{"i": 11, "domain": "finance", "summary": "Henderson Development Services Center cash inflow KPI by fiscal quarter."},
+{"i": 20, "domain": "transportation", "summary": "Henderson percentage of population within 1/8 mile of trails."},
+{"i": 22, "domain": "finance", "summary": "Henderson financial stabilization quarterly measure of revenue and reserves."},
+{"i": 33, "domain": "demographics", "summary": "Henderson resident attendance at City special cultural events."},
+{"i": 35, "domain": "labor", "summary": "Henderson tracked new job creation in target industry sectors."},
+{"i": 38, "domain": "demographics", "summary": "Henderson, Nevada city boundary polygon."},
+{"i": 42, "domain": "housing", "summary": "Henderson housing affordability percentage by year."},
+{"i": 44, "domain": "finance", "summary": "Henderson count of businesses assisted by City staff by fiscal quarter."},
+{"i": 45, "domain": "elections", "summary": "Henderson City Council ward boundaries with council member names."},
+{"i": 46, "domain": "demographics", "summary": "Henderson, Nevada zip code boundaries."},
+{"i": 47, "domain": "technology", "summary": "Henderson technology project completion rate by fiscal quarter."},
+{"i": 48, "domain": "finance", "summary": "Henderson historical annual investment income with targets."},
+{"i": 49, "domain": "demographics", "summary": "Public art installations implemented in Henderson by quarter."},
+{"i": 54, "domain": "public_safety", "summary": "Henderson injury accident rates for bicycles, pedestrians, and overall crashes."},
+{"i": 57, "domain": "demographics", "summary": "Henderson estimated food insecurity by year."},
+{"i": 58, "domain": "finance", "summary": "Henderson fines and forfeitures revenue by year."}
+]

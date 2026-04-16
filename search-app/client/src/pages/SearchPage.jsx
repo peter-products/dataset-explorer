@@ -36,6 +36,7 @@ export default function SearchPage() {
   const [totalFiltered, setTotalFiltered] = useState(0);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [includeNoSchema, setIncludeNoSchema] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(60);
   const inputRef = useRef(null);
 
   const getFiltersFromParams = useCallback(() => {
@@ -67,6 +68,7 @@ export default function SearchPage() {
     const searchFilters = f ?? filters;
     if (!searchQuery.trim()) return;
     setLoading(true);
+    setVisibleCount(50);
     const params = new URLSearchParams({ q: searchQuery });
     for (const [key, val] of Object.entries(searchFilters)) {
       if (val) params.set(key, val);
@@ -74,7 +76,7 @@ export default function SearchPage() {
     if (includeNoSchema) params.set('includeNoSchema', 'true');
     setSearchParams(params, { replace: true });
     try {
-      const resp = await fetch(`/api/search?${params}&limit=60`);
+      const resp = await fetch(`/api/search?${params}&limit=200`);
       const data = await resp.json();
       setResults(data.results || []);
       setFacets(data.facets || null);
@@ -322,15 +324,23 @@ export default function SearchPage() {
             <>
               <div className="flex items-center justify-between mb-4">
                 <p className="text-sm text-gray-500">
-                  Showing <span className="font-semibold text-gray-800">{results.length}</span>
-                  {totalFiltered > results.length && ` of ${totalFiltered.toLocaleString()}`}
-                  {totalFiltered !== totalMatching && ` (${totalMatching.toLocaleString()} total matches)`}
+                  Showing <span className="font-semibold text-gray-800">{Math.min(visibleCount, results.length)}</span>
+                  {results.length > visibleCount && ` of ${results.length}`}
+                  {totalFiltered > results.length && ` (${totalFiltered.toLocaleString()} matched)`}
                   {' '}for "<span className="text-gray-700 font-medium">{searchParams.get('q')}</span>"
                 </p>
               </div>
               <div className="space-y-3">
-                {results.map((r, i) => <ResultCard key={r.id || i} result={r} query={searchParams.get('q')} />)}
+                {results.slice(0, visibleCount).map((r, i) => <ResultCard key={r.id || i} result={r} query={searchParams.get('q')} />)}
               </div>
+              {results.length > visibleCount && (
+                <div className="text-center mt-6">
+                  <button onClick={() => setVisibleCount(v => v + 50)}
+                    className="px-6 py-2.5 bg-white border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-400 transition-colors">
+                    Show more results
+                  </button>
+                </div>
+              )}
               {results.length === 0 && (
                 <div className="text-center py-16">
                   <div className="text-4xl mb-3 opacity-40">🔍</div>

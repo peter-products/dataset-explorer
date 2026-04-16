@@ -1,0 +1,10 @@
+[
+{"i": 3, "domain": "technology", "summary": "FCC Equipment Authorization System Section 2.948 listed test firms with contact address and location."},
+{"i": 8, "domain": "public_safety", "summary": "FCC 911 Master Public Safety Answering Point (PSAP) Registry with PSAP ID, name, state, city, and geocode."},
+{"i": 10, "domain": "technology", "summary": "FCC intermediate provider registry for rural call completion with regulatory and contact info and states serviced."},
+{"i": 33, "domain": "technology", "summary": "FCC EAS accredited test firms for Declaration of Conformity measurements with address and contact info."},
+{"i": 38, "domain": "technology", "summary": "FCC EAS equipment authorization grantee registrations for RF device authorization with grantee code and contact."},
+{"i": 40, "domain": "technology", "summary": "FCC EAS Telecommunications Certification Bodies (TCB) with approved scope, address, and contact info."},
+{"i": 41, "domain": "technology", "summary": "FCC EAS Test Firm Accrediting Bodies (TFAB) with name, address, and contact info."},
+{"i": 42, "domain": "technology", "summary": "FCC EAS designating authorities for Telecommunications Certification Bodies with address and contact info."}
+]

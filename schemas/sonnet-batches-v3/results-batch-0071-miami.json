@@ -1,0 +1,14 @@
+[
+{"i": 0, "domain": "public_safety", "summary": "City of Miami 311 service request tickets with status, issue type, location, and timestamps."},
+{"i": 1, "domain": "legal", "summary": "City of Miami building tree permits from 2014 with review status, property address, and plan number."},
+{"i": 2, "domain": "legal", "summary": "City of Miami building permits issued from 2014 with application, inspection results, and contractor info."},
+{"i": 3, "domain": "demographics", "summary": "2017 City of Miami resident satisfaction survey responses on public meetings, neighborhood, health, and race."},
+{"i": 4, "domain": "finance", "summary": "City of Miami revenues by fund, organization, and month with adopted and amended budget."},
+{"i": 5, "domain": "demographics", "summary": "2018 City of Miami resident satisfaction survey responses on affordable housing, economy, and neighborhood."},
+{"i": 6, "domain": "finance", "summary": "City of Miami expenditures by type with adopted and amended budget and monthly breakdown."},
+{"i": 7, "domain": "labor", "summary": "City of Miami active position listings with job name, organization, and occupied status."},
+{"i": 8, "domain": "demographics", "summary": "2016 City of Miami resident satisfaction survey responses."},
+{"i": 9, "domain": "legal", "summary": "City of Miami building permit test dataset with folio, scope of work, and certificate info."},
+{"i": 10, "domain": "demographics", "summary": "2015 City of Miami resident satisfaction survey responses."},
+{"i": 11, "domain": "demographics", "summary": "2014 City of Miami resident satisfaction survey responses."}
+]

@@ -1,0 +1,1 @@
+[19] Speed Cameras | pub=PGPD | desc: A list of Speed Cameras in Prince George's County. | cols: Trailer, Enforcement, Zip Codes, Location 1 (zip), Posted Speed, Location 1 (state), Location , Street address, School Name, District | tags: speed, speed limits, cameras, safety

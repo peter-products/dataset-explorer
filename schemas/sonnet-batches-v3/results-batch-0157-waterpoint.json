@@ -1,0 +1,14 @@
+[
+{"i": 2, "domain": "natural_resources", "summary": "Global archived Water Point Data Exchange with country, water source, management, and likely status."},
+{"i": 3, "domain": "natural_resources", "summary": "Uganda water point data with installer, management, fecal coliform, and prediction level."},
+{"i": 5, "domain": "natural_resources", "summary": "Global WABU water bottling volumes with water stress, quality, regulatory, and infrastructure risk."},
+{"i": 6, "domain": "natural_resources", "summary": "Global WABU water bottling data with country, capital, SVA completion status, and coordinates."},
+{"i": 7, "domain": "natural_resources", "summary": "Uganda 2020 water point predictions with water source, tech, status, and admin region."},
+{"i": 8, "domain": "natural_resources", "summary": "Global SVA water data with country, water stress/quality/regulatory risk, and top issues."},
+{"i": 9, "domain": "natural_resources", "summary": "Global water bottling plant volumes by country with location and lat/lon."},
+{"i": 10, "domain": "natural_resources", "summary": "Global WABU water bottling data with 2018 production volume, water quality risk, and infrastructure issue."},
+{"i": 11, "domain": "natural_resources", "summary": "Sierra Leone water point predictions with WPDX ID, country, coordinates, and status."},
+{"i": 12, "domain": "natural_resources", "summary": "Ethiopia water point data with water source, tech category, rehabilitator, and scheme ID."},
+{"i": 13, "domain": "natural_resources", "summary": "Sierra Leone water point data with management, water source, facility type, and public data source."},
+{"i": 14, "domain": "natural_resources", "summary": "Uganda water point data with fecal coliform, facility type, location, and rehabilitator."}
+]

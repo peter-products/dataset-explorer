@@ -1,0 +1,3 @@
+[12] Failure to Comply Citations | pub=City of Urbana | desc: Listing of City Citations for Failure to Comply | cols: Ticket#, Appeal Hearing Date, Additional Fee/Fines, Date Appeal Received, Balance Due, Address, Total Amt Paid, File#, Fine Amount, Date Issued
+[13] Zoning | pub=City of Urbana | desc: Urbana Zoning Districts | cols: FRONTYARD, the_geom, DISTRICT_P, PIN, Note_4, MAX_HEIGHT, SIDEYARD, REARYARD, Acres_Labe, Note_3 | tags: zoning districts, zoning
+[14] RentalInspectionZones | pub=data.urbanaillinois.us | desc: The City's areas for rental inspections | cols: Shape_Area, ZoneNo, Shape_Leng, OBJECTID, the_geom | tags: rental inspections

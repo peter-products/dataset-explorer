@@ -1,0 +1,12 @@
+[
+{"i":1575,"domain":"housing","summary":"Additional PDA eligible areas (potential Blueprint transit) for Bay Area with jurisdiction, county, and acreage."},
+{"i":1576,"domain":"finance","summary":"Nike store sales territory data for California with apparel, footwear, and athletic shoe purchase behavior metrics."},
+{"i":1577,"domain":"transportation","summary":"VTA Bus Rapid Transit (BRT) corridor route data for Bay Area with line abbreviation, schedule, and distance."},
+{"i":1578,"domain":"housing","summary":"Preservation priority area for 20-49 unit renter buildings in Bay Area with rent burden and income data."},
+{"i":1579,"domain":"demographics","summary":"Census block racial composition data for Bay Area showing Hispanic/Latino and non-Hispanic populations by race."},
+{"i":1651,"domain":"demographics","summary":"Race and ethnicity by census block for Bay Area with non-Hispanic Black, Asian, White, and other population counts."},
+{"i":1652,"domain":"housing","summary":"Bay Area Vital Signs regional housing permit data by year with single-family, multi-family shares and total units."},
+{"i":1653,"domain":"housing","summary":"Bay Area rent burden data (30%+ of income) by block group with non-white renter and low-income household percentages."},
+{"i":1654,"domain":"transportation","summary":"Bay Area transit service areas from 2020 with route type, agency name, agency ID, and geographic boundaries."},
+{"i":1656,"domain":"housing","summary":"Priority Development Area (PDA) boundaries for Bay Area with subregion, plan status, lead agency, and fipco codes."}
+]

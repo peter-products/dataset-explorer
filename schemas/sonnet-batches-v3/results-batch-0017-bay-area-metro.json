@@ -1,0 +1,12 @@
+[
+{"i":1985,"domain":"environment","summary":"Urban growth boundaries for Bay Area from 2016 by jurisdiction with type, approval status, expiration, and county."},
+{"i":1987,"domain":"housing","summary":"Preservation index for 5-19 unit renter buildings in Bay Area with sale price data and EPC 2050 designation."},
+{"i":1988,"domain":"housing","summary":"Preservation priority area for 50+ unit renter buildings in Bay Area with unit count and sale price data."},
+{"i":1989,"domain":"housing","summary":"Bay Area urban development scenario event data with population and jobs targets, planning method, and feedback end date."},
+{"i":1990,"domain":"housing","summary":"Preservation priority area for 1-4 unit renter buildings in Bay Area by census block with building size counts."},
+{"i":2064,"domain":"transportation","summary":"Bay Area transit model network lines with line name, frequency by time period, and one-way status."},
+{"i":2065,"domain":"transportation","summary":"Plan Bay Area 2040 year 2020 baseline VMT per capita by Transportation Analysis Zone with total population and VMT."},
+{"i":2066,"domain":"housing","summary":"Bay Area Vital Signs city-level asking rent data from 2017-2025 with typical annual rents and inflation-adjusted values."},
+{"i":2067,"domain":"finance","summary":"Bay Area Vital Signs regional household income data by percentile from 2010 forward with inflation-adjusted values."},
+{"i":2068,"domain":"transportation","summary":"Bay Area Vital Signs county-level street pavement condition data by year with PCI 3-year average and total lane miles."}
+]

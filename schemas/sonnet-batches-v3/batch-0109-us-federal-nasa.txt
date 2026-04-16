@@ -1,0 +1,3 @@
+[3] NASA Facilities | pub=data.nasa.gov | desc: NASA Facilities | cols: World Map, States, Counties, Location (address), URL Link, State, Zipcode, Phone, Location (zip), Center | tags: facilities
+[13] Open Source And General Resource Software | pub=NASA | desc: This dataset lists out all software in use by NASA | cols: SRA Final, NTR Title, sra_date, Case Number, NASA Center | tags: open source
+[18] Andersen et al 2020 SWJ Fig 1 data | pub=data.nasa.gov | desc: These data were used to create Fig. 1 of “Monte Carlo Evaluation of the Europa Clipper TID Margin based on the Variability of the Jovian Radiation Environment with Application for Mission Design” by A | cols: HH:MM:SS, B0, DATE(DOY), ET1989, ORB, B1, YEAR-DOY, DC3 | tags: nasa

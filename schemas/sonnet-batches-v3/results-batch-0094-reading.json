@@ -1,0 +1,20 @@
+[
+{"i": 0, "domain": "public_safety", "summary": "Reading PA customer service requests with source, address, comments, and timestamps."},
+{"i": 1, "domain": "finance", "summary": "Reading PA city budget by year, type, account, and dollars."},
+{"i": 2, "domain": "finance", "summary": "Reading PA property taxes with tax penalties, flat amounts, and discounts."},
+{"i": 4, "domain": "elections", "summary": "Reading PA voting precinct boundaries with ward and precinct identifiers."},
+{"i": 5, "domain": "elections", "summary": "Reading PA polling place locations with address, ADA accessibility, and directions."},
+{"i": 6, "domain": "elections", "summary": "Reading PA city polling locations with address, ADA accessibility, and directions."},
+{"i": 7, "domain": "public_safety", "summary": "Reading PA fire station locations with station name and address."},
+{"i": 8, "domain": "environment", "summary": "Reading PA flood hazard zones with base flood elevation, depth, velocity, and flood zone."},
+{"i": 9, "domain": "natural_resources", "summary": "Reading PA intermediate contour lines with elevation."},
+{"i": 10, "domain": "education", "summary": "Reading PA schools with address, phone, category, grade program, and owner."},
+{"i": 11, "domain": "transportation", "summary": "Reading PA parking facilities with name, operator, and type."},
+{"i": 12, "domain": "transportation", "summary": "Reading PA BARTA bus stops with stop name along bus routes."},
+{"i": 13, "domain": "public_safety", "summary": "Reading PA fire station service area polygons with station name and address."},
+{"i": 14, "domain": "environment", "summary": "Reading PA trash collection zones with collection day and zone."},
+{"i": 15, "domain": "elections", "summary": "Reading PA current city council districts boundary polygons."},
+{"i": 16, "domain": "public_safety", "summary": "Reading PA police quadrant boundary polygons."},
+{"i": 17, "domain": "health", "summary": "Reading PA hospitals with name, address, ZIP, and type."},
+{"i": 18, "domain": "natural_resources", "summary": "Reading PA index contour lines with elevation."}
+]

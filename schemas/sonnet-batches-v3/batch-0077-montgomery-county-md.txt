@@ -1,0 +1,17 @@
+[172] Test IG Report | pub=Montgomery County, MD | desc: This is a temporary and TEST dataset. It was established for the IG webpage embed function testing only. | cols: Title, Type, Date, Agency, Agency 2, Fiscal Year
+[230] Montgomery Cable Schedule | pub=Montgomery County, MD | desc: Daily programming guide Update Frequency: Weekly | cols: Monday, ID, Sunday, Times, Tuesday, Wednesday, Thursday, Saturday, Friday | tags: cable, programming, channels, tv, television, shows
+[283] String Config | pub=Montgomery County, MD | desc: Dataset created for budgetMontgomery purposes | cols: Value, Name, Description | tags: text, config, string
+[289] Content Config | pub=Montgomery County, MD | desc: Dataset created for budgetMontgomery | cols: Homepage, About Page | tags: config, content
+[305] Content Config Spending Mont | pub=Montgomery County, MD | desc: Content for spendingMontgomery page | cols: Name, Value
+[312] FY23 APPENDIX A | pub=Montgomery County, MD | cols: *Dataset Name, *Department, *Description
+[324] TEST LC | pub=Montgomery County, MD | desc: Test data only. Not for Public Use | cols: Planned Start (Round 2), Sub Area, Date Sign Posted (Round 2), Area, Collection Sequence, Planned Start (Round 1), Date Area Started (Round 1), Date Area Ended (Round 2), Date Sign Posted (Round 1), Date Area Ended (Round 1)
+[330] POL District FAQ - TEST | pub=Montgomery County, MD | desc: This is test data and not for use by public. | cols: Topic, Content, Phone
+[336] FY20 Appendix A: All Published | pub=Montgomery County, MD | desc: All published datasets | cols: *Dataset Name, *Department, *Description | tags: odom
+[339] Test | pub=Montgomery County, MD | desc: Test data only, NOT FOR PUBLIC USE | cols: Council Districts_from_i23j_3mj8, Council Districts, Zip Codes, Municipalities, geolocation (state), geolocation (zip), geolocation (city), address, sheltername, petfriendly
+[370] FY20 Appendix D: FY22 and Beyond | pub=Montgomery County, MD | cols: Description, Dataset Name, Department | tags: odom
+[382] FY20 Appendix C FY21 Planned Datasets | pub=Montgomery County, MD | desc: FY21 Publishable datasets | cols: *Department, *Description, *Dataset Name | tags: odom
+[385] FY23 APPENDIX C | pub=Montgomery County, MD | desc: Planned publishing list for FY24 | cols: *Dataset Name, *Department, *Description
+[401] FY20 Appendix E: Unpuplishable | pub=Montgomery County, MD | cols: *Dataset Name, Reason Code, *Department, *Description | tags: odom
+[414] FY23 APPENDIX E | pub=Montgomery County, MD | desc: List of currently unpublishable datasets | cols: *Department, *Description, Reason Code, *Dataset Name
+[425] FY23 APPENDIX D | pub=Montgomery County, MD | desc: FY25 and beyond list of datasets to be published | cols: *Description, *Dataset Name, *Department
+[448] WSSC Grid | pub=Montgomery County, MD | cols: TAXMAP, SHAPE.LEN, GRID, SHAPE.AREA, NUMYC, QUAD, the_geom, NUMXC, OBJECTID

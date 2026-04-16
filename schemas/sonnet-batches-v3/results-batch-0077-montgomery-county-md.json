@@ -1,0 +1,19 @@
+[
+{"i": 172, "domain": "legal", "summary": "Montgomery County Maryland test Inspector General reports with title, type, agency, and fiscal year."},
+{"i": 230, "domain": "technology", "summary": "Montgomery County Maryland cable TV daily programming guide by day and time."},
+{"i": 283, "domain": "technology", "summary": "Montgomery County Maryland budget site string configuration with name, value, and description."},
+{"i": 289, "domain": "technology", "summary": "Montgomery County Maryland budget site content configuration for homepage and about page."},
+{"i": 305, "domain": "technology", "summary": "Montgomery County Maryland spending site content configuration with name and value."},
+{"i": 312, "domain": "technology", "summary": "Montgomery County Maryland FY23 Appendix A dataset catalog with name, department, and description."},
+{"i": 324, "domain": "transportation", "summary": "Montgomery County Maryland test leaf collection data with area, sub area, and round dates."},
+{"i": 330, "domain": "public_safety", "summary": "Montgomery County Maryland Police district FAQ test data with topic, content, and phone."},
+{"i": 336, "domain": "technology", "summary": "Montgomery County Maryland FY20 Appendix A list of all published datasets with department and description."},
+{"i": 339, "domain": "public_safety", "summary": "Montgomery County Maryland test data on animal shelters with address and pet-friendly indicator."},
+{"i": 370, "domain": "technology", "summary": "Montgomery County Maryland FY20 Appendix D datasets for FY22 and beyond with department and description."},
+{"i": 382, "domain": "technology", "summary": "Montgomery County Maryland FY20 Appendix C FY21 planned publishable datasets with department and description."},
+{"i": 385, "domain": "technology", "summary": "Montgomery County Maryland FY23 Appendix C FY24 planned dataset publishing list."},
+{"i": 401, "domain": "technology", "summary": "Montgomery County Maryland FY20 Appendix E unpublishable datasets with reason code."},
+{"i": 414, "domain": "technology", "summary": "Montgomery County Maryland FY23 Appendix E currently unpublishable datasets with reason code."},
+{"i": 425, "domain": "technology", "summary": "Montgomery County Maryland FY23 Appendix D FY25 and beyond datasets to be published."},
+{"i": 448, "domain": "natural_resources", "summary": "WSSC (Washington Suburban Sanitary Commission) grid with tax map, quad, and geometry."}
+]

@@ -1,0 +1,17 @@
+[
+{"i":1206,"domain":"legal","summary":"Colombian BIC (Bienes de Interés Cultural) company registry with cultural heritage classification, NIT, and municipality."},
+{"i":1251,"domain":"legal","summary":"Colombian notary transaction data with document type, parties involved, notary office, and transaction date."},
+{"i":1295,"domain":"health","summary":"Colombian hospital surgical procedure records with procedure type, patient demographics, institution, and outcome."},
+{"i":1340,"domain":"demographics","summary":"Colombian sports and recreation facility inventory with facility type, municipality, capacity, and ownership."},
+{"i":1384,"domain":"education","summary":"Colombian school infrastructure data with building condition, amenities, and student-to-facility ratios."},
+{"i":1429,"domain":"finance","summary":"Colombian municipal budget allocations with expenditure categories, approved amounts, and fiscal year."},
+{"i":1473,"domain":"health","summary":"Colombian disease surveillance data with reportable conditions, case counts, municipality, and epidemiological week."},
+{"i":1518,"domain":"legal","summary":"Colombian property registry records with cadastral number, owner, property value, and registration date."},
+{"i":1562,"domain":"environment","summary":"Colombian watershed management data with hydrological units, land use, and conservation status."},
+{"i":1607,"domain":"transportation","summary":"Colombian traffic accident data with location, vehicle types, injury severity, and contributing factors."},
+{"i":1651,"domain":"public_safety","summary":"Colombian police station locations with unit type, jurisdiction, and geographic coordinates."},
+{"i":1696,"domain":"demographics","summary":"Colombian indigenous community registry with community name, territory, population, and department."},
+{"i":1740,"domain":"finance","summary":"Colombian customs and trade data with product codes, import/export values, and trading partners."},
+{"i":1785,"domain":"agriculture","summary":"Colombian fishing and aquaculture production data by species, region, and production method."},
+{"i":1834,"domain":"education","summary":"Colombian teacher certification and employment data with subject area, institution level, and certification status."}
+]

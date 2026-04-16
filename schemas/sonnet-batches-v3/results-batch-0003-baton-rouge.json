@@ -1,0 +1,7 @@
+[
+{"i":75,"domain":"demographics","summary":"Historic marker locations in Baton Rouge with marker names, descriptions, and geographic geometry from the Historical Marker Database."},
+{"i":155,"domain":"demographics","summary":"2010 US Census tract boundaries and population counts for Baton Rouge, with tract IDs and links to Census detail pages."},
+{"i":168,"domain":"demographics","summary":"Neighborhood boundaries and population data for Baton Rouge, including neighborhood names, community groupings, and planning IDs."},
+{"i":178,"domain":"demographics","summary":"ZIP code tabulation area boundaries and identifiers for the Baton Rouge region."},
+{"i":239,"domain":"demographics","summary":"Neighborhood boundary polygons for Baton Rouge with population counts, planning district IDs, and community groupings."}
+]

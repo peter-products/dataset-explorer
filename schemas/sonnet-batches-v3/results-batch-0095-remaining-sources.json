@@ -1,0 +1,4 @@
+[
+{"i": 6, "domain": "finance", "summary": "Federal Reserve FRED US regional economic time series with ~200K series on employment, housing permits, and state/county/MSA metrics."},
+{"i": 49, "domain": "labor", "summary": "ILOSTAT working-age population indicators by sex, age, and urban/rural across 189 countries."}
+]

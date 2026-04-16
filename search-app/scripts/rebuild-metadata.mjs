@@ -70,6 +70,7 @@ for (const file of checkpoint.processedFiles) {
         api_endpoint: r.api_endpoint || null,
         documentation_url: r.documentation_url || null,
         column_count: r.column_count || (r.columns || []).length || 0,
+        columns: (r.columns || []).slice(0, 50).map(c => ({ name: c.name, type: c.type || '' })),
         row_count: r.row_count || null,
         tags: (r.tags || []).slice(0, 10),
         hierarchy: r.hierarchy ? {

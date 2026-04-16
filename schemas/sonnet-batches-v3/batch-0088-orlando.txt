@@ -1,0 +1,15 @@
+[3] City Owned Vacant Lots | pub=Real Estate Management Division | desc: City Owned Vacant Lots | cols: Platted (Y/N), Survey, Notes, Development Status, District, N/S, Orlando Main Street Program Area, Orlando Neighborhoods, Orlando Commissioner Districts, Lot Status
+[7] Lobbyist Listings | pub=data.cityoforlando.net | desc: Registered lobbyists at the City of Orlando | cols: First Name, Representing, Registration Date, Last Name | tags: lobbyists
+[9] Orlando City Limits | pub=data.cityoforlando.net | cols: Shape.len, AreaName, Shape.area, the_geom, Object ID
+[10] Orlando Neighborhoods | pub=data.cityoforlando.net | cols: NeighborhoodID, Color, Object ID, Shape.area, Shape.len, the_geom, NeighborhoodName
+[12] OPD Districts | pub=data.cityoforlando.net | cols: DISTRICT, Division, OperatorID, MaintenanceDate, the_geom, Shape.area, Shape.len, Object ID, COLOR, ID
+[14] Orlando Commissioner Districts | pub=data.cityoforlando.net | cols: Commissioner Name, Commissioner District Number, the_geom, Shape.area, Shape.len, Object ID
+[15] Election Timeline | pub=data.cityoforlando.net | cols: Version, Task, Date
+[16] OrlandoHydrology | pub=data.cityoforlando.net | desc: Water bodies within the city limits | cols: HYDRONAME, FEATTYPE, HYDROTYPE, the_geom
+[17] Orlando Annexations | pub=data.cityoforlando.net | cols: Annexation Document Number, Annexation Date, Comments, Legal Description Acres, Year, Shape.len, the_geom, Property Description, Object ID, Effective Date
+[20] Urban Job Tax Credit Program | pub=Orlando EDV | cols: OBJECTID, the_geom, GlobalID, Nominated_Area
+[21] OPD SubGrids | pub=data.cityoforlando.net | desc: OPD Subgrids | cols: SHAPE.area, SubGrid, ID, SubGridID, OBJECTID, the_geom, SHAPE.len, Grid
+[22] OPD Grids | pub=data.cityoforlando.net | desc: Grids for defining OPD areas | cols: the_geom, SHAPE.area, Grid, SHAPE.len, ID, OBJECTID
+[23] OPD Divisions | pub=data.cityoforlando.net | cols: Shape.len, the_geom, ID, MaintenanceDate, Division, Shape.area, OperatorID, Object ID
+[24] OPD Sectors | pub=data.cityoforlando.net | cols: Object ID, MaintenanceDate, Shape.area, ID, the_geom, Sector, Shape.len, OperatorID
+[26] OPD Stations | pub=data.cityoforlando.net | cols: Address, OBJECTID, OperatorID, Status, Gen_Location, Station, Type, Num, MaintenanceDate, the_geom

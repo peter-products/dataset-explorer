@@ -1,0 +1,7 @@
+[
+{"i": 260, "domain": "transportation", "summary": "GoCary transit GTFS schedule feed with routes, stops, and real-time data for Cary, NC."},
+{"i": 280, "domain": "transportation", "summary": "Chita City (知多市) transit GTFS schedule feed with real-time data, Japan."},
+{"i": 360, "domain": "transportation", "summary": "Ilévia transit GTFS schedule feed with real-time data for Lille, France."},
+{"i": 390, "domain": "transportation", "summary": "Metra commuter rail GTFS schedule feed with real-time data for Chicago area."},
+{"i": 405, "domain": "transportation", "summary": "MiWay transit GTFS schedule feed with real-time data for Mississauga, Ontario."}
+]

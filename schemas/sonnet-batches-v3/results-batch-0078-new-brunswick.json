@@ -1,0 +1,7 @@
+[
+{"i": 44, "domain": "demographics", "summary": "County boundaries for New Brunswick Canada with English and French names."},
+{"i": 98, "domain": "demographics", "summary": "Parish boundaries for New Brunswick Canada with English and French names."},
+{"i": 200, "domain": "energy", "summary": "New Brunswick electric power selling price index by reference period (2014=100) above and below 5000kw."},
+{"i": 235, "domain": "finance", "summary": "Commercial rents services price index (2019=100) for New Brunswick by reference period."},
+{"i": 237, "domain": "demographics", "summary": "Dependency ratio for New Brunswick by reference period."}
+]

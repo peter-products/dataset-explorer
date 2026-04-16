@@ -1,0 +1,12 @@
+[
+{"i": 21, "domain": "transportation", "summary": "Seattle streetcar stations/stops on the South Lake Union and First Hill lines maintained by SDOT."},
+{"i": 22, "domain": "transportation", "summary": "Seattle streetcar line geometry for the South Lake Union and First Hill lines maintained by SDOT."},
+{"i": 141, "domain": "education", "summary": "Seattle Public Schools site locations for 2023-2024 with school IDs, names, grades, and addresses."},
+{"i": 204, "domain": "environment", "summary": "Seattle 2003 tree canopy coverage GIS polygons with area and perimeter from DPR Urban Forestry."},
+{"i": 304, "domain": "housing", "summary": "Seattle Public Utilities monthly summary of water tap projects including completed, added, and backlog counts."},
+{"i": 354, "domain": "transportation", "summary": "Seattle street sweeping route geometry with route names, frequency, and scheduled days maintained by SDOT."},
+{"i": 400, "domain": "demographics", "summary": "2020 Census block group boundaries for the City of Seattle with GEOID, acres, and tract labels."},
+{"i": 408, "domain": "demographics", "summary": "2020 Census block groups in Seattle joined with American Community Survey 5-year data and neighborhood attributes."},
+{"i": 457, "domain": "health", "summary": "Seattle hospital locations with facility name, address, acute care status, URL, and telephone."},
+{"i": 492, "domain": "housing", "summary": "Seattle 2012 building outline polygons with building type codes (building, deck, garage) and apex elevation."}
+]

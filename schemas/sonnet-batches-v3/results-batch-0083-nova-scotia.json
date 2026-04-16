@@ -1,0 +1,22 @@
+[
+{"i": 3, "domain": "transportation", "summary": "Nova Scotia public ferry schedules operated by Public Works across seven provincial routes."},
+{"i": 6, "domain": "transportation", "summary": "Nova Scotia traffic volume census on Provincial Highway System with AADT, section, and county."},
+{"i": 12, "domain": "natural_resources", "summary": "Nova Scotia 1:10,000 primary watersheds with area, flow direction, and river."},
+{"i": 96, "domain": "technology", "summary": "Government of Nova Scotia news releases with department, subject, URL, and contents."},
+{"i": 121, "domain": "education", "summary": "Nova Scotia schools offering French programs (immersion and integrated) with school code and address."},
+{"i": 142, "domain": "transportation", "summary": "Nova Scotia Tancook Island ferry schedule by day of week."},
+{"i": 155, "domain": "natural_resources", "summary": "Nova Scotia 1:10,000 secondary watersheds with area, hectares, and geometry."},
+{"i": 157, "domain": "education", "summary": "Nova Scotia registered private career colleges with college, contact, phone, and mailing address."},
+{"i": 173, "domain": "education", "summary": "Nova Scotia English school board zone boundaries with board code, phone, and geometry."},
+{"i": 225, "domain": "natural_resources", "summary": "Nova Scotia 1:10,000 tertiary watersheds with tertiary code, area, and geometry."},
+{"i": 247, "domain": "education", "summary": "Nova Scotia schools offering Pre-primary Program with address, phone, and region."},
+{"i": 278, "domain": "natural_resources", "summary": "Nova Scotia 1:10,000 sub-tertiary watersheds with codes and geometry."},
+{"i": 322, "domain": "natural_resources", "summary": "Nova Scotia Natural Resources and Renewables field office locations with address, region, and county."},
+{"i": 347, "domain": "education", "summary": "Nova Scotia Gaelic courses offered with year, course code, and title."},
+{"i": 384, "domain": "education", "summary": "Nova Scotia French school board (CSAP) zone boundaries with board code and geometry."},
+{"i": 400, "domain": "transportation", "summary": "Roundabouts owned by Province of Nova Scotia with location description, implementation year, and geometry."},
+{"i": 438, "domain": "education", "summary": "Nova Scotia Early Years Centres contact information with address, phone, and email."},
+{"i": 478, "domain": "education", "summary": "Nova Scotia school bus survey raw data with group, response, sample size, and percentages."},
+{"i": 488, "domain": "health", "summary": "Nova Scotia Emergency Health Services ambulance fees by patient and transportation category."},
+{"i": 680, "domain": "natural_resources", "summary": "Nova Scotia project areas for LiDAR acquisition with year, projection, and pulse density."}
+]

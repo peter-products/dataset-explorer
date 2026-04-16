@@ -1,0 +1,10 @@
+[0] 2020 Census Figures for Macoupin County | pub=data.macoupincountyil.gov | cols: 2020 Census, 2010 Census, District Name, Census ID Number, Type of Distict, Percent Change, Change | tags: census, population
+[5] Property Tax Reports | pub=data.macoupincountyil.gov | cols: Tax Year, Report
+[7] Macoupin County: Open Expenditures Ledger | pub=data.macoupincountyil.gov | desc: for http://checkbook.macoupincountyil.gov/ | cols: Vendor ID, Controlling Officer, Department, Fiscal Year Period, Fiscal Year, Expense Category, Payment Date, Payment Number, Vendor, Fund
+[8] Adopted Ordinances | pub=data.macoupincountyil.gov | cols: Ordinance
+[19] Probate Records Index 1832-1880 | pub=data.macoupincountyil.gov | cols: Role, Box, Years, Pages, Name, Notes
+[22] Elected Officials Directory | pub=data.macoupincountyil.gov | cols: EMAIL, Location 2 (address), Location 1 (address), PHONE3, FAX2, FAX1, PHONE1, EO_PARTY_CODE, Position Title, EO_NAME
+[28] Probate Index Book B 1881 - 1910 | pub=data.macoupincountyil.gov | cols: Years, Role, Notes, Box, Pages, Name
+[39] Total Vote By Day General Elections 2008 - 2022 | pub=data.macoupincountyil.gov | cols: 2020, 2022, 2016, 2018, 2014, 2010, 2008, Days, 2012
+[40] Macoupin County Budget | pub=data.macoupincountyil.gov | desc: Budget for 1997-2014. | cols: Expenditures 2005, Expenditures 1997, Expenditures 1996, Appropriations 2012, Appropriations 2006, Appropriations 2005, Appropriations 2002, Appropriations 2001, Fund, Short Title | tags: budget
+[45] Macoupin County Precinct GIS Data | pub=data.macoupincountyil.gov | cols: polygon, name, description

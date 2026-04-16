@@ -1,0 +1,17 @@
+[
+{"i": 12, "domain": "environment", "summary": "League of Oregon Cities 2023 water rates survey data on water, wastewater, and stormwater rates and services."},
+{"i": 15, "domain": "environment", "summary": "Oregon Cities 2021 water rates survey on rate studies, asset management, debt service, and leak adjustments."},
+{"i": 17, "domain": "finance", "summary": "Oregon Cities 2016 System Development Charges survey data for sewer, water, parks, transportation, and stormwater."},
+{"i": 24, "domain": "environment", "summary": "Oregon Cities 2019 water rates survey data on design capacity, water loss, meter types, and service population."},
+{"i": 27, "domain": "finance", "summary": "Oregon Cities 2019 franchise fee right-of-way survey on telecom, cable, and utility fees."},
+{"i": 34, "domain": "housing", "summary": "Oregon Cities 2017 land use development fees including conditional use, annexation, and site plan review."},
+{"i": 39, "domain": "finance", "summary": "Oregon Cities detailed public works awards with program, client, total awards, and description."},
+{"i": 41, "domain": "finance", "summary": "Oregon Cities Special Public Works Fund awards from 2010-2017 by city and county."},
+{"i": 45, "domain": "finance", "summary": "Oregon Local Government Property Insurance map with net income by city/county."},
+{"i": 46, "domain": "demographics", "summary": "Oregon Economic Development Association members directory with city, population, and location."},
+{"i": 47, "domain": "finance", "summary": "Oregon Cities 2025 utility franchise fee survey on fees paid to other governments and in-lieu-of fees."},
+{"i": 48, "domain": "technology", "summary": "League of Oregon Cities webinar views by city from Jan-Jul 2017."},
+{"i": 49, "domain": "finance", "summary": "Oregon cable franchise fee rates and revenue from 2016-2025 by city and region."},
+{"i": 50, "domain": "finance", "summary": "Oregon telecom franchise fee rates and revenue from 2012-2025 by city."},
+{"i": 51, "domain": "finance", "summary": "Oregon Cities 2026 System Development Charges survey for water, stormwater, and SDC revenue by city."}
+]

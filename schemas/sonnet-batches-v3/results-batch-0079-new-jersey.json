@@ -1,0 +1,9 @@
+[
+{"i": 6, "domain": "housing", "summary": "New Jersey construction permits issued by municipalities with permit type, lot, volume, and rental units gained."},
+{"i": 15, "domain": "transportation", "summary": "New Jersey DOT traffic counts with annual average daily traffic by station, mile marker, and route."},
+{"i": 26, "domain": "elections", "summary": "New Jersey 40 legislative districts with municipality list."},
+{"i": 43, "domain": "legal", "summary": "New Jersey Medicaid fraud settlements, notices, and other actions by provider and date."},
+{"i": 53, "domain": "legal", "summary": "New Jersey State Ethics Commission compliance review archive by department, year, and file type."},
+{"i": 64, "domain": "public_safety", "summary": "New Jersey State Parole Board office locations with address, phone, and geolocation."},
+{"i": 72, "domain": "natural_resources", "summary": "New Jersey native plant species with scientific name, family, bloom period, height, and soil moisture."}
+]

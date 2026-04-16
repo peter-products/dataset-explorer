@@ -1,0 +1,28 @@
+[21] Streetcar Stations | pub=City of Seattle | desc: Streetcar Stations in Seattle.  Contains stations/stops on the South Lake Union and First Hill Line.  Displays streetcar stations maintained by the Seattle Department of Transportation.Refresh Cycle:  | cols: OBJECTID, STATION, STOP, SE_ANNO_CAD_DATA | tags: SDOT, Transportation, Common Data Layers, Streetcar Stations, Seattle GIS Open Data
+[22] Streetcar Lines | pub=City of Seattle | desc: Streetcar Lines in Seattle.  Contains the South Lake Union and First Hill Line.  Displays streetcar lines maintained by the Seattle Department of Transportation.Refresh Cycle: DailyFeature Class: SDOT | cols: COMPKEY, UNITID, UNITID2, ORD_STREET, ORD_STNAME, SE_ANNO_CAD_DATA, STATUS, NAME, OBJECTID, Shape__Length | tags: SDOT, Transportation, Common Data Layers, Streetcar Lines, Seattle GIS Open Data
+[141] Seattle Public Schools Sites 2023-2024 | pub=City of Seattle | desc: Seattle Public School locations. Includes all levels of schooling for the 2022-2023 school year.https://www.seattleschools.org/departments/enrollment-planning/For questions, please contact enrollmentp | cols: OBJECTID, school_ID, school_name, mapLabel, status, grades, esmshs, siteID, address, zip | tags: SPS, Seattle Public Schools, GIS, Public School, School, Seattle GIS Open Data
+[204] Tree Canopy 2003 | pub=City of Seattle | desc: Symbolized data from DPR.UFCanopy. Does not display when zoomed  out beyond 1:56,000.Static data, no updates. | cols: OBJECTID, AREA_, PERIMETER, GRID_CODE, GlobalID, Shape__Area, Shape__Length | tags: urban forestry, tree, canopy cover, GIS, Seattle GIS Open Data
+[304] SPU Water Taps Projects Summary | pub=City of Seattle | desc: Provieds a monthly total of water projects. | cols: PROJ_MONTH, FIELD_QUEUE_BACKLOG, PROJ_COMPLETED_IN_MONTH, PROJ_ADDED_TO_FIELD_QUEUE_IN_MONTH, ESRI_OID | tags: Utilities Dashboard, Seattle GIS Open Data
+[354] Street Sweeping Routes | pub=City of Seattle | desc: SDOT Street Sweeping Routes. Maintained by joined efforts with Seattle Department of Transportation and Seattle Public Utility Water Quality Program.Feature Class: ROUTES_STREETSWEEPRORefresh Cycle: W | cols: OBJECTID, ROUTENAME, ROUTE_NAME, FREQUENCY, ROUTE_DAY, PAY_WEEK, MGMTUNIT, TYPE, ROUTENUM, PROGRAM | tags: SDOT, GIS, Street Sweeping Routes, Seattle GIS Open Data
+[400] 2020 Census Block Groups - Seattle | pub=City of Seattle | desc: 2020 census block groups for the City of Seattle. | cols: OBJECTID, GEOID20, Gross Acres, Land Acres, Water Acres, Tract and Block Group, Block Group Name, Block Group, Tract, Tract Label | tags: Planning, demographics, census, census 2020, census block groups, GIS
+[408] 2020 Census Block Groups Top 50 American Community Survey Data with Seattle Neighborhoods | pub=City of Seattle | desc: U.S. Census Bureau 2020 block groups within the City of Seattle with American Community Survey (ACS) 5-year series data of frequently requested topics. Data is pulled from block group tables for the m | cols: OBJECTID, GEOID_20, Land Acres, Water Acres, Census Tract Number, Census Block Group, Census Tract and Block Group, Block Group Name, Census Tract Label, Council District | tags: Planning, ACS, demographics, census, American Community Survey, GIS
+[457] Hospitals | pub=City of Seattle | desc: Displays data from CARTO.HOSPITAL.  Labels based on FACILITY.Updated as needed, last update March 2020. | cols: OBJECTID, FACILITY, ADDRESS, SE_ANNO_CAD_DATA, CITY, ACUTE_CARE, GIS_EDT_DT, URL, TELEPHONE, GlobalID | tags: public safety, emergency, medical care, acute care, Seattle GIS Open Data
+[492] Building Outlines 2012 | pub=City of Seattle | desc: Displays data from CGDB.BLDG2012_PLGN.  The layer will not display when zoomed out beyond 1,799.
+  BP99_TYPE_CODE
+  DESCRIPTION
+ 
+ 
+  BLD
+  Building
+ 
+ 
+  DEK
+  Deck
+ 
+ 
+  GAR
+  Garage
+ 
+ 
+  MSC
+  Mis | cols: OBJECTID, BP99_TYPE_CODE, BP99_APEX_ELEV, BP99_BLDGKEY, FEATURE_ID, GlobalID, Shape__Area, Shape__Length | tags: Building, roof, outlines, apex, GIS, Seattle GIS Open Data

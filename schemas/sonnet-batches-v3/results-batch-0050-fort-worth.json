@@ -1,0 +1,6 @@
+[
+{"i": 2, "domain": "transportation", "summary": "Vehicle accident report data in Fort Worth, Texas with location and fatality info."},
+{"i": 7, "domain": "demographics", "summary": "Fort Worth neighborhood profile data including crime, jobs, age, and housing metrics."},
+{"i": 8, "domain": "demographics", "summary": "Fort Worth neighborhood nearby facility distances to libraries, schools, and community centers."},
+{"i": 9, "domain": "elections", "summary": "Fort Worth city council district boundaries."}
+]

@@ -1,0 +1,14 @@
+[
+{"i": 14, "domain": "demographics", "summary": "Little Rock city boundary polygon as of September 2021."},
+{"i": 22, "domain": "labor", "summary": "Little Rock Parks and Recreation yearly volunteer hours and departmental savings."},
+{"i": 26, "domain": "legal", "summary": "City of Little Rock FOIA request log with description, department, requestor, and completion status."},
+{"i": 29, "domain": "legal", "summary": "Little Rock Police Department FOIA request log with description, division, and completion status."},
+{"i": 41, "domain": "public_safety", "summary": "Little Rock Animal Village year-to-date service numbers for 2021 and 2022."},
+{"i": 54, "domain": "housing", "summary": "Definitions of Little Rock land use codes across residential, commercial, industrial, office, and public categories."},
+{"i": 56, "domain": "demographics", "summary": "2020 Census block polygons for Little Rock with GEOID, land/water area, and geographic identifiers."},
+{"i": 60, "domain": "technology", "summary": "Little Rock IT scheduled maintenance tickets with duration, employees affected, and month."},
+{"i": 68, "domain": "demographics", "summary": "2020 Census block groups for Little Rock with GEOID, tract, and geographic attributes."},
+{"i": 70, "domain": "housing", "summary": "Little Rock unsafe and vacant structures removed with address, reason, ward, and date removed."},
+{"i": 76, "domain": "housing", "summary": "Little Rock year-to-date list of unsafe and vacant structures with address, ward, and environmental court notes."},
+{"i": 82, "domain": "finance", "summary": "Little Rock January 2024 bond project financials with activity, revenue, cost, and balance."}
+]

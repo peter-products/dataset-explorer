@@ -1,0 +1,12 @@
+[2] Archived WPDx+ | pub=Water Point Data Exchange | cols: #pay, #water_source_clean, #adm2, #adm1, #country_name, #country_id, #activity_id, count, New Georeferenced Column, Likely_Status_in_3_Years
+[3] Uganda Data | pub=data.waterpointdata.org | cols: #installer, Prediction Level, Count, photo_lnk, #country_id, #orig_lnk, #management, Countries, #data_lnk, #fecal_coliform_value
+[5] WABU Volumes | pub=data.waterpointdata.org | cols: Volume, New Georeferenced Column, Total Water Stress Risk, Severity of Water Stress Risk, Severity of Regulatory Risk, New Georeferenced Column_1, Total Risk, Probability of Water Stress Risk, Severity of Water Quality Risk, Total Infrastructure Risk
+[6] WABU | pub=data.waterpointdata.org | cols: Countries, Latitude, SVA Completed?, Score, Longitude 1, New Georeferenced Column, Latitude 1, Capital, Country, Longitude
+[7] Uganda 2020 Predictions | pub=data.waterpointdata.org | cols: #adm2, #water_source, #adm1, #activity_id, New Georeferenced Column, #status_id, #notes, #converted, #status, #water_tech
+[8] SVA Data | pub=data.waterpointdata.org | cols: Top Regulatory Issue, New Georeferenced Column, Country, Severity of Water Stress Risk, Total Water Stress Risk, Severity of Water Quality Risk, Severity of Regulatory Risk, Total Water Quality Risk, Probability of Water Stress Risk, Longitude
+[9] Volumes | pub=data.waterpointdata.org | cols: Country, Bottling Plant Location, Latitude, Volume, Longitude, New Georeferenced Column, Countries
+[10] WABU Data | pub=data.waterpointdata.org | cols: Probability of Infrastructure Risk, Probability of Water Quality Risk, Total Infrastructure Risk, Longitude, Latitude, 2018 Production Volume (L), Country, Top Infrastructure Issue, Severity of Water Quality Risk, Bottling Plant Location
+[11] Sierra Leone Prediction Data | pub=data.waterpointdata.org | cols: wpdx_id, country_name, data_lnk, photo_lnk, Count, Countries, country_id, activity_id, lat_deg, status_0_yes
+[12] Ethiopia | pub=data.waterpointdata.org | cols: lat_deg, water_source_original, country_id, rehabilitator, scheme_id, orig_lnk, converted, count, water_source_category, water_tech_category
+[13] Sierra Leone | pub=data.waterpointdata.org | cols: management_original, rehabilitator, scheme_id, water_source_category, public_data_source, data_lnk, Countries, facility_type, status_id, row_id
+[14] Uganda | pub=data.waterpointdata.org | cols: Location, fecal_coliform_presence, facility_type, data_lnk, photo_lnk, public_data_source, clean_country_name, Countries, rehabilitator, country_id

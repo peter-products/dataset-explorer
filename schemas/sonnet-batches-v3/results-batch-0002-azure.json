@@ -1,0 +1,20 @@
+[
+{"i":1,"domain":"transportation","summary":"NYC green taxi trip records from Microsoft Azure Open Datasets, including pickup/dropoff times, locations, passenger count, and payment type."},
+{"i":2,"domain":"transportation","summary":"NYC for-hire vehicle (FHV) trip records from Azure Open Datasets, with dispatch base number, pickup/dropoff datetimes and location IDs."},
+{"i":5,"domain":"labor","summary":"US Bureau of Labor Statistics Current Employment Statistics (CES) nonfarm employment, hours, and earnings estimates at the national level."},
+{"i":6,"domain":"labor","summary":"US Bureau of Labor Statistics CES employment, hours, and earnings estimates at the state level by series ID and period."},
+{"i":8,"domain":"finance","summary":"US Consumer Price Index (CPI) data from BLS measuring average price changes for urban consumers by series, year, and period."},
+{"i":9,"domain":"finance","summary":"US Producer Price Index (PPI) by industry from BLS, tracking price changes at the producer level by series and period."},
+{"i":10,"domain":"finance","summary":"US Producer Price Index (PPI) by commodity from BLS, tracking commodity-level price changes by series and period."},
+{"i":11,"domain":"demographics","summary":"US population by county from 2000 and 2010 Census, broken down by gender, race, and age group."},
+{"i":12,"domain":"demographics","summary":"US population by ZIP code from the 2010 Census, segmented by gender, race, and age group."},
+{"i":13,"domain":"public_safety","summary":"Boston 311 service request data with daily updates, covering case types, status, department, and address."},
+{"i":14,"domain":"public_safety","summary":"Chicago 311 service request data with daily updates, covering service request type, status, street address, ward, and location."},
+{"i":15,"domain":"public_safety","summary":"NYC 311 service request data from 2010 to present, covering complaint types, agency, descriptor, location, and zip code."},
+{"i":16,"domain":"public_safety","summary":"San Francisco fire department calls and 311 cases from 2015 forward, including category, status, address, and coordinates."},
+{"i":17,"domain":"public_safety","summary":"Seattle fire department 911 dispatch records from 2010 forward, with incident type, address, datetime, and location coordinates."},
+{"i":20,"domain":"technology","summary":"MNIST handwritten digit image dataset with 70,000 labeled 28x28 pixel grayscale images for machine learning benchmarking."},
+{"i":21,"domain":"technology","summary":"Microsoft News (MIND) large-scale news recommendation benchmark dataset with user impression history and article interactions."},
+{"i":22,"domain":"demographics","summary":"Worldwide public holidays for 38 countries from 1970 to 2099, with holiday names, country codes, dates, and paid time off status."},
+{"i":23,"domain":"technology","summary":"Large-scale Russian language speech-to-text dataset with audio files, transcriptions, and duration for STT model training."}
+]

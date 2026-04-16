@@ -1,0 +1,5 @@
+[
+{"i": 3, "domain": "technology", "summary": "NASA facilities directory with center name, location address, zipcode, phone, and URL."},
+{"i": 13, "domain": "technology", "summary": "NASA inventory of open source and general resource software with SRA date, case number, and NASA center."},
+{"i": 18, "domain": "technology", "summary": "Andersen et al 2020 Europa Clipper TID margin Jovian radiation environment data used in Monte Carlo evaluation."}
+]

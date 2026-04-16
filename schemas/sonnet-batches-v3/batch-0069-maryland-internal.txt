@@ -1,0 +1,4 @@
+[1410] Regions | pub=State of Maryland | desc: Layer displaying the EMS Regions in Maryland. | cols: GIS Object ID, Shape.STLength(), Shape.STArea(), Region, County, the_geom
+[1412] WAC Buildings | pub=State of Maryland | desc: Polygon layer of buildings at Washington College. | cols: the_geom, SHAPE.STLength(), GIS Object ID, Building Use, SHAPE.STArea(), Building Name
+[1443] St Marys County Transit Stops | pub=State of Maryland | desc: Bus stop locations for St. Mary's County's Public Transit System. Shapes were drawn in Google Earth, exported to GTFS and then converted to shapefiles. | cols: the_geom, Name, GIS Object ID
+[1464] St Marys County Transit Routes | pub=State of Maryland | desc: Bus routes and variations for St. Mary's County's Public Transit System. Shapes were drawn in Google Earth, exported to GTFS and then converted to shapefiles. | cols: GIS Object ID, SHAPE.STLength(), Variation, Destination, Route Name, Route ID, the_geom

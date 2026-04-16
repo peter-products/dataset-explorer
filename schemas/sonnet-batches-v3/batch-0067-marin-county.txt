@@ -1,0 +1,3 @@
+[37] Marin County Parks Fiscal Year Revenue and Expenditures | pub=Marin County parks | cols: Department Desc, Categories, Revenue or Expenditure, Program, Type of Expenditure, Department, Year, Dollar Amount | tags: marin county parks, parks
+[40] Parks Science and Research Expenditures by Year | pub=Marin County Parks | cols: Budget Source, Label, Expenditure, Date | tags: environment, marin county parks, culture and recreation, marin county open space district
+[42] Child Welfare Settlements | pub=data.marincounty.gov | cols: Date, Year, New Cases, Cases To Trial, Settlement Conferences | tags: public health, county government

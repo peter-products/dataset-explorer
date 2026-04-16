@@ -1,0 +1,12 @@
+[
+{"i":11,"domain":"energy","summary":"Municipal energy and water consumption and cost data for Berkeley facilities by site, showing annual electricity, natural gas, and water usage."},
+{"i":13,"domain":"environment","summary":"Berkeley Energy Savings Ordinance (BESO) building assessment data with APN, assessment type, status, and associated energy score."},
+{"i":16,"domain":"energy","summary":"PG&E metered energy data for Berkeley showing total electricity and natural gas consumption in MMBtu by sector and year."},
+{"i":23,"domain":"environment","summary":"Berkeley Municipal Code 17.08 creek centerlines with creek names, certainty levels, and presumptive creek designations."},
+{"i":26,"domain":"natural_resources","summary":"City park locations in Berkeley with names, addresses, types, and hyperlinks to park pages."},
+{"i":28,"domain":"environment","summary":"Berkeley Municipal Code 17.08 creek catchment areas by name."},
+{"i":29,"domain":"environment","summary":"Open creek setback zones under Berkeley BMC 17.08 with creek name, buffer distance, and certainty level."},
+{"i":30,"domain":"environment","summary":"Culverted creek setback zones under Berkeley BMC 17.08 with creek name, buffer distance, and certainty level."},
+{"i":32,"domain":"demographics","summary":"ZIP code area boundaries and populations for Berkeley from 2010 Census with population and square miles."},
+{"i":38,"domain":"elections","summary":"Berkeley City Council district boundaries with ACS demographic and citizen voting age population data."}
+]

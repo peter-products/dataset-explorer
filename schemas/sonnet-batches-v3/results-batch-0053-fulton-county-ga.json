@@ -1,0 +1,17 @@
+[
+{"i": 220, "domain": "legal", "summary": "Fulton County Solicitor General criminal charges dataset with case status and offense dates."},
+{"i": 221, "domain": "finance", "summary": "Fulton County ARPA agency summary of number served."},
+{"i": 222, "domain": "demographics", "summary": "Cities within Fulton County boundaries with area and municipal codes."},
+{"i": 224, "domain": "public_safety", "summary": "Monthly Fulton County animal kennel save rate by live intake and outcomes."},
+{"i": 225, "domain": "finance", "summary": "Fulton County WebGrants arts and culture grant summary by program."},
+{"i": 226, "domain": "legal", "summary": "Judge Romae T. Powell Juvenile Justice Center location shapefile in Fulton County."},
+{"i": 228, "domain": "finance", "summary": "Fulton County ARPA city map amount points with geography."},
+{"i": 229, "domain": "transportation", "summary": "Public transportation usage for commuting by Atlanta metro county and year."},
+{"i": 230, "domain": "education", "summary": "Fulton County environmental scan of racial education disparities 2022."},
+{"i": 231, "domain": "education", "summary": "Fulton County college and career readiness indicators by race/ethnicity."},
+{"i": 232, "domain": "demographics", "summary": "Fulton County environmental scan of racial identity 2022."},
+{"i": 234, "domain": "demographics", "summary": "Fulton County environmental scan of racial household occupancy 2022."},
+{"i": 235, "domain": "demographics", "summary": "Fulton County environmental scan of racial household income 2022."},
+{"i": 237, "domain": "demographics", "summary": "Fulton County environmental scan of racial age distribution 2022."},
+{"i": 238, "domain": "legal", "summary": "Fulton County tax deed activity task tracking records."}
+]

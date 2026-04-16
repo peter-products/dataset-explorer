@@ -1,0 +1,5 @@
+[75] Historic Marker | pub=Historical Marker Database | desc: HISTORIC_MARKER | cols: HYPERLINK, MARKER NAME, MARKER DESCRIPTION, GEOMETRY | tags: historic, ebrp, marker
+[155] Census 2010 | pub=U.S. Census Bureau | desc: CENSUS_2010_TRACT | cols: SHAPE LENGTH, POPULATION, SHAPE AREA, TRACT, GEOMETRY, TRACT DETAILS URL | tags: population, census, demographic, ebrp
+[168] Baton Rouge NBH | pub=data.brla.gov | cols: neighborhood, community, id, the_geom, planning_id, population
+[178] BT_Zip_Codes | pub=data.brla.gov | desc: ZIP Code tabulation areas | cols: Description, the_geom, ID, ZIP_CODE | tags: zip code
+[239] geo_export_cd9a216d-e10c-431b-a885-a5888a3858e6 | pub=data.brla.gov | cols: neighborho, the_geom, population, planning_d, id, community

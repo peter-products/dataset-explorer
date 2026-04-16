@@ -1,0 +1,12 @@
+[
+{"i":15,"domain":"health","summary":"Cincinnati mortality dataset with total deaths by cause of death, year, and neighborhood."},
+{"i":25,"domain":"health","summary":"Premature death disparities by neighborhood in Cincinnati, with cause of death, excess years of life lost, and year group."},
+{"i":36,"domain":"housing","summary":"Cincinnati residential tax abatement records with HERS scores, renovation/addition flags, LEED status, and approval dates."},
+{"i":37,"domain":"public_safety","summary":"Cincinnati COVID-19 daily response reports with updates on city services, department staffing, events, and policy changes."},
+{"i":43,"domain":"public_safety","summary":"Cincinnati incident/case records with case number, event date, report type, address, neighborhood, and CAD number."},
+{"i":53,"domain":"environment","summary":"Greater Cincinnati Water Works (GCWW) private-side lead service line replacement records with material types, plumber, replacement date, and status."},
+{"i":60,"domain":"finance","summary":"Cincinnati archived construction, supplies, and services contract awards from 2013-2015 with contractor, contract details, and bid tabs."},
+{"i":93,"domain":"demographics","summary":"Cincinnati community council information with meeting dates, location, address, president, election month, and contact email."},
+{"i":95,"domain":"housing","summary":"Cincinnati housing unit activity by address and neighborhood, tracking units added, removed, and demolished."},
+{"i":99,"domain":"public_safety","summary":"Cincinnati Emergency Communications Center (ECC) protocol study data with dispatch times, incident IDs, determinants, and neighborhoods."}
+]

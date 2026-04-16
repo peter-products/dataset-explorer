@@ -1,0 +1,15 @@
+[
+{"i": 4, "domain": "public_safety", "summary": "Richmond VA SeeClickFix service request sample data from Aug 2014-2015 with summary, rating, and council district."},
+{"i": 5, "domain": "finance", "summary": "Richmond VA city general fund budgets from FY14 forward by agency, service, cost center, and account."},
+{"i": 9, "domain": "public_safety", "summary": "Richmond VA fire district boundary polygons with battalion and name."},
+{"i": 11, "domain": "finance", "summary": "Richmond VA Enterprise Zones with adoption date, name, and geometry."},
+{"i": 13, "domain": "demographics", "summary": "Richmond VA landmarks and points of interest with structure, location, and neighborhood."},
+{"i": 16, "domain": "public_safety", "summary": "Richmond VA Animal Care and Control calls for service with urgency, location, and police sector."},
+{"i": 18, "domain": "demographics", "summary": "Richmond VA 2012 community survey data on city services, traffic, parks, and education."},
+{"i": 19, "domain": "public_safety", "summary": "Richmond VA 911 Dispatch Zone boundary polygons."},
+{"i": 20, "domain": "environment", "summary": "Richmond VA street sweeping area polygons with schedule and name."},
+{"i": 21, "domain": "education", "summary": "Richmond VA Public Schools elementary school zones with name and geometry."},
+{"i": 25, "domain": "education", "summary": "Richmond VA Public Schools high school zones with name and geometry."},
+{"i": 26, "domain": "education", "summary": "Richmond VA Public Schools middle school zones with name and geometry."},
+{"i": 27, "domain": "environment", "summary": "Richmond VA refuse collection area polygons with route name, truck type, day, and pickup count."}
+]

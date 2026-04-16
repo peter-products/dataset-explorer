@@ -1,0 +1,28 @@
+{
+  "processed": 13000,
+  "by_file": {
+    "worldbank.jsonl": 99999999,
+    "ilo-unesco-snowflake-dataworld-deep.jsonl": 99999999,
+    "la-controller.jsonl": 99999999,
+    "maryland-internal.jsonl": 99999999,
+    "nlm-nih.jsonl": 99999999,
+    "ny-health.jsonl": 99999999,
+    "us-federal-bts.jsonl": 99999999,
+    "us-federal-cdc.jsonl": 99999999,
+    "us-federal-commerce.jsonl": 99999999,
+    "us-federal-dot.jsonl": 99999999,
+    "us-federal-hhs.jsonl": 99999999,
+    "us-federal-nasa.jsonl": 99999999,
+    "usac.jsonl": 99999999,
+    "ca-controller.jsonl": 99999999,
+    "us-federal-energystar.jsonl": 99999999,
+    "us-federal-fcc.jsonl": 99999999,
+    "datagov-doe.jsonl": 99999999,
+    "datagov-dot.jsonl": 99999999,
+    "datagov-gsa.jsonl": 99999999,
+    "datagov-hhs.jsonl": 99999999,
+    "datagov-sba.jsonl": 99999999,
+    "datagov-usda.jsonl": 99999999,
+    "eurostat.jsonl": 99999999
+  }
+}

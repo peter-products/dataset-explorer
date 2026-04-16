@@ -1,0 +1,12 @@
+[
+{"i":1884,"domain":"housing","summary":"Block group share of renter buildings that are 5-19 units for Bay Area with rent burden and non-white renter data."},
+{"i":1885,"domain":"transportation","summary":"Bay Area transit model network lines with mode type, frequency by time period, and line names."},
+{"i":1886,"domain":"housing","summary":"Preservation priority area for 5-19 unit renter buildings in Bay Area with EPC classification and rent burden."},
+{"i":1887,"domain":"housing","summary":"Parcel conversion data for Bay Area with coordinates, census tract, APN, city, and ZIP code."},
+{"i":1888,"domain":"housing","summary":"Bay Area count of renter buildings above 50 units by block group with EPC classification and rent burden shares."},
+{"i":1959,"domain":"housing","summary":"Share of renter buildings that are 5-19 units in Bay Area with EPC 2050 classification and county data."},
+{"i":1960,"domain":"housing","summary":"Share of renter buildings that are 20-49 units in Bay Area by block group with rent burden data."},
+{"i":1961,"domain":"housing","summary":"Preservation priority area for 50+ unit renter buildings in Bay Area with building size index values."},
+{"i":1962,"domain":"transportation","summary":"VTA station half-mile buffer housing unit counts for Bay Area from 2010-2018 with DUA capacity data."},
+{"i":1963,"domain":"housing","summary":"Share of renter households that are non-white in Bay Area by block group with rent burden and building counts."}
+]

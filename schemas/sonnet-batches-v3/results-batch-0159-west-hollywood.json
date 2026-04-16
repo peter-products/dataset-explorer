@@ -1,0 +1,15 @@
+[
+{"i": 1, "domain": "housing", "summary": "West Hollywood rental buyout tracking with address, unit size, buyout amount, and execution date."},
+{"i": 5, "domain": "legal", "summary": "West Hollywood filming activity permits with production, company, date, address, and permit number."},
+{"i": 7, "domain": "legal", "summary": "West Hollywood urban art installation locations with artist site, art type, and location."},
+{"i": 8, "domain": "legal", "summary": "West Hollywood active regulatory licenses with business type, category, status, and address."},
+{"i": 9, "domain": "legal", "summary": "West Hollywood planning dashboard with project type, status, applicant, owner, and dates."},
+{"i": 11, "domain": "housing", "summary": "West Hollywood building and safety permits with permit type, address, and issued date."},
+{"i": 14, "domain": "legal", "summary": "West Hollywood special event permits with description, people count, class, date, and address."},
+{"i": 25, "domain": "public_safety", "summary": "West Hollywood AED location points with facility name and address."},
+{"i": 27, "domain": "legal", "summary": "West Hollywood art event points with title, type, date, and location."},
+{"i": 28, "domain": "legal", "summary": "West Hollywood city boundary line feature."},
+{"i": 29, "domain": "natural_resources", "summary": "Beverly Hills water boundary polygon with area and length."},
+{"i": 33, "domain": "health", "summary": "West Hollywood CalFresh locations with address, city, state, zip, and lat/lon."},
+{"i": 34, "domain": "housing", "summary": "West Hollywood zoning polygons with zone code, SCAG general plan, land use, and public name."}
+]

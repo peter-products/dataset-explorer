@@ -1,0 +1,19 @@
+[
+{"i": 10, "domain": "finance", "summary": "Mesa Arizona vendor payment transactions with payee, date, amount, fund, and expense code."},
+{"i": 86, "domain": "demographics", "summary": "Mesa solid waste collection route demographics including education, age, and income."},
+{"i": 95, "domain": "technology", "summary": "Mesa Arizona website page view statistics for city web properties with sessions and pageviews."},
+{"i": 156, "domain": "demographics", "summary": "Mesa i.d.e.a. Museum customer satisfaction scores by quarter and survey type."},
+{"i": 160, "domain": "finance", "summary": "Mesa Arizona active tax license counts by category code, fiscal year, and reporting month."},
+{"i": 161, "domain": "legal", "summary": "Mesa Arizona code compliance voluntary compliance cases with record type, dates, and status."},
+{"i": 165, "domain": "education", "summary": "Arizona licensed preschool directory with facility name, address, phone, and effective date."},
+{"i": 197, "domain": "labor", "summary": "Mesa Arizona job applicant counts and percentages by race and ethnicity."},
+{"i": 203, "domain": "housing", "summary": "Mesa Arizona Development Services inbound call volume by duration and month."},
+{"i": 220, "domain": "natural_resources", "summary": "Mesa Arizona parks and basins boundaries with acquisition date, park name, and maintenance zone."},
+{"i": 225, "domain": "natural_resources", "summary": "Mesa Arizona tennis court utilization with bookings, permits, and site location."},
+{"i": 272, "domain": "legal", "summary": "Location of churches and schools in Mesa Arizona with geolocation and census tract."},
+{"i": 275, "domain": "finance", "summary": "Mesa Arizona County CARES program spending including rental and utility assistance paid."},
+{"i": 280, "domain": "demographics", "summary": "Mesa Arizona hexagon 16th square mile grid project geometry."},
+{"i": 281, "domain": "demographics", "summary": "Mesa Arizona hexagon 8th square mile grid project geometry."},
+{"i": 282, "domain": "legal", "summary": "Mesa Arizona code compliance officer service areas with officer name and phone."},
+{"i": 284, "domain": "health", "summary": "Mesa Arizona confirmed case counts by postal code and category (likely COVID)."}
+]

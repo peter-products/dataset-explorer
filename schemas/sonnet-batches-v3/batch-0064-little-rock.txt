@@ -1,0 +1,12 @@
+[14] City Boundaries September 2021 | pub=data.littlerock.gov | cols: Shape_Leng, OBJECTID, Shape_Le_1, Id, the_geom
+[22] Parks and Recreation Yearly Volunteer Hours & Savings | pub=data.littlerock.gov | cols: Hours, Year, Departmental Savings
+[26] City of Little Rock FOIA Request | pub=data.littlerock.gov | cols: Date Received, Description of Request, FOIA Request Number, Department Referred to, Requestor Name, Completed (Yes/No)
+[29] LRPD FOIA Request | pub=data.littlerock.gov | cols: Completed(Yes/No), Date of Request, Description of Request, Requestor Name, Division/Personnel Referred to, FOIA Request Number
+[41] Animal Village YTD Numbers | pub=City Of Little Rock | cols: Services Provided, 2022, 2021 | tags: animal village
+[54] Planning Land Use Codes Definitions | pub=Planning & Development Department | desc: Definitions of City of Little Rock Land Use Codes | cols: OTHER , INDUSTRIAL, RESIDENTIAL, PUBLIC , OFFICE , COMMERCIAL 
+[56] 2020 Census Blocks | pub=data.littlerock.gov | cols: MTFCC20, UACE20, AWATER20, ALAND20, INTPTLAT20, INTPTLON20, NAME20, GEOID20, BLOCKCE20, TRACTCE20
+[60] IT Scheduled Maintenance with No Outage | pub=data.littlerock.gov | cols: SCHEDULED MONTH, MAINTENANCE TICKETS, UNDERESTIMATED, MONTH, AVG EMPLOYEES AFFECTED, DURATION DIFFERENCE, AVG PLANNED MINUTES, MONTHNAME, YEAR, PUBLIC NO OUTAGE
+[68] Census Block Groups 2020 | pub=Planning & Development | cols: GEOID20, BLKGRPCE20, TRACTCE20, COUNTYFP20, AWATER20, MTFCC20, the_geom, STATEFP20, FUNCSTAT20, INTPTLON20
+[70] Unsafe and Vacant Structures Removed | pub=data.littlerock.gov | cols: Neighborhood Associations 2021, Wards Nov_2021, Reason for Removal, Full Address, Address, Patrol Districts_Nov_2021, Date Removed
+[76] YTD Unsafe Vacant List | pub=data.littlerock.gov | cols: Wards Nov_2021, Longitude, HDP Estimate, Street Address, Apt / Lot, Street Type, Physical Address, Notes, Latitude, Environmen Court
+[82] January Bond Projects 2024 | pub=data.littlerock.gov | cols: Activity, Revenue, Description, ActivityGrp, VarLevelDisp, Balance, Commitments, Cost

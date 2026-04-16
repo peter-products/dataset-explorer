@@ -1,0 +1,4 @@
+[2] Vehicle  Accident Data | pub=data.fortworthtexas.gov | desc: Accident report data. Accidents appear in the data set once the accident report is file and a submitted status is recorded with TXDOT. This data is updated three times daily. | cols: Report Number, Fatality, Location (address), Location, Street Name, Intersecting Street Description, Street Description, Crash Date/Time, Street Suffix, Intersecting Street Name | tags: accident
+[7] Neighborhood Profile Area Data | pub=City of Fort Worth | cols: CRIMES_PEOPLE, TOTAL_JOBS_AREA, PCT_RENTING, MEDIAN_HOUSE_AGE, PCT_UNDER_18, MEDIAN_AGE, LONGITUDE, NPA_NAME, ADDRESS, REPORTED_S
+[8] Fort Worth Nearby Facilities | pub=City of Fort Worth | cols: NPA_NAME, LATITUDE, LONGITUDE, LIBRARY, SCHOOL_DISTRICT, ADDRESS, ZIPCODE, YEAR, Location_1, COMMUNITY_CENTER_DISTANCE
+[9] Council Districts | pub=data.fortworthtexas.gov | cols: DISTRICT, DATESTAMP, the_geom, OBJECTID, Shape.STLength(), USERID, NAME, Shape.STArea()

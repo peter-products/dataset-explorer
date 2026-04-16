@@ -1,0 +1,22 @@
+{
+  "records": 3425,
+  "batches": 41,
+  "byFile": {
+    "nyc.jsonl": 294,
+    "seattle.jsonl": 892,
+    "wa-gov.jsonl": 490,
+    "chicago.jsonl": 97,
+    "us-federal-cdc.jsonl": 446,
+    "us-federal-dot.jsonl": 12,
+    "us-federal-hhs.jsonl": 9,
+    "cook-county.jsonl": 167,
+    "oakland.jsonl": 154,
+    "dallas.jsonl": 148,
+    "austin.jsonl": 65,
+    "los-angeles.jsonl": 76,
+    "san-mateo-county.jsonl": 139,
+    "colorado.jsonl": 33,
+    "montgomery-county-md.jsonl": 52,
+    "bigquery.jsonl": 351
+  }
+}

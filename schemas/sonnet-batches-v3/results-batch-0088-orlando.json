@@ -1,0 +1,17 @@
+[
+{"i": 3, "domain": "housing", "summary": "Orlando city-owned vacant lots with development status, district, and neighborhood."},
+{"i": 7, "domain": "legal", "summary": "Orlando registered lobbyists directory with name, representing, and registration date."},
+{"i": 9, "domain": "demographics", "summary": "Orlando city limits boundary polygon."},
+{"i": 10, "domain": "demographics", "summary": "Orlando neighborhood boundary polygons with name and ID."},
+{"i": 12, "domain": "public_safety", "summary": "Orlando Police Department district boundaries with division and color."},
+{"i": 14, "domain": "elections", "summary": "Orlando Commissioner District boundaries with commissioner name and district number."},
+{"i": 15, "domain": "elections", "summary": "Orlando election timeline with task, date, and version."},
+{"i": 16, "domain": "natural_resources", "summary": "Orlando water body hydrology features with name, feature type, and geometry."},
+{"i": 17, "domain": "housing", "summary": "Orlando annexation records with document number, annexation date, acres, and property description."},
+{"i": 20, "domain": "finance", "summary": "Orlando Urban Job Tax Credit Program nominated area boundaries."},
+{"i": 21, "domain": "public_safety", "summary": "Orlando Police Department subgrid boundaries for area definition."},
+{"i": 22, "domain": "public_safety", "summary": "Orlando Police Department grid boundaries for defining OPD areas."},
+{"i": 23, "domain": "public_safety", "summary": "Orlando Police Department division boundaries."},
+{"i": 24, "domain": "public_safety", "summary": "Orlando Police Department sector boundaries."},
+{"i": 26, "domain": "public_safety", "summary": "Orlando Police Department station locations with address, type, and status."}
+]

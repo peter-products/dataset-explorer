@@ -1,0 +1,7 @@
+[
+{"i":2098,"domain":"demographics","summary":"Census block racial composition data for Bay Area showing population in two-race, three-race, and four-race combinations."},
+{"i":2099,"domain":"demographics","summary":"ACS 2018-2022 age and sex distribution data for the AB617 East Oakland community, with 5-year age group counts by sex."},
+{"i":2102,"domain":"housing","summary":"ACS 2018-2022 rent burden data for AB617 East Oakland community, showing cost-burdened and severely cost-burdened households."},
+{"i":2103,"domain":"finance","summary":"ACS 2018-2022 poverty level data for AB617 East Oakland community, showing population at various income-to-poverty ratios."},
+{"i":2104,"domain":"transportation","summary":"Bay Area Vital Signs census tract commute mode choice data with driving, transit, biking, walking, and carpooling shares by year."}
+]

@@ -1,0 +1,12 @@
+[
+{"i":1783,"domain":"housing","summary":"Share of renter buildings that are 20-49 units in Bay Area with EPC classification, pre-org status, and building count."},
+{"i":1784,"domain":"housing","summary":"Preservation priority area for 3-4 unit renter buildings in Bay Area with rent burden and sale price data."},
+{"i":1785,"domain":"transportation","summary":"Bay Area transit model network stops with line name, is-stop flag, station name, and sequence."},
+{"i":1786,"domain":"housing","summary":"Communities of Concern non-DAC (COC2) areas for Bay Area by census tract with disability, zero-vehicle, and rent burden indicators."},
+{"i":1787,"domain":"environment","summary":"Alameda County Water District (ACWD) service boundary polygon for Bay Area from 2017."},
+{"i":1858,"domain":"housing","summary":"LIHTC qualifying parcels for Bay Area with PDA type, transit proximity tiers, use codes, and ENVIROSTOR data."},
+{"i":1859,"domain":"housing","summary":"Bay Area Equity Priority Community (EPC) class data with rent burden shares and renter building counts by size."},
+{"i":1860,"domain":"housing","summary":"Bay Area parcel development scenario data with zoning envelopes, FAR, building type, and floor count."},
+{"i":1861,"domain":"housing","summary":"Bay Area ZIP code data on number of 2-4 unit properties sold with sale price per unit."},
+{"i":1862,"domain":"housing","summary":"Share of renter buildings that are 5-19 units in Bay Area with block indicators and rent burden data."}
+]

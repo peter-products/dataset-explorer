@@ -1,0 +1,66 @@
+[29332] Non-teaching staff compensation as a percentage of total expenditure in tertiary public institutions | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29337] Non-teaching staff compensation as a percentage of total expenditure in public institutions (%) | pub=World Bank | desc: Non-teacher (e.g. school directors, support staff, administrative staff in local or central Ministries) compensation expressed as a percentage of direct expenditure in public educational institutions  | cols: country, date, value, indicator
+[29390] Manufacturing Real Output per Empl. (1980=100) | pub=World Bank | cols: country, date, value, indicator
+[29391] Manufacturing Real Output per Empl. (1987=100) | pub=World Bank | cols: country, date, value, indicator
+[29392] Manufacturing Real Earnings per Empl. (1980=100) | pub=World Bank | cols: country, date, value, indicator
+[29393] Manufacturing Real Earnings per Empl.(1987=100) | pub=World Bank | cols: country, date, value, indicator
+[29394] Manufacturing Employment (1980=100) | pub=World Bank | cols: country, date, value, indicator
+[29395] Manufacturing Employment (1987=100) | pub=World Bank | cols: country, date, value, indicator
+[29396] Manufacturing Earnings as % of Value Added | pub=World Bank | cols: country, date, value, indicator
+[29397] Manufacturing Earnings as % of Value Added | pub=World Bank | cols: country, date, value, indicator
+[29399] Unemployment rate,Percent,,, | pub=World Bank | cols: country, date, value, indicator
+[29417] Labor volume for unskilled females, millions | pub=World Bank | cols: country, date, value, indicator
+[29418] Labor volume for skilled females, millions | pub=World Bank | cols: country, date, value, indicator
+[29419] Labor volume for unskilled male, millions | pub=World Bank | cols: country, date, value, indicator
+[29420] Labor volume for skilled males, millions | pub=World Bank | cols: country, date, value, indicator
+[29428] Intentional homicide rate (per 100,000 people, CTS and national sources) | pub=World Bank | cols: country, date, value, indicator
+[29429] Intentional homicide rate (per 100,000 people, WHO) | pub=World Bank | cols: country, date, value, indicator
+[29433] Internally displaced persons (number) | pub=World Bank | cols: country, date, value, indicator
+[29444] Annual wage for unskilled female workers in US$ | pub=World Bank | cols: country, date, value, indicator
+[29445] Annual wage for skilled female workers  in US$ | pub=World Bank | cols: country, date, value, indicator
+[29446] Annual wage for unskilled male workers  in US$ | pub=World Bank | cols: country, date, value, indicator
+[29447] Annual wage for skilled male workers  in US$ | pub=World Bank | cols: country, date, value, indicator
+[29467] Wage Premia for Females (the ratio of skilled female workers' wage  to  unskilled female workers' wa | pub=World Bank | cols: country, date, value, indicator
+[29468] Wage Premia for Males  (the ratio of skilled male workers' wage  to  unskilled male workers' wage) | pub=World Bank | cols: country, date, value, indicator
+[29469] Youth idle rate (% of persons with disability i.e. at least a lot of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29470] Youth idle rate (% of female persons with disability i.e. at least a lot of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29471] Youth idle rate (% of male persons with disability i.e. at least a lot of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29472] Youth idle rate (% of persons living in rural areas with disability i.e. at least a lot of functiona | pub=World Bank | cols: country, date, value, indicator
+[29473] Youth idle rate (% of persons living in urban areas with disability i.e. at least a lot of functiona | pub=World Bank | cols: country, date, value, indicator
+[29474] Youth idle rate (% of persons with any degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29475] Youth idle rate (% of persons with any degree of cognitive difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29476] Youth idle rate (% of persons with any degree of communication difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29477] Youth idle rate (% of female persons with any degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29478] Youth idle rate (% of persons with any degree of hearing difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29479] Youth idle rate (% of male persons with any degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29480] Youth idle rate (% of persons with any degree of mobility difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29481] Youth idle rate (% of persons living in rural areas with any degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29482] Youth idle rate (% of persons with any degree of seeing difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29483] Youth idle rate (% of persons with any degree of selfcare difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29484] Youth idle rate (% of persons living in urban areas with any degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29485] Youth idle rate (% of persons with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29486] Youth idle rate (% of female persons with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29487] Youth idle rate (% of male persons with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29488] Youth idle rate (% of persons living in rural areas with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29489] Youth idle rate (% of persons living in urban areas with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29490] Youth idle rate (% of persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29491] Youth idle rate (% of female persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29492] Youth idle rate (% of male persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29493] Youth idle rate (% of persons living in rural areas with none or some degree of functional difficult | pub=World Bank | cols: country, date, value, indicator
+[29494] Youth idle rate (% of persons living in urban areas with none or some degree of functional difficult | pub=World Bank | cols: country, date, value, indicator
+[29495] Youth idle rate (% of persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29496] Youth idle rate (% of female persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29497] Youth idle rate (% of male persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29498] Youth idle rate (% of persons living in rural areas with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29499] Youth idle rate (% of persons living in urban areas with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29500] Youth idle rate (% of persons living in urban areas with no functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29501] Youth idle rate (% of persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29502] Youth idle rate (% of female persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29503] Youth idle rate (% of male persons with none or some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29504] Youth idle rate (% of persons living in rural areas with none or some degree of functional difficult | pub=World Bank | cols: country, date, value, indicator
+[29505] Youth idle rate (% of persons living in urban areas with none or some degree of functional difficult | pub=World Bank | cols: country, date, value, indicator
+[29506] Youth idle rate (% of persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29507] Youth idle rate (% of female persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29508] Youth idle rate (% of male persons with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29509] Youth idle rate (% of persons living in rural areas with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator
+[29510] Youth idle rate (% of persons living in urban areas with some degree of functional difficulty) | pub=World Bank | cols: country, date, value, indicator

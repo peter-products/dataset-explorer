@@ -1,0 +1,22 @@
+[
+{"i":1369,"domain":"housing","summary":"Bay Area parcel data with street direction, number, name, zoning, assessor parcel number, and address."},
+{"i":1370,"domain":"transportation","summary":"Transit neighborhood boundaries (within half mile of major transit stop) for Bay Area with acreage and geometry."},
+{"i":1371,"domain":"housing","summary":"Bay Area housing sites needing by-right approval with jurisdiction, APN, zoning, general plan, and affordability data."},
+{"i":1372,"domain":"transportation","summary":"SB50 rail and ferry stop data for Bay Area with headways, trips, agency, and peak period indicators."},
+{"i":1373,"domain":"housing","summary":"Block group share of renter households that are nonwhite in Bay Area with rent burden and low-income data."},
+{"i":1446,"domain":"transportation","summary":"Bay Area transit neighborhood tier 1 (BART/Caltrain) stop buffer areas with mode, agency, buffer distance, and city name."},
+{"i":1447,"domain":"transportation","summary":"Major rail station locations for Bay Area with CPT mode, stop type, and on/at street data."},
+{"i":1448,"domain":"transportation","summary":"SMART (Sonoma-Marin Area Rail Transit) station locations with station name and type in Bay Area."},
+{"i":1449,"domain":"housing","summary":"Change in households per acre from 2010 to 2040 for Bay Area showing density change ranges by polygon."},
+{"i":1450,"domain":"demographics","summary":"Bay Area 2020 census tract boundaries with GEOID, FIPS codes, land area, and tract name."},
+{"i":1472,"domain":"transportation","summary":"VTA real estate parcels for Bay Area with development potential, current zoning, APN, and LIHTC/AHSC eligibility."},
+{"i":1473,"domain":"housing","summary":"Commercial corridors in Bay Area with cluster IDs, acreage, and geographic boundaries."},
+{"i":1474,"domain":"housing","summary":"Bay Area number of renter buildings above 50 units by ZIP code with sale price and affordability data."},
+{"i":1475,"domain":"environment","summary":"Existing urban greening priority conservation areas for Bay Area with type, lead agency, acreage, and adoption date."},
+{"i":1476,"domain":"housing","summary":"Recyclable housing opportunity sites for Bay Area with zoning, RHNA years/cycle, density, and site constraints."},
+{"i":1548,"domain":"housing","summary":"AHSC qualifying parcels for Bay Area with general plan, ENVIROSTOR flag, transit proximity tiers, and owner type."},
+{"i":1549,"domain":"housing","summary":"Block group count of renter households that are nonwhite in Bay Area with low-income and rent burden shares."},
+{"i":1551,"domain":"housing","summary":"Share of renter buildings that are 20-49 units in Bay Area with rent burden and non-sale property data."},
+{"i":1552,"domain":"housing","summary":"Share of renter households in Bay Area by block group with rent burden and nonwhite renter percentages."},
+{"i":1553,"domain":"transportation","summary":"Soscol Transit Center facility location in Bay Area with geometry."}
+]

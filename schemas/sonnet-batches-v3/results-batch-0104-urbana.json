@@ -1,0 +1,5 @@
+[
+{"i": 12, "domain": "legal", "summary": "Urbana city failure-to-comply citations with ticket numbers, fines, appeal dates, and payment balance."},
+{"i": 13, "domain": "housing", "summary": "Urbana zoning districts GIS layer with district codes, setbacks, max height, and parcel numbers."},
+{"i": 14, "domain": "housing", "summary": "Urbana rental inspection zone GIS boundaries with zone number and geometry."}
+]

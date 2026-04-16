@@ -1,0 +1,6 @@
+[
+{"i": 1410, "domain": "public_safety", "summary": "Maryland EMS regions polygon layer by county."},
+{"i": 1412, "domain": "education", "summary": "Washington College Maryland building polygons with building name and use."},
+{"i": 1443, "domain": "transportation", "summary": "St Mary's County Maryland transit bus stop locations with name."},
+{"i": 1464, "domain": "transportation", "summary": "St Mary's County Maryland public transit bus routes with route name, destination, and variation."}
+]

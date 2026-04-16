@@ -1,0 +1,4 @@
+[5] Zoning | pub=data.framinghamma.gov | desc: Overlay map of the Framingham Zoning Districts | cols: ZONECODE, ZONING_ID, OBJECTID, Shape_len, Shape_area, the_geom, ZONEDESC | tags: zoning business planning map
+[7] Parcels | pub=data.framinghamma.gov | desc: Mapping overlay of parcel boundaries | cols: SHAPE_Leng, MAP_NO, LOC_ID, MAP_PAR_ID, SHAPE_Area, POLY_TYPE, PLAN_ID, BND_CHK, LAST_EDIT, NO_MATCH | tags: parcels map gis
+[20] Capital Budget | pub=data.framinghamma.gov | desc: Capital Projects as of 2016 | cols: Division, Project Stage, Forecast Year, Budget Year, GL Category, Department, Project Title, Project Number, Total, GL Account Name | tags: budget, infrastructure, capital
+[22] Framingham Operating Expenses | pub=Town of Framingham | desc: Operating Expenses from Fiscal Year 2014 to 2017 | cols: REVISED BUDGET, YTD EXPENDED, AVAILABLE BUDGET, PROJECT, EXPENSE TYPE, FY, FUND, DIVISION, DEPARMENT, ORG | tags: expense, expense ledger
