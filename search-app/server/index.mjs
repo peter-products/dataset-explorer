@@ -287,9 +287,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Serve static React build if it exists
+// Serve static React build (skip index.html — handled by SPA fallback with bot detection)
 if (fs.existsSync(CLIENT_DIST)) {
-  app.use(express.static(CLIENT_DIST));
+  app.use(express.static(CLIENT_DIST, { index: false }));
 }
 
 // --- Browse by category (curated) ---
