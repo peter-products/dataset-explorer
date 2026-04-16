@@ -519,10 +519,99 @@ app.get('/dataset-jsonld/:id', (req, res) => {
   res.json(jsonld);
 });
 
-// SPA fallback — serve index.html for client-side routes
+// Bot detection
+const BOT_UA = /Googlebot|bingbot|Baiduspider|yandex|DuckDuckBot|Slurp|Twitterbot|facebookexternalhit|LinkedInBot|Discordbot|Applebot|Pinterestbot/i;
+
+function isBot(req) {
+  return BOT_UA.test(req.get('user-agent') || '');
+}
+
+function escHtml(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function renderDatasetHtml(record, id) {
+  const name = escHtml(record.name);
+  const desc = escHtml((record.semantic_description || record.description || record.summary || '').slice(0, 300));
+  const publisher = escHtml(record.publisher_normalized || record.publisher || record.provider || '');
+  const domain = escHtml(record.domain || '');
+  const url = `https://schemafinder.com/dataset/${encodeURIComponent(id)}`;
+  const cols = (record.columns || []).slice(0, 30).map(c => escHtml(c.name)).filter(Boolean);
+
+  const jsonld = {
+    '@context': 'https://schema.org', '@type': 'Dataset',
+    name: record.name, description: record.semantic_description || record.description || record.summary || '',
+    url, keywords: (record.tags || []).slice(0, 10),
+    provider: { '@type': 'Organization', name: record.publisher_normalized || record.publisher || record.provider || 'Unknown' },
+  };
+  if (record.geographic_detail || record.geographic_scope) jsonld.spatialCoverage = record.geographic_detail || record.geographic_scope;
+  if (record.url) {
+    jsonld.distribution = { '@type': 'DataDownload', contentUrl: record.url };
+    if (record.format) jsonld.distribution.encodingFormat = typeof record.format === 'string' ? record.format : record.format.join(', ');
+  }
+
+  return `<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${name} — SchemaFinder</title>
+<meta name="description" content="${escHtml(desc)}">
+<meta property="og:title" content="${name}"><meta property="og:description" content="${escHtml(desc)}">
+<meta property="og:url" content="${escHtml(url)}"><meta property="og:type" content="website">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="${name}">
+<meta name="twitter:description" content="${escHtml(desc)}">
+<link rel="canonical" href="${escHtml(url)}">
+<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
+</head><body>
+<h1>${name}</h1>
+<p>${desc}</p>
+<p>Publisher: ${publisher}</p>
+<p>Category: ${domain}</p>
+${cols.length ? `<h2>Schema (${cols.length} columns)</h2><ul>${cols.map(c => `<li>${c}</li>`).join('')}</ul>` : ''}
+${record.url ? `<p><a href="${escHtml(record.url)}">View on source portal</a></p>` : ''}
+<p><a href="https://schemafinder.com">SchemaFinder</a> — Search 200,000+ public dataset schemas</p>
+</body></html>`;
+}
+
+function renderHomeHtml() {
+  return `<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SchemaFinder — Search 200,000+ Public Dataset Schemas</title>
+<meta name="description" content="Find schemas, APIs, and download links from 200,000+ public datasets across government portals, cloud warehouses, and research platforms.">
+<meta property="og:title" content="SchemaFinder"><meta property="og:description" content="Search 200,000+ public dataset schemas from 17+ platforms.">
+<meta property="og:url" content="https://schemafinder.com"><meta property="og:type" content="website">
+<link rel="canonical" href="https://schemafinder.com">
+<script type="application/ld+json">${JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'WebSite', name: 'SchemaFinder',
+  url: 'https://schemafinder.com',
+  potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: 'https://schemafinder.com/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' }
+})}</script>
+</head><body>
+<h1>SchemaFinder</h1>
+<p>Search 200,000+ public dataset schemas from government portals, cloud warehouses, and research platforms.</p>
+<h2>Browse by Category</h2>
+<ul><li>Health &amp; Medicine</li><li>Education</li><li>Finance &amp; Economics</li><li>Environment</li><li>Transportation</li><li>Demographics</li></ul>
+<p>Free API available at <a href="https://schemafinder.com/api-docs">schemafinder.com/api-docs</a></p>
+</body></html>`;
+}
+
+// SPA fallback with bot-aware rendering
 if (fs.existsSync(CLIENT_DIST)) {
   app.use((req, res, next) => {
     if (req.path.startsWith('/api/')) return next();
+
+    if (isBot(req)) {
+      const datasetMatch = req.path.match(/^\/dataset\/(.+)/);
+      if (datasetMatch) {
+        const id = decodeURIComponent(datasetMatch[1]);
+        const record = getFullRecord(id);
+        if (record) return res.send(renderDatasetHtml(record, id));
+      }
+      if (req.path === '/' || req.path === '') {
+        return res.send(renderHomeHtml());
+      }
+    }
+
     res.sendFile(path.join(CLIENT_DIST, 'index.html'));
   });
 }
