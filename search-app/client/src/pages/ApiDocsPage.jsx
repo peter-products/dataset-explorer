@@ -10,7 +10,7 @@ function CodeBlock({ children }) {
 
 export default function ApiDocsPage() {
   const navigate = useNavigate();
-  usePageTitle('API Docs — SchemaFinder');
+  usePageTitle('API Docs | SchemaFinder');
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -185,7 +185,7 @@ results = requests.get("https://schemafinder.com/api/v1/search", params={
 }).json()
 
 for r in results["results"]:
-    print(f"{r['name']} — {r['url']}")
+    print(f"{r['name']}: {r['url']}")
     if r['api_endpoint']:
         print(f"  Query directly: {r['api_endpoint']}")`}</CodeBlock>
 

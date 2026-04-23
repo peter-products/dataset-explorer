@@ -90,7 +90,7 @@ export default function DatasetPage() {
       .then(r => { if (!r.ok) throw new Error('Dataset not found'); return r.json(); })
       .then(d => {
         setDataset(d); setLoading(false);
-        document.title = d.name ? `${d.name} — SchemaFinder` : 'SchemaFinder';
+        document.title = d.name ? `${d.name} | SchemaFinder` : 'SchemaFinder';
         // Inject JSON-LD for search engines
         fetch(`/dataset-jsonld/${encodeURIComponent(id)}`).then(r => r.json()).then(jsonld => {
           let el = document.getElementById('dataset-jsonld');

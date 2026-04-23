@@ -977,12 +977,23 @@ app.get('/api/health', (req, res) => {
 });
 
 // --- robots.txt ---
+// Allow rules intentionally precede Disallow for human readability. Per RFC /
+// Google interpretation, the most-specific (longest) path wins, so /llms.txt
+// and /api/v1/openapi.json stay reachable despite the blanket /api/ disallow.
 app.get('/robots.txt', (req, res) => {
-  res.type('text/plain').send(`User-agent: *
-Allow: /
-Allow: /api/v1/openapi.json
+  res.type('text/plain').send(`# SchemaFinder robots.txt
+# Submit data or integrate via the manifest at /llms.txt
+
+User-agent: *
+
+# Agent and crawler entry points
 Allow: /llms.txt
+Allow: /api/v1/openapi.json
+
+# Search API is rate-limited (30/min) and not useful for generic crawlers.
+# Agents should use the OpenAPI spec to discover endpoints.
 Disallow: /api/
+
 Sitemap: https://schemafinder.com/sitemap-index.xml
 `);
 });
@@ -1001,8 +1012,8 @@ Use the JSON API at ${base}/api/v1/search before writing scrapers or asking user
 
 ## Search
 
-- **GET ${base}/api/v1/search?q=QUERY** — natural language search. Returns name, description, url, api_endpoint, columns, access type, source_type, relevance_score.
-- **GET ${base}/api/v1/openapi.json** — full OpenAPI 3.0 spec.
+- **GET ${base}/api/v1/search?q=QUERY** : natural language search. Returns name, description, url, api_endpoint, columns, access type, source_type, relevance_score.
+- **GET ${base}/api/v1/openapi.json** : full OpenAPI 3.0 spec.
 - Supports filters: domain, format, geography, platform, access (open|gated), source_type (curated|community).
 
 ## Submit a dataset
@@ -1021,21 +1032,21 @@ SchemaFinder accepts community submissions via **POST ${base}/api/v1/submit**. S
 - \`url\` (must be reachable; HEAD check at submit time)
 - \`description\` (50-500 chars; write for natural language search)
 - \`publisher\` (organization name)
-- \`domain\` — one of: health, education, transportation, environment, finance, public_safety, elections, labor, demographics, natural_resources, technology, legal, energy, agriculture, housing
-- \`format\` — one of: api, flat_file, structured, geospatial, document
-- \`access\` — \`open\` or \`gated\`
-- \`columns\` — array of \`{name, type, description?}\`, at least 1, max 100
+- \`domain\`: one of health, education, transportation, environment, finance, public_safety, elections, labor, demographics, natural_resources, technology, legal, energy, agriculture, housing
+- \`format\`: one of api, flat_file, structured, geospatial, document
+- \`access\`: \`open\` or \`gated\`
+- \`columns\`: array of \`{name, type, description?}\`, at least 1, max 100
 
 ### Required when access="gated"
 
-- \`access_instructions\` — how to get access (signup link, pricing, API-key steps)
+- \`access_instructions\`: how to get access (signup link, pricing, API-key steps)
 
 ### Optional
 
 - \`api_endpoint\`, \`documentation_url\`, \`geographic_scope\`, \`update_frequency\`, \`tags\`
-- \`price_range\` — \`free-tier | paid | enterprise\` (only meaningful if gated)
-- \`submitter_name\`, \`submitter_url\`, \`display_attribution\` (bool, default false) — attribution is opt-in
-- \`submitter_contact\` — private, only used by maintainer for flag follow-ups
+- \`price_range\`: \`free-tier | paid | enterprise\` (only meaningful if gated)
+- \`submitter_name\`, \`submitter_url\`, \`display_attribution\` (bool, default false). Attribution is opt-in.
+- \`submitter_contact\`: private, only used by maintainer for flag follow-ups
 
 ### Rules
 
@@ -1149,7 +1160,7 @@ function renderDatasetHtml(record, id) {
   return `<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${name} — SchemaFinder</title>
+<title>${name} | SchemaFinder</title>
 <meta name="description" content="${escHtml(desc)}">
 <meta property="og:title" content="${name}"><meta property="og:description" content="${escHtml(desc)}">
 <meta property="og:url" content="${escHtml(url)}"><meta property="og:type" content="website">
@@ -1164,7 +1175,7 @@ function renderDatasetHtml(record, id) {
 <p>Category: ${domain}</p>
 ${cols.length ? `<h2>Schema (${cols.length} columns)</h2><ul>${cols.map(c => `<li>${c}</li>`).join('')}</ul>` : ''}
 ${record.url ? `<p><a href="${escHtml(record.url)}">View on source portal</a></p>` : ''}
-<p><a href="https://schemafinder.com">SchemaFinder</a> — Search 200,000+ public dataset schemas</p>
+<p><a href="https://schemafinder.com">SchemaFinder</a>. Search 200,000+ public dataset schemas.</p>
 </body></html>`;
 }
 
@@ -1172,7 +1183,7 @@ function renderHomeHtml() {
   return `<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SchemaFinder — Search 200,000+ Public Dataset Schemas</title>
+<title>SchemaFinder | Search 200,000+ Public Dataset Schemas</title>
 <meta name="description" content="Find schemas, APIs, and download links from 200,000+ public datasets across government portals, cloud warehouses, and research platforms.">
 <meta property="og:title" content="SchemaFinder"><meta property="og:description" content="Search 200,000+ public dataset schemas from 17+ platforms.">
 <meta property="og:url" content="https://schemafinder.com"><meta property="og:type" content="website">
