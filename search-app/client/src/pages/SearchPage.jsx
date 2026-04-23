@@ -7,7 +7,7 @@ import usePageTitle from '../hooks/usePageTitle';
 
 const EXAMPLES = [
   'COVID-19 hospitalizations by county',
-  'salmon habitat in Puget Sound',
+  'renewable energy capacity by country',
   'property tax assessments',
   'air quality monitoring stations',
   'school enrollment by grade',
@@ -42,7 +42,7 @@ export default function SearchPage() {
 
   const getFiltersFromParams = useCallback(() => {
     const f = {};
-    for (const key of ['domain', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform']) {
+    for (const key of ['domain', 'source_type', 'access', 'price_range', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform']) {
       const val = searchParams.get(key);
       if (val) f[key] = val;
     }
@@ -97,7 +97,14 @@ export default function SearchPage() {
 
   function handleFilterChange(newFilters) {
     setFilters(newFilters);
-    if (query.trim()) doSearch(query, newFilters);
+    if (browseMode) {
+      handleBrowse(browseMode, newFilters);
+      return;
+    }
+    // Use the last submitted query (from URL), not the live input value —
+    // otherwise filter clicks silently run a fresh search on unsubmitted text.
+    const lastSearched = searchParams.get('q');
+    if (lastSearched?.trim()) doSearch(lastSearched, newFilters);
   }
 
   function handleExample(ex) {
@@ -107,18 +114,27 @@ export default function SearchPage() {
     doSearch(ex, {});
   }
 
-  async function handleBrowse(cat) {
+  async function handleBrowse(cat, browseFilters) {
     setBrowseMode(cat);
     setLoading(true);
     setVisibleCount(50);
-    setSearchParams({ browse: cat.domain }, { replace: true });
+    const activeFilters = browseFilters ?? {};
+
+    const urlParams = new URLSearchParams({ browse: cat.domain });
+    for (const [k, v] of Object.entries(activeFilters)) { if (v) urlParams.set(k, v); }
+    setSearchParams(urlParams, { replace: true });
+
+    const apiParams = new URLSearchParams({ domain: cat.domain, limit: '200' });
+    for (const [k, v] of Object.entries(activeFilters)) { if (v) apiParams.set(k, v); }
+    if (includeNoSchema) apiParams.set('includeNoSchema', 'true');
+
     try {
-      const resp = await fetch(`/api/browse?domain=${cat.domain}&limit=200`);
+      const resp = await fetch(`/api/browse?${apiParams}`);
       const data = await resp.json();
       setResults(data.results || []);
-      setTotalMatching(data.count || 0);
-      setTotalFiltered(data.count || 0);
-      setFacets(null);
+      setTotalMatching(data.totalMatching ?? data.count ?? 0);
+      setTotalFiltered(data.totalFiltered ?? data.count ?? 0);
+      setFacets(data.facets || null);
     } catch (e) {
       console.error(e);
       setResults([]);
@@ -139,8 +155,8 @@ export default function SearchPage() {
   }
 
   const searched = searchParams.has('q') || searchParams.has('browse');
-  const datasetCount = stats ? (stats.uniqueRecords || stats.totalRecords).toLocaleString() : '170,000';
-  const activeFilterCount = ['domain', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'].filter(k => filters[k]).length;
+  const datasetCount = stats ? (stats.uniqueRecords || stats.totalRecords).toLocaleString() : '200,000';
+  const activeFilterCount = ['domain', 'source_type', 'access', 'price_range', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'].filter(k => filters[k]).length;
 
   usePageTitle(searched ? (browseMode ? browseMode.label : 'Schema Search') : 'SchemaFinder');
 
@@ -149,7 +165,7 @@ export default function SearchPage() {
     const browseDomain = searchParams.get('browse');
     if (browseDomain && !browseMode) {
       const cat = CATEGORIES.find(c => c.domain === browseDomain);
-      if (cat) handleBrowse(cat);
+      if (cat) handleBrowse(cat, getFiltersFromParams());
     }
   }, []); // eslint-disable-line
 
@@ -161,6 +177,7 @@ export default function SearchPage() {
         <nav className="flex items-center justify-between px-6 lg:px-10 py-4 max-w-5xl mx-auto">
           <LogoFull size="md" />
           <div className="flex items-center gap-4">
+            <Link to="/submit" className="text-sm text-gray-500 hover:text-gray-800 font-medium transition-colors">Submit</Link>
             <Link to="/api-docs" className="text-sm text-gray-500 hover:text-gray-800 font-medium transition-colors">API Docs</Link>
             <Link to="/about" className="text-sm text-gray-500 hover:text-gray-800 font-medium transition-colors">About</Link>
           </div>
@@ -278,6 +295,7 @@ export default function SearchPage() {
                 Search
               </button>
             </form>
+            <Link to="/submit" className="text-sm text-gray-500 hover:text-gray-800 font-medium whitespace-nowrap shrink-0">Submit</Link>
             <Link to="/api-docs" className="text-sm text-blue-600 hover:text-blue-800 font-medium whitespace-nowrap shrink-0">API Docs</Link>
           </div>
 

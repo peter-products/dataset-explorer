@@ -3,6 +3,7 @@ import SearchPage from './pages/SearchPage';
 import DatasetPage from './pages/DatasetPage';
 import ApiDocsPage from './pages/ApiDocsPage';
 import AboutPage from './pages/AboutPage';
+import SubmitPage from './pages/SubmitPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/dataset/:id" element={<DatasetPage />} />
         <Route path="/api-docs" element={<ApiDocsPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/submit" element={<SubmitPage />} />
       </Routes>
     </BrowserRouter>
   );

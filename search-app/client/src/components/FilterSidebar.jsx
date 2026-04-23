@@ -1,28 +1,23 @@
+import { labelFor } from '../lib/labels';
+
 const FILTER_LABELS = {
   domain: 'Category',
+  source_type: 'Source',
+  access: 'Access',
+  price_range: 'Pricing',
   formatType: 'Data Format',
   geographic_scope: 'Geography',
   update_frequency: 'Update Frequency',
   source_platform: 'Platform',
 };
 
-const VALUE_LABELS = {
-  api: 'API / Queryable', flat_file: 'Flat File (CSV, XLSX)', structured: 'Structured (JSON, XML)',
-  geospatial: 'Geospatial (GeoJSON, SHP)', document: 'Document (PDF, HTML)', other: 'Other',
-  global: 'Global', varies: 'Varies', us_national: 'US National', wa_state: 'Washington State',
-  wa_city: 'WA City', wa_county: 'WA County', us_city: 'US City', us_state: 'US State',
-  annual: 'Annual', quarterly: 'Quarterly', monthly: 'Monthly', daily: 'Daily', weekly: 'Weekly', one_time: 'One-time',
-  ckan: 'CKAN', socrata: 'Socrata', arcgis: 'ArcGIS', bigquery: 'BigQuery',
-  huggingface: 'Hugging Face', kaggle: 'Kaggle', aws: 'AWS Open Data', gtfs: 'GTFS Transit', custom: 'Custom',
-  health: 'Health & Medicine', education: 'Education', transportation: 'Transportation',
-  environment: 'Environment', finance: 'Finance & Economics', public_safety: 'Public Safety',
-  elections: 'Elections', labor: 'Labor & Employment', demographics: 'Demographics',
-  natural_resources: 'Natural Resources', technology: 'Technology', legal: 'Legal & Regulatory',
-  energy: 'Energy', agriculture: 'Agriculture', housing: 'Housing & Land Use',
-};
+// Hide facets that only have a single default-state option (e.g. source_type
+// showing only "curated" when there are zero community submissions).
+const HIDE_IF_ONLY = { source_type: 'curated', access: 'open' };
 
-function FilterGroup({ label, options, selected, onChange }) {
+function FilterGroup({ facetKey, label, options, selected, onChange }) {
   if (!options || options.length === 0) return null;
+  if (HIDE_IF_ONLY[facetKey] && options.length === 1 && options[0].value === HIDE_IF_ONLY[facetKey]) return null;
 
   return (
     <div className="mb-6">
@@ -40,7 +35,7 @@ function FilterGroup({ label, options, selected, onChange }) {
                   : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
               }`}
             >
-              <span className="flex-1 truncate">{VALUE_LABELS[opt.value] || opt.value}</span>
+              <span className="flex-1 truncate">{labelFor(facetKey, opt.value)}</span>
               <span className={`text-[11px] tabular-nums ${isSelected ? 'text-blue-600' : 'text-gray-400'}`}>
                 {opt.count.toLocaleString()}
               </span>
@@ -55,7 +50,7 @@ function FilterGroup({ label, options, selected, onChange }) {
 export default function FilterSidebar({ facets, filters, onFilterChange }) {
   if (!facets) return null;
 
-  const filterKeys = ['domain', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'];
+  const filterKeys = ['domain', 'source_type', 'access', 'price_range', 'formatType', 'geographic_scope', 'update_frequency', 'source_platform'];
   const activeCount = filterKeys.filter(k => filters[k]).length;
 
   return (
@@ -74,6 +69,7 @@ export default function FilterSidebar({ facets, filters, onFilterChange }) {
       {filterKeys.map(key => (
         <FilterGroup
           key={key}
+          facetKey={key}
           label={FILTER_LABELS[key]}
           options={facets[key] || []}
           selected={filters[key] || ''}

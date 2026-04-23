@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import DomainBadge from './DomainBadge';
+import { labelFor } from '../lib/labels';
 
 function highlightTerms(text, query) {
   if (!text || !query) return text;
@@ -35,6 +36,8 @@ export function SkeletonCard() {
 export default function ResultCard({ result, query }) {
   const score = (result.score * 100).toFixed(0);
   const detailUrl = `/dataset/${encodeURIComponent(result.id)}`;
+  const isCommunity = result.source_type === 'community';
+  const isGated = result.access === 'gated';
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4 lg:p-5 hover:border-blue-300 hover:shadow-md transition-all text-left group">
@@ -44,7 +47,15 @@ export default function ResultCard({ result, query }) {
             {highlightTerms(result.name, query)}
           </Link>
         </h3>
-        <span className="text-xs text-gray-400 whitespace-nowrap mt-0.5 tabular-nums">{score}%</span>
+        <div className="flex items-center gap-1.5 shrink-0 mt-0.5">
+          {isCommunity && (
+            <span className="text-[10px] bg-amber-100 text-amber-800 px-1.5 py-0.5 rounded-full font-medium uppercase tracking-wide">Community</span>
+          )}
+          {isGated && (
+            <span className="text-[10px] bg-purple-100 text-purple-800 px-1.5 py-0.5 rounded-full font-medium uppercase tracking-wide">Gated</span>
+          )}
+          <span className="text-xs text-gray-400 whitespace-nowrap tabular-nums">{score}%</span>
+        </div>
       </div>
 
       {result.summary && (
@@ -57,7 +68,7 @@ export default function ResultCard({ result, query }) {
           <span className="text-gray-500 truncate max-w-40 lg:max-w-56">{result.publisher}</span>
         )}
         {result.formatType && result.formatType !== 'other' && (
-          <span className="bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full font-medium">{result.formatType.replace(/_/g, ' ')}</span>
+          <span className="bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full font-medium">{labelFor('formatType', result.formatType)}</span>
         )}
         {result.column_count > 0 && (
           <span className="text-gray-400">{result.column_count} cols</span>

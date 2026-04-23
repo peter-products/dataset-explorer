@@ -3,6 +3,8 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import DomainBadge from '../components/DomainBadge';
 import { LogoFull } from '../components/Logo';
 import usePageTitle from '../hooks/usePageTitle';
+import { labelFor } from '../lib/labels';
+import FlagModal from '../components/FlagModal';
 
 function InfoRow({ label, value, href }) {
   if (!value || value === 'unknown' || value === 'None' || value === 'null') return null;
@@ -80,6 +82,7 @@ export default function DatasetPage() {
   const [dataset, setDataset] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [flagOpen, setFlagOpen] = useState(false);
 
   useEffect(() => {
     setLoading(true);
@@ -137,6 +140,8 @@ export default function DatasetPage() {
 
   const d = dataset;
   const formats = Array.isArray(d.format) ? d.format.join(', ') : d.format;
+  const isCommunity = d.source_type === 'community';
+  const isGated = d.access === 'gated';
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -155,10 +160,16 @@ export default function DatasetPage() {
       <div className="max-w-6xl mx-auto px-4 lg:px-6 py-6 lg:py-8">
         {/* Title card */}
         <div className="bg-white rounded-xl border border-gray-200 p-4 lg:p-8 mb-4 lg:mb-6 shadow-sm">
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex items-center gap-2 flex-wrap mb-4">
             <DomainBadge domain={d.domain} size="lg" />
+            {isCommunity && (
+              <span className="text-xs bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full font-medium uppercase tracking-wide">Community</span>
+            )}
+            {isGated && (
+              <span className="text-xs bg-purple-100 text-purple-800 px-2.5 py-1 rounded-full font-medium uppercase tracking-wide">Gated</span>
+            )}
             {d.update_frequency && d.update_frequency !== 'unknown' && (
-              <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-medium">{d.update_frequency}</span>
+              <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-medium">{labelFor('update_frequency', d.update_frequency)}</span>
             )}
             {d.freshness && d.freshness !== 'unknown' && (
               <span className="text-xs bg-gray-100 text-gray-600 px-2.5 py-1 rounded-full">{d.freshness}</span>
@@ -166,6 +177,36 @@ export default function DatasetPage() {
           </div>
 
           <h1 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3">{d.name}</h1>
+
+          {isCommunity && (
+            <div className="mb-3 text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 flex items-center gap-2 flex-wrap">
+              <span className="flex-1 min-w-0">
+                {d.submitter?.display && d.submitter?.name ? (
+                  <>Submitted by <span className="font-semibold">{d.submitter.name}</span>
+                    {d.submitter.url && <> &middot; <a href={d.submitter.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-900">{d.submitter.url.replace(/^https?:\/\//, '')}</a></>}
+                  </>
+                ) : (
+                  <>Community submission</>
+                )}
+                {d.submitted_at && <span className="text-amber-600"> &middot; {new Date(d.submitted_at).toLocaleDateString()}</span>}
+              </span>
+              <button onClick={() => setFlagOpen(true)} className="text-amber-700 hover:text-red-600 underline text-xs font-medium">
+                Report
+              </button>
+            </div>
+          )}
+
+          {isGated && (d.access_instructions || d.price_range) && (
+            <div className="mb-3 text-sm bg-purple-50 border border-purple-200 rounded-lg px-3 py-2">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-xs font-semibold text-purple-800 uppercase tracking-wide">Gated access</span>
+                {d.price_range && (
+                  <span className="text-[10px] bg-white text-purple-700 border border-purple-300 px-1.5 py-0.5 rounded-full">{labelFor('price_range', d.price_range)}</span>
+                )}
+              </div>
+              {d.access_instructions && <p className="text-purple-900 leading-relaxed">{d.access_instructions}</p>}
+            </div>
+          )}
 
           {d.semantic_description && (
             <p className="text-gray-600 mb-2 leading-relaxed">{d.semantic_description}</p>
@@ -203,12 +244,12 @@ export default function DatasetPage() {
             <dl>
               <InfoRow label="Publisher" value={d.publisher_normalized || d.provider} />
               <InfoRow label="Source Portal" value={d.source_portal} />
-              <InfoRow label="Platform" value={d.source_platform} />
+              <InfoRow label="Platform" value={labelFor('source_platform', d.source_platform)} />
               <InfoRow label="Format" value={formats} />
-              <InfoRow label="Access Method" value={d.access_method} />
-              <InfoRow label="Geographic Scope" value={d.geographic_scope?.replace(/_/g, ' ')} />
+              <InfoRow label="Access Method" value={labelFor('access_method', d.access_method)} />
+              <InfoRow label="Geographic Scope" value={labelFor('geographic_scope', d.geographic_scope)} />
               <InfoRow label="Geographic Detail" value={d.geographic_detail} />
-              <InfoRow label="Update Frequency" value={d.update_frequency} />
+              <InfoRow label="Update Frequency" value={labelFor('update_frequency', d.update_frequency)} />
               <InfoRow label="Last Updated" value={d.last_updated ? new Date(d.last_updated).toLocaleDateString() : null} />
               <InfoRow label="Created" value={d.created_at ? new Date(d.created_at).toLocaleDateString() : null} />
               <InfoRow label="Row Count" value={d.row_count?.toLocaleString()} />
@@ -270,6 +311,8 @@ export default function DatasetPage() {
           <Link to="/about" className="hover:text-gray-600">About the build</Link>
         </div>
       </div>
+
+      <FlagModal open={flagOpen} onClose={() => setFlagOpen(false)} datasetId={d.id} datasetName={d.name} />
     </div>
   );
 }

@@ -80,12 +80,22 @@ export default function ApiDocsPage() {
                 <tr className="border-b border-gray-100">
                   <td className="py-2 pr-4 font-mono text-blue-700">geography</td>
                   <td className="py-2 pr-4">string</td>
-                  <td className="py-2">Filter: global, us_national, wa_state, wa_city, wa_county</td>
+                  <td className="py-2">Filter: global, us_national, us_state, us_city, wa_state, wa_city, wa_county, varies, unknown. Most records outside the US fall into "global" or "varies".</td>
                 </tr>
-                <tr>
+                <tr className="border-b border-gray-100">
                   <td className="py-2 pr-4 font-mono text-blue-700">platform</td>
                   <td className="py-2 pr-4">string</td>
-                  <td className="py-2">Filter: socrata, ckan, arcgis, bigquery, aws, huggingface, kaggle</td>
+                  <td className="py-2">Filter: socrata, ckan, arcgis, bigquery, aws, huggingface, kaggle, community</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="py-2 pr-4 font-mono text-blue-700">access</td>
+                  <td className="py-2 pr-4">string</td>
+                  <td className="py-2">Filter: open, gated. "gated" requires signup or payment.</td>
+                </tr>
+                <tr>
+                  <td className="py-2 pr-4 font-mono text-blue-700">source_type</td>
+                  <td className="py-2 pr-4">string</td>
+                  <td className="py-2">Filter: curated (scraped by maintainer), community (user-submitted).</td>
                 </tr>
               </tbody>
             </table>
@@ -130,7 +140,7 @@ export default function ApiDocsPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Claude MCP Integration</h2>
           <p className="text-sm text-gray-600 mb-3">
-            Use Dataset Explorer as a native tool in Claude Code or Claude Desktop via Model Context Protocol (MCP).
+            Use SchemaFinder as a native tool in Claude Code or Claude Desktop via Model Context Protocol (MCP).
           </p>
 
           <h3 className="text-sm font-bold text-gray-700 mb-2">Install</h3>
@@ -195,7 +205,7 @@ results.forEach(r => {
           <h2 className="text-xl font-bold text-gray-900 mb-4">Usage</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-4 text-sm text-gray-700 space-y-2">
             <p><strong>Authentication:</strong> None required. The API is free and open.</p>
-            <p><strong>Rate limits:</strong> Be reasonable. No hard limits currently enforced.</p>
+            <p><strong>Rate limits:</strong> 30 requests per minute per IP on search endpoints; 5 submissions per 24h per IP.</p>
             <p><strong>Data freshness:</strong> Dataset schemas are indexed periodically. The search index is not real-time.</p>
             <p><strong>Coverage:</strong> 200K+ datasets from 17+ platforms including data.gov, Socrata portals, World Bank, Eurostat, Canada, SEC EDGAR, WHO, HuggingFace, Kaggle, and more.</p>
           </div>
