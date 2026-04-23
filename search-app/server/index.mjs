@@ -399,6 +399,10 @@ function getGlobalFacets() {
 // ============ EXPRESS APP ============
 
 const app = express();
+// Caddy terminates HTTPS and proxies to Express. Trust its X-Forwarded-Proto /
+// X-Forwarded-For headers so req.protocol returns "https" and req.ip reflects
+// the real client IP (used by rate limits, flag IP hashing).
+app.set('trust proxy', true);
 app.use(cors());
 app.use(express.json());
 
