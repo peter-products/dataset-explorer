@@ -105,3 +105,7 @@ cd ../server && node index.mjs
 ## Data note
 
 This repo includes the application code, research plans, and enrichment scripts. The actual dataset schemas (200K JSONL records) and embedding vectors (586MB) are not included in the repository due to size. The collection scripts in `schemas/` can regenerate the data from public APIs.
+
+---
+
+_Also by me: [pads.tax](https://pads.tax) (King County property tax appeal tool)._

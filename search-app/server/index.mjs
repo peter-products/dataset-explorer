@@ -1224,6 +1224,8 @@ function renderHomeHtml() {
 <p>Free REST API at <a href="https://schemafinder.com/api-docs">/api-docs</a>, OpenAPI spec at <a href="https://schemafinder.com/api/v1/openapi.json">/api/v1/openapi.json</a>, Model Context Protocol (MCP) server for Claude Code integration, and a manifest at <a href="https://schemafinder.com/llms.txt">/llms.txt</a>.</p>
 <h2>Contribute</h2>
 <p>Datasets missing? <a href="https://schemafinder.com/submit">Submit one</a>. Agents can submit programmatically via the MCP tool or POST /api/v1/submit.</p>
+<hr>
+<p><small>Other projects: <a href="https://pads.tax">pads.tax</a> (King County property tax appeal tool).</small></p>
 </body></html>`;
 }
 
