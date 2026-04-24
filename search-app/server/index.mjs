@@ -1187,22 +1187,43 @@ function renderHomeHtml() {
   return `<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SchemaFinder | Search 200,000+ Public Dataset Schemas</title>
-<meta name="description" content="Find schemas, APIs, and download links from 200,000+ public datasets across government portals, cloud warehouses, and research platforms.">
-<meta property="og:title" content="SchemaFinder"><meta property="og:description" content="Search 200,000+ public dataset schemas from 17+ platforms.">
+<title>SchemaFinder: semantic search for 200,000+ public dataset schemas</title>
+<meta name="description" content="The semantic search engine for 200,000+ public dataset schemas. Search data.gov, World Bank, Eurostat, AWS Open Data, Hugging Face, Socrata and 14 other portals by natural language. Get column schemas, API endpoints, and direct download links in one place. Free API for developers and AI agents.">
+<meta name="keywords" content="dataset search, schema search, open data, data.gov, public datasets, data discovery, semantic search, AI data, dataset API, openapi, MCP">
+<meta property="og:title" content="SchemaFinder: semantic search for 200,000+ public dataset schemas">
+<meta property="og:description" content="Find columns, APIs, and download links across 200K+ public datasets from government portals, cloud warehouses, and research platforms. Free natural-language search for humans and AI agents.">
 <meta property="og:url" content="https://schemafinder.com"><meta property="og:type" content="website">
+<meta property="og:site_name" content="SchemaFinder">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SchemaFinder: semantic search for 200K+ public datasets">
+<meta name="twitter:description" content="Search dataset schemas across data.gov, World Bank, Hugging Face, AWS Open Data, and 14 other platforms by natural language.">
 <link rel="canonical" href="https://schemafinder.com">
 <script type="application/ld+json">${JSON.stringify({
   '@context': 'https://schema.org', '@type': 'WebSite', name: 'SchemaFinder',
+  alternateName: 'Schema Finder',
+  description: 'Semantic search across 200,000+ public dataset schemas from government portals, cloud warehouses, and research platforms.',
   url: 'https://schemafinder.com',
   potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: 'https://schemafinder.com/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' }
 })}</script>
 </head><body>
 <h1>SchemaFinder</h1>
-<p>Search 200,000+ public dataset schemas from government portals, cloud warehouses, and research platforms.</p>
-<h2>Browse by Category</h2>
-<ul><li>Health &amp; Medicine</li><li>Education</li><li>Finance &amp; Economics</li><li>Environment</li><li>Transportation</li><li>Demographics</li></ul>
-<p>Free API available at <a href="https://schemafinder.com/api-docs">schemafinder.com/api-docs</a></p>
+<p>Semantic search across <strong>200,000+ public dataset schemas</strong>. Type a natural language query (like "COVID hospitalizations by county" or "renewable energy capacity by country") and get pointed to the exact datasets, with column schemas, API endpoints, and source links.</p>
+<h2>Data sources</h2>
+<p>Indexes schemas from 17+ platforms, including:</p>
+<ul>
+  <li>data.gov (US federal open data)</li>
+  <li>World Bank, Eurostat, WHO Global Health Observatory</li>
+  <li>AWS Open Data, Google BigQuery public datasets, Azure Open Datasets</li>
+  <li>Hugging Face Datasets, Kaggle</li>
+  <li>Socrata city and state portals (US), CKAN portals (Canada, Italy, France, Colombia)</li>
+  <li>ArcGIS Hub, SEC EDGAR, GTFS transit feeds</li>
+</ul>
+<h2>Browse by category</h2>
+<ul><li>Health and medicine</li><li>Education</li><li>Finance and economics</li><li>Environment and climate</li><li>Transportation</li><li>Demographics</li><li>Housing and land use</li><li>Energy</li><li>Public safety</li><li>Labor and employment</li><li>Natural resources</li><li>Technology</li><li>Legal and regulatory</li><li>Agriculture</li><li>Elections</li></ul>
+<h2>For developers and AI agents</h2>
+<p>Free REST API at <a href="https://schemafinder.com/api-docs">/api-docs</a>, OpenAPI spec at <a href="https://schemafinder.com/api/v1/openapi.json">/api/v1/openapi.json</a>, Model Context Protocol (MCP) server for Claude Code integration, and a manifest at <a href="https://schemafinder.com/llms.txt">/llms.txt</a>.</p>
+<h2>Contribute</h2>
+<p>Datasets missing? <a href="https://schemafinder.com/submit">Submit one</a>. Agents can submit programmatically via the MCP tool or POST /api/v1/submit.</p>
 </body></html>`;
 }
 
